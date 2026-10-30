@@ -1,0 +1,71 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+
+const bookingUrl = 'https://thenewrink.pcsparty.com/bookings/index.asp';
+const flyerUrl = 'https://pagesmith-cdn.com/0b4329bf/images/Friday-Family-Fun-Skate-1-scaled-1-3adcda-1536.webp';
+const ctaImageUrl = 'https://pagesmith-cdn.com/0b4329bf/images/the-new-rink-074-da421d-360.webp';
+---
+
+<BaseLayout
+  title="Friday & Saturday Family Fun Nights – The New Rink"
+  description="Special events Friday & Saturday Family Fun Nights Join the fun Every Friday & Saturday Night! 7:00 p.m. - 10:00 p.m. $14 Friday / $15 Saturday Friday Night Family Rate: 4 for $60."
+  headerVariant="transparent"
+>
+  <section class="bg-[#550172] pt-40 pb-20 md:pb-24" data-ps="src/pages/special-event/friday-family-fun-nights.astro:9hzf03">
+    <div class="mx-auto max-w-[1344px] px-7" data-ps="src/pages/special-event/friday-family-fun-nights.astro:r9p482">
+      <p class="text-sm font-semibold text-border" data-ps="src/pages/special-event/friday-family-fun-nights.astro:e3fmu3">Special events</p>
+      <h1 class="mt-3 font-display text-h1 font-normal text-white" data-ps="src/pages/special-event/friday-family-fun-nights.astro:attezs">Friday &amp; Saturday Family Fun Nights</h1>
+    </div>
+  </section>
+
+  <section class="bg-[#f3f3f3] py-28" data-ps="src/pages/special-event/friday-family-fun-nights.astro:9hzf04">
+    <div class="mx-auto grid max-w-[1344px] gap-12 px-7 lg:grid-cols-[minmax(0,1fr)_427px] lg:gap-16" data-ps="src/pages/special-event/friday-family-fun-nights.astro:r9p481">
+      <div class="prose max-w-none text-[#404040]" data-ps="src/pages/special-event/friday-family-fun-nights.astro:r9p480">
+        <h2 class="font-display text-h2 font-normal text-black" data-ps="src/pages/special-event/friday-family-fun-nights.astro:3uli7u">Join the fun</h2>
+        <p class="mt-6 text-xl leading-[34px] text-[#550172]" data-ps="src/pages/special-event/friday-family-fun-nights.astro:e3fmu2">Every Friday &amp; Saturday Night!</p>
+        <p class="mt-2 text-xl leading-[34px] text-[#550172]" data-ps="src/pages/special-event/friday-family-fun-nights.astro:e3fmu1">7:00 p.m. - 10:00 p.m.</p>
+        <p class="mt-2 text-xl leading-[34px] text-[#550172]" data-ps="src/pages/special-event/friday-family-fun-nights.astro:e3fmu0">$14 Friday / $15 Saturday</p>
+        <p class="mt-6 text-base leading-[27px]" data-ps="src/pages/special-event/friday-family-fun-nights.astro:e3fmtz">Friday Night Family Rate: 4 for $60 (must include 1 parent and 1 child) includes choice of rental if needed, Bounce Zone (12 &amp; under), 1 whole pizza and four 16 oz drinks. Must present deal at the time of purchase to be valid)</p>
+      </div>
+
+      <aside class="flex flex-col items-start gap-8" data-ps="src/pages/special-event/friday-family-fun-nights.astro:yddd8s">
+        <img
+          class="block h-auto w-full rounded-lg"
+          src={flyerUrl}
+          alt="Friday & Saturday Family Fun Nights flyer"
+          loading="lazy" data-ps="src/pages/special-event/friday-family-fun-nights.astro:dw5z3o" />
+        <a
+          class="inline-flex items-center rounded-full bg-primary px-7 py-3.5 text-sm font-semibold tracking-[0.5px] text-primary-foreground transition-colors hover:bg-primary-hover"
+          href={bookingUrl}
+          target="_blank"
+          rel="noopener"
+         data-ps="src/pages/special-event/friday-family-fun-nights.astro:6zhq4w">
+          Book this event
+        </a>
+      </aside>
+    </div>
+  </section>
+
+  <section class="relative isolate overflow-hidden bg-dark-background py-28" data-ps="src/pages/special-event/friday-family-fun-nights.astro:9hzf05">
+    <img
+      class="absolute inset-0 -z-10 h-full w-full object-cover"
+      src={ctaImageUrl}
+      alt="Roller skating party at The New Rink"
+      loading="lazy" data-ps="src/pages/special-event/friday-family-fun-nights.astro:dw5z3p" />
+    <div class="mx-auto flex max-w-[1344px] flex-col items-center px-7 text-center" data-ps="src/pages/special-event/friday-family-fun-nights.astro:r9p47z">
+      <p class="text-sm font-semibold uppercase tracking-[0.28px] text-border" data-ps="src/pages/special-event/friday-family-fun-nights.astro:e3fmty">Fun with family, friends, co-workers, and more</p>
+      <h2 class="mt-4 max-w-[1000px] font-display text-[clamp(2.25rem,1.5rem+2.6vw,3.5625rem)] font-normal leading-[1.2] text-white" data-ps="src/pages/special-event/friday-family-fun-nights.astro:3uli7t">
+        Schedule your next Birthday, Scout Outing, Get Together, Sports Team, Celebrations, and much more.
+      </h2>
+      <p class="mt-6 text-lg leading-[27px] text-white/90" data-ps="src/pages/special-event/friday-family-fun-nights.astro:e3fmtx">We have many packages to make your party a memorable and fun event.</p>
+      <a
+        class="mt-10 inline-flex items-center rounded bg-primary px-7 py-3.5 text-lg font-semibold text-primary-foreground transition-colors hover:bg-primary-hover"
+        href={bookingUrl}
+        target="_blank"
+        rel="noopener"
+       data-ps="src/pages/special-event/friday-family-fun-nights.astro:6zhq4v">
+        Book a Party Now
+      </a>
+    </div>
+  </section>
+</BaseLayout>

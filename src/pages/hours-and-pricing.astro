@@ -1,0 +1,190 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+
+const bookingUrl = 'https://thenewrink.pcsparty.com/bookings/index.asp';
+const ctaImage = 'https://pagesmith-cdn.com/0b4329bf/images/the-new-rink-074-da421d-360.webp';
+const familyNote =
+  'Note: Friday/Saturday Night Family Rate: 4 for $60 (must include 1 parent and 1 child) includes choice of rental if needed, 1 whole pizza and 4 16oz. drinks. (must present deal at the time of purchase to be valid)';
+
+type Item = { name: string; time?: string; price?: string; note?: string; contact?: boolean };
+type Day = { title: string; items: Item[] };
+
+const days: Day[] = [
+  { title: 'Monday', items: [{ name: 'Call for Private Parties', contact: true }] },
+  {
+    title: 'Tuesday',
+    items: [{ name: 'Beginner Learn to Skate', time: '5:30 PM - 6:00 PM', price: 'Price: $70', note: '(5 week class)' }],
+  },
+  {
+    title: 'Wednesday',
+    items: [
+      {
+        name: 'Open Skate & Bounce',
+        time: '6:00 PM - 8:30 PM',
+        price: 'Price: $10',
+        note: '(Bounce Zone $3 additional)',
+      },
+    ],
+  },
+  {
+    title: 'Thursday',
+    items: [
+      { name: 'Call for Private Parties', contact: true },
+      {
+        name: 'Beginner Learn to Roller Blade',
+        time: '5:30 PM - 6:00 PM',
+        price: 'Price: $70',
+        note: '(5 week class)',
+      },
+    ],
+  },
+  {
+    title: 'Friday',
+    items: [
+      {
+        name: 'Friday Family Night Open Skate',
+        time: '7:00 p.m. - 10:00 p.m.',
+        price:
+          'Price: $14 or Friday/Saturday Family rate refer to Saturday Night Skate notes for price and description (includes skating admission only, rental extra)',
+        note: familyNote,
+      },
+    ],
+  },
+  {
+    title: 'Saturday',
+    items: [
+      {
+        name: 'Beginner Learn to Roller Blade',
+        time: '9:30 AM - 10:00 AM',
+        price: 'Price: $70',
+        note: '(5 week class)',
+      },
+      {
+        name: 'Rollers & Strollers Skate',
+        time: '10:00 a.m. - 12:00 p.m.',
+        price: 'Price: $10',
+        note: '(Designed for 7 & under - includes skate rentals, snack, drink and bounce zone!- ALL children must pay to enter the building non-walking infants in strollers $1)',
+      },
+      {
+        name: 'Beginner Learn to Skate',
+        time: '12:00 PM - 12:30 PM',
+        price: 'Price: $70',
+        note: '(5 week class)',
+      },
+      { name: 'Saturday Open Skate', time: '1:00 PM - 10:00 PM', price: 'Price $15 / Skate & Bounce $18' },
+      {
+        name: 'Saturday Night Skate',
+        time: '7:00 PM - 10:00 PM',
+        price:
+          'Price: $15.00 admission or 4 for $60.00 (must request at time of purchase to be valid) / Bounce Zone $3 upgrade',
+        note: familyNote,
+      },
+    ],
+  },
+  {
+    title: 'Sunday',
+    items: [{ name: 'Open Skate', time: '2:00 p.m. - 5:00 p.m.', price: 'Price: $12 / Skate & Bounce $15' }],
+  },
+  {
+    title: 'Skate Rental',
+    items: [
+      {
+        name: 'Roller Skates / Rollerblades / Speed Skates / Skate Mates',
+        price: 'Price: $5',
+      },
+    ],
+  },
+];
+---
+
+<BaseLayout
+  headerVariant="transparent"
+  title="Hours and Pricing – The New Rink"
+  description="Plan your visit Hours & Pricing Rules of the Rink Open Skating Hours All customers participating in an activity and all walking children must pay admission."
+>
+  <section class="bg-accent px-0 pt-40 pb-20 text-white" data-ps="src/pages/hours-and-pricing.astro:7vvynr">
+    <div class="mx-auto w-full max-w-[1344px] px-7" data-ps="src/pages/hours-and-pricing.astro:m9w7vm">
+      <p class="text-sm font-medium text-border" data-ps="src/pages/hours-and-pricing.astro:bof8v0">Plan your visit</p>
+      <h1 class="mt-3 text-h1 leading-[1.2] text-white" data-ps="src/pages/hours-and-pricing.astro:ahitds">Hours &amp; Pricing</h1>
+    </div>
+  </section>
+
+  <section id="hours" class="bg-surface py-28" data-ps="src/pages/hours-and-pricing.astro:7vvyns">
+    <div class="mx-auto w-full max-w-[1344px] px-7" data-ps="src/pages/hours-and-pricing.astro:m9w7vn">
+      <div class="max-w-3xl" data-ps="src/pages/hours-and-pricing.astro:m9w7vo">
+        <p class="text-sm font-semibold uppercase tracking-[0.28px] text-primary" data-ps="src/pages/hours-and-pricing.astro:bof8uz">Rules of the Rink</p>
+        <h2 class="mt-3 text-h2 leading-[1.2] text-black" data-ps="src/pages/hours-and-pricing.astro:p5xqle">Open Skating Hours</h2>
+        <p class="mt-5 text-lg leading-[27px] font-medium text-primary" data-ps="src/pages/hours-and-pricing.astro:bof8uy">
+          All customers participating in an activity and all walking children must pay admission. Spectating adults
+          accompanying a skating child enter free. No outside food or beverages, including birthday cakes, except with a
+          booked party.
+        </p>
+      </div>
+
+      <ul class="mt-14 grid list-none gap-6 p-0 sm:grid-cols-2 lg:grid-cols-4">
+        {
+          days.map((day, __psIdx) => (
+            <li class="flex flex-col rounded-xl bg-white p-6" data-ps={`src/pages/hours-and-pricing.astro:oeyu3r-${__psIdx}`}>
+              <h3 class="border-b-[3px] border-border pb-2 text-[2rem] leading-[1.3] text-accent" data-ps={`src/pages/hours-and-pricing.astro:v6re65-${__psIdx}`}>{day.title}</h3>
+              <div class="mt-5 space-y-6" data-ps={`src/pages/hours-and-pricing.astro:m9w7vp-${__psIdx}`}>
+                {day.items.map((item, __psIdx2) => (
+                  <div class="space-y-1 text-base leading-6 text-foreground" data-ps={`src/pages/hours-and-pricing.astro:m9w7vq-${__psIdx2}`}>
+                    <p class="font-semibold" data-ps={`src/pages/hours-and-pricing.astro:bof8ux-${__psIdx2}`}>{item.name}</p>
+                    {item.contact && (
+                      <p class="text-[#cb5811]" data-ps={`src/pages/hours-and-pricing.astro:bof8uw-${__psIdx2}`}>
+                        <a class="hover:underline" href="tel:5867315006" data-ps={`src/pages/hours-and-pricing.astro:4khc5a-${__psIdx2}`}>(586) 731-5006</a>
+                        <br />
+                        <a class="hover:underline" href="mailto:cwhitmer@thenewrink.com" data-ps={`src/pages/hours-and-pricing.astro:4khc59-${__psIdx2}`}>cwhitmer@thenewrink.com</a>
+                      </p>
+                    )}
+                    {item.time && <p data-ps={`src/pages/hours-and-pricing.astro:bof8ua-${__psIdx2}`}>{item.time}</p>}
+                    {item.price && <p data-ps={`src/pages/hours-and-pricing.astro:bof8u9-${__psIdx2}`}>{item.price}</p>}
+                    {item.note && <p class="text-[#cb5811]" data-ps={`src/pages/hours-and-pricing.astro:bof8u8-${__psIdx2}`}>{item.note}</p>}
+                  </div>
+                ))}
+              </div>
+              <a
+                class="mt-6 inline-flex w-fit items-center rounded-full bg-primary px-7 py-3.5 text-sm leading-none font-semibold text-primary-foreground transition-colors hover:bg-primary-hover"
+                href={bookingUrl}
+                target="_blank"
+                rel="noopener"
+               data-ps={`src/pages/hours-and-pricing.astro:4khc58-${__psIdx}`}>
+                Book a Party
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </section>
+
+  <section class="relative isolate overflow-hidden bg-dark-background py-28 text-white" data-ps="src/pages/hours-and-pricing.astro:7vvynt">
+    <img
+      class="absolute inset-0 -z-10 h-full w-full object-cover"
+      src={ctaImage}
+      alt="Roller skating party at The New Rink"
+      loading="lazy"
+      width="360"
+      height="200" data-ps="src/pages/hours-and-pricing.astro:mamvrn" />
+    <div class="absolute inset-0 -z-10 bg-dark-background/40" aria-hidden="true" data-ps="src/pages/hours-and-pricing.astro:m9w7vr"></div>
+    <div class="relative mx-auto w-full max-w-[1344px] px-7 text-center" data-ps="src/pages/hours-and-pricing.astro:m9w7vs">
+      <p class="text-sm font-semibold tracking-[0.28px] text-border uppercase" data-ps="src/pages/hours-and-pricing.astro:bof8u7">
+        Fun with family, friends, co-workers, and more
+      </p>
+      <h2 class="mx-auto mt-4 max-w-5xl text-[clamp(2.25rem,1.4rem+2.6vw,3.5625rem)] leading-[1.2] text-white" data-ps="src/pages/hours-and-pricing.astro:p5xqld">
+        Schedule your next Birthday, Scout Outing, Get Together, Sports Team, Celebrations, and much more.
+      </h2>
+      <p class="mx-auto mt-6 max-w-2xl text-lg leading-[27px] text-white/90" data-ps="src/pages/hours-and-pricing.astro:bof8u6">
+        We have many packages to make your party a memorable and fun event.
+      </p>
+      <a
+        class="mt-10 inline-block rounded bg-primary px-7 py-3.5 text-lg font-semibold text-white transition-colors hover:bg-primary-hover"
+        href={bookingUrl}
+        target="_blank"
+        rel="noopener"
+       data-ps="src/pages/hours-and-pricing.astro:4khc57">
+        Book a Party Now
+      </a>
+    </div>
+  </section>
+</BaseLayout>

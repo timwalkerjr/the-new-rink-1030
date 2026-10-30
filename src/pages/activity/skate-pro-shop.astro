@@ -1,0 +1,230 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+
+const shopImage = 'https://pagesmith-cdn.com/0b4329bf/images/the-new-rink-047-13dbb2-359.webp';
+const partyImage = 'https://pagesmith-cdn.com/0b4329bf/images/the-new-rink-074-da421d-360.webp';
+const bookingUrl = 'https://thenewrink.pcsparty.com/bookings/index.asp';
+---
+
+<BaseLayout
+  title="The Pro Shop – The New Rink"
+  description="Activities at The New Rink: The Pro Shop. Roller skates, roller blades, and skate accessories. Stop in during skating hours to check out our full service pro shop!"
+>
+  <section class="sp-hero" data-ps="src/pages/activity/skate-pro-shop.astro:4a28vx">
+    <div class="sp-wrap" data-ps="src/pages/activity/skate-pro-shop.astro:5l7n72">
+      <p class="sp-eyebrow-light" data-ps="src/pages/activity/skate-pro-shop.astro:sem5so">Activities at The New Rink</p>
+      <h1 class="sp-h1" data-ps="src/pages/activity/skate-pro-shop.astro:2oajxs">The Pro Shop</h1>
+    </div>
+  </section>
+
+  <section class="sp-welcome" data-ps="src/pages/activity/skate-pro-shop.astro:4a28vw">
+    <div class="sp-wrap sp-welcome__grid" data-ps="src/pages/activity/skate-pro-shop.astro:5l7n73">
+      <div class="sp-welcome__text" data-ps="src/pages/activity/skate-pro-shop.astro:5l7n74">
+        <h2 class="sp-h2" data-ps="src/pages/activity/skate-pro-shop.astro:2sfsy1">Welcome to the The New Rink, Shelby Township, MI Skates Pro Shop!</h2>
+        <p class="sp-strong" data-ps="src/pages/activity/skate-pro-shop.astro:sem5sp"><strong>Roller Skates, Roller Blades, and Skate Accessories</strong></p>
+        <p class="sp-lead" data-ps="src/pages/activity/skate-pro-shop.astro:sem5sq">Stop in during skating hours to check out our full service pro shop!</p>
+      </div>
+      <figure class="sp-welcome__figure">
+        <img
+          class="sp-welcome__img"
+          src={shopImage}
+          alt="The Pro Shop at The New Rink"
+          width="359"
+          height="240"
+          loading="lazy"
+          decoding="async" data-ps="src/pages/activity/skate-pro-shop.astro:oa1bgb" />
+      </figure>
+    </div>
+  </section>
+
+  <section class="sp-cta" data-ps="src/pages/activity/skate-pro-shop.astro:4a28vv">
+    <img
+      class="sp-cta__bg"
+      src={partyImage}
+      alt="Roller skating party at The New Rink"
+      width="360"
+      height="240"
+      loading="lazy"
+      decoding="async" data-ps="src/pages/activity/skate-pro-shop.astro:oa1bga" />
+    <div class="sp-cta__inner" data-ps="src/pages/activity/skate-pro-shop.astro:5l7n75">
+      <p class="sp-cta__tagline" data-ps="src/pages/activity/skate-pro-shop.astro:sem5sr">Fun with family, friends, co-workers, and more</p>
+      <h2 class="sp-cta__title" data-ps="src/pages/activity/skate-pro-shop.astro:2sfsy0">Schedule your next Birthday, Scout Outing, Get Together, Sports Team, Celebrations, and much more.</h2>
+      <p class="sp-cta__text" data-ps="src/pages/activity/skate-pro-shop.astro:sem5ss">We have many packages to make your party a memorable and fun event.</p>
+      <a class="sp-cta__btn" href={bookingUrl} target="_blank" rel="noopener" data-ps="src/pages/activity/skate-pro-shop.astro:80pfdd">Book a Party Now</a>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .sp-wrap {
+    width: 100%;
+    max-width: 1344px;
+    margin-inline: auto;
+    padding-inline: 20px;
+  }
+
+  /* Hero title band */
+  .sp-hero {
+    background-color: hsl(285 98% 23%);
+    color: #fff;
+    padding-block: 150px 60px;
+  }
+  .sp-eyebrow-light {
+    font-family: var(--font-sans);
+    font-size: 16px;
+    line-height: 1.4;
+    color: hsl(23 94% 81%);
+    margin: 0 0 8px;
+  }
+  .sp-h1 {
+    font-family: 'ADLaM Display', var(--font-sans);
+    font-size: var(--text-h1);
+    line-height: 1.2;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+  }
+
+  /* Welcome band */
+  .sp-welcome {
+    background-color: #f3f3f3;
+    padding-block: 112px;
+  }
+  .sp-welcome__grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 40px;
+    align-items: center;
+  }
+  .sp-welcome__text {
+    max-width: 760px;
+  }
+  .sp-h2 {
+    font-family: 'ADLaM Display', var(--font-sans);
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+    color: #000;
+    margin: 0 0 16px;
+  }
+  .sp-strong {
+    font-size: 16px;
+    line-height: 27.2px;
+    color: #404040;
+    margin: 0 0 8px;
+  }
+  .sp-lead {
+    font-size: 16px;
+    line-height: 27.2px;
+    color: #404040;
+    margin: 0;
+  }
+  .sp-welcome__figure {
+    margin: 0;
+    width: 100%;
+    max-width: 427px;
+  }
+  .sp-welcome__img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 427 / 285;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  @media (min-width: 900px) {
+    .sp-welcome__grid {
+      grid-template-columns: minmax(0, 1fr) minmax(0, 427px);
+      gap: 56px;
+    }
+    .sp-welcome__figure {
+      justify-self: end;
+    }
+  }
+
+  /* Party call-to-action band */
+  .sp-cta {
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+    background-color: hsl(285 100% 10%);
+    color: #fff;
+    padding-block: 112px;
+    text-align: center;
+  }
+  .sp-cta__bg {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .sp-cta__inner {
+    max-width: 1040px;
+    margin-inline: auto;
+    padding-inline: 20px;
+  }
+  .sp-cta__tagline {
+    font-size: 14px;
+    line-height: 19.6px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.28px;
+    color: hsl(23 94% 81%);
+    margin: 0 0 16px;
+  }
+  .sp-cta__title {
+    font-family: 'ADLaM Display', var(--font-sans);
+    font-size: clamp(2rem, 1.2rem + 2.6vw, 57px);
+    line-height: 1.2;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 0 20px;
+  }
+  .sp-cta__text {
+    font-size: 18px;
+    line-height: 27px;
+    color: rgb(255 255 255 / 0.9);
+    margin: 0 0 32px;
+  }
+  .sp-cta__btn {
+    display: inline-block;
+    background-color: hsl(23 93% 53%);
+    color: #fff;
+    font-size: 18px;
+    line-height: 25.2px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 14px 28px;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+  }
+  .sp-cta__btn:hover {
+    background-color: hsl(23 93% 43%);
+  }
+  .sp-cta__btn:focus-visible {
+    outline: 3px solid #fff;
+    outline-offset: 3px;
+  }
+
+  @media (max-width: 640px) {
+    .sp-hero {
+      padding-block: 120px 48px;
+    }
+    .sp-welcome,
+    .sp-cta {
+      padding-block: 64px;
+    }
+    .sp-h2 {
+      font-size: 30px;
+      line-height: 1.25;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .sp-cta__btn {
+      transition: none;
+    }
+  }
+</style>

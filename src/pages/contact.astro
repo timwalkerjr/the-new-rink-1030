@@ -1,0 +1,378 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+
+const title = 'Contact – The New Rink';
+const description =
+  "We'd love to hear from you. Phone (586) 731-5006, email cwhitmer@thenewrink.com, or visit us at 50625 Van Dyke Ave., Shelby Township MI 48317.";
+const mapSrc =
+  'https://maps.google.com/maps?q=50625+Van+Dyke+Ave.%2C+Shelby+Township+MI+48317&t=m&z=15&output=embed&iwloc=near';
+---
+
+<BaseLayout title={title} description={description} headerVariant="transparent">
+  <div class="ct-page" data-ps="src/pages/contact.astro:uoopec">
+    <section class="ct-hero" data-ps="src/pages/contact.astro:76y6nu">
+      <div class="ct-wrap" data-ps="src/pages/contact.astro:uooped">
+        <p class="ct-eyebrow" data-ps="src/pages/contact.astro:wmga1a">We’d love to hear from you</p>
+        <h1 class="ct-h1" data-ps="src/pages/contact.astro:xwwf0p">Contact</h1>
+      </div>
+    </section>
+
+    <section class="ct-main" id="contact" data-ps="src/pages/contact.astro:76y6nv">
+      <div class="ct-wrap ct-grid" data-ps="src/pages/contact.astro:uoopee">
+        <div class="ct-info" data-ps="src/pages/contact.astro:uoopef">
+          <div class="ct-items" data-ps="src/pages/contact.astro:lx8n1r">
+            <div class="ct-item" data-ps="src/pages/contact.astro:lx8n1q">
+              <h3 class="ct-label" data-ps="src/pages/contact.astro:4k2kkw">Phone number</h3>
+              <a class="ct-value" href="tel:5867315006" data-ps="src/pages/contact.astro:piidbl">(586) 731-5006</a>
+            </div>
+            <div class="ct-item" data-ps="src/pages/contact.astro:lx8n1p">
+              <h3 class="ct-label" data-ps="src/pages/contact.astro:4k2kli">Email</h3>
+              <a class="ct-value" href="mailto:cwhitmer@thenewrink.com" data-ps="src/pages/contact.astro:piidbk">cwhitmer@thenewrink.com</a>
+            </div>
+            <div class="ct-item" data-ps="src/pages/contact.astro:lx8n1o">
+              <h3 class="ct-label" data-ps="src/pages/contact.astro:4k2klj">Address</h3>
+              <p class="ct-text" data-ps="src/pages/contact.astro:wmga19">50625 Van Dyke Ave., Shelby Township MI 48317</p>
+            </div>
+          </div>
+
+          <div class="ct-map" data-ps="src/pages/contact.astro:lx8n1n">
+            <iframe
+              class="ct-map-frame"
+              width="100%"
+              height="100%"
+              style="border:0"
+              loading="lazy"
+              title="The New Rink map"
+              src={mapSrc}
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+
+        <div class="ct-panel" data-ps="src/pages/contact.astro:lx8n1m">
+          <h2 class="ct-h2" data-ps="src/pages/contact.astro:j8hht4">Contact Us</h2>
+          <p class="ct-intro" data-ps="src/pages/contact.astro:wmga18">
+            We value your input! If you have any questions, feedback, or just want to say hello, please don't hesitate to reach out using the contact information provided below.
+          </p>
+
+          <form id="ct-contact-form" class="ct-form" novalidate>
+            <input type="hidden" name="_formId" value="contact" />
+            <div class="ct-field" data-ps="src/pages/contact.astro:lx8n1l">
+              <label for="name" data-ps="src/pages/contact.astro:zcrbz8">Name<span class="ct-req" aria-hidden="true" data-ps="src/pages/contact.astro:lvpf9l">*</span></label>
+              <input id="name" name="name" type="text" required autocomplete="name" />
+            </div>
+            <div class="ct-field" data-ps="src/pages/contact.astro:lx8n1k">
+              <label for="phone" data-ps="src/pages/contact.astro:zcrbz7">Phone</label>
+              <input id="phone" name="phone" type="tel" autocomplete="tel" />
+            </div>
+            <div class="ct-field" data-ps="src/pages/contact.astro:lx8n1j">
+              <label for="email" data-ps="src/pages/contact.astro:zcrbz6">Email<span class="ct-req" aria-hidden="true" data-ps="src/pages/contact.astro:lvpf9m">*</span></label>
+              <input id="email" name="email" type="email" required autocomplete="email" />
+            </div>
+            <div class="ct-field" data-ps="src/pages/contact.astro:lx8n1i">
+              <label for="message" data-ps="src/pages/contact.astro:zcrbz5">Message<span class="ct-req" aria-hidden="true" data-ps="src/pages/contact.astro:lvpf9n">*</span></label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+            <altcha-widget
+              challenge="/psapi-internal-v1/altcha/challenge"
+              display="invisible"
+              auto="onfocus"
+            ></altcha-widget>
+            <p id="ct-status" class="ct-status" role="status" hidden data-ps="src/pages/contact.astro:wmga17"></p>
+            <button type="submit" id="ct-submit" class="ct-submit" data-ps="src/pages/contact.astro:z8lc02">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </div>
+</BaseLayout>
+
+<style>
+  .ct-page {
+    background-color: rgb(85, 1, 114);
+    color: #fff;
+    font-family: 'Poppins', var(--font-sans);
+  }
+  .ct-wrap {
+    width: min(calc(100% - 56px), 1344px);
+    margin-inline: auto;
+  }
+
+  /* Hero */
+  .ct-hero {
+    padding-top: 170px;
+    padding-bottom: 0;
+  }
+  .ct-eyebrow {
+    margin: 0 0 6px;
+    font-size: 16px;
+    line-height: 22px;
+    color: #fcc4a1;
+  }
+  .ct-h1 {
+    margin: 0;
+    font-family: 'ADLaM Display', var(--font-sans);
+    font-weight: 400;
+    font-size: clamp(2.5rem, 1.6rem + 2.4vw, 3rem);
+    line-height: 1.2;
+    color: #fff;
+  }
+
+  /* Main grid */
+  .ct-main {
+    padding-top: 160px;
+    padding-bottom: 140px;
+  }
+  .ct-grid {
+    display: grid;
+    grid-template-columns: 630px minmax(0, 1fr);
+    column-gap: 56px;
+    align-items: start;
+  }
+  .ct-info {
+    padding: 16px 0 0 28px;
+  }
+  .ct-items {
+    display: grid;
+    grid-template-columns: 315px minmax(0, 1fr);
+    row-gap: 56px;
+  }
+  .ct-items > .ct-item:nth-child(3) {
+    grid-column: 1 / -1;
+  }
+  .ct-label {
+    margin: 0 0 8px;
+    font-family: 'Poppins', var(--font-sans);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #fff;
+  }
+  .ct-value {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22.4px;
+    color: #fff;
+    text-decoration: none;
+    overflow-wrap: anywhere;
+  }
+  .ct-value:hover,
+  .ct-value:focus-visible {
+    text-decoration: underline;
+  }
+  .ct-text {
+    margin: 0;
+    font-size: 16px;
+    line-height: 22.4px;
+    color: #fff;
+  }
+  .ct-map {
+    margin-top: 56px;
+    width: 100%;
+    height: 400px;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  .ct-map-frame {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Contact panel */
+  .ct-panel {
+    background-color: rgb(70, 1, 93);
+    border-radius: 12px;
+    padding: 28px 28px 28px;
+  }
+  .ct-h2 {
+    margin: 0 0 12px;
+    font-family: 'ADLaM Display', var(--font-sans);
+    font-weight: 400;
+    font-size: clamp(2.125rem, 1.6rem + 1.2vw, 2.6875rem);
+    line-height: 1.2;
+    color: #fff;
+  }
+  .ct-intro {
+    margin: 0 0 28px;
+    font-size: 16px;
+    line-height: 25.6px;
+    color: #fff;
+  }
+
+  /* Form */
+  .ct-form {
+    display: flex;
+    flex-direction: column;
+  }
+  .ct-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 14px;
+  }
+  .ct-field label {
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19.6px;
+    color: #fff;
+  }
+  .ct-req {
+    margin-left: 4px;
+    color: #fcc4a1;
+  }
+  .ct-field input,
+  .ct-field textarea {
+    width: 100%;
+    height: 52px;
+    padding: 0 14px;
+    background: #fff;
+    color: #000;
+    border: 1px solid rgb(209, 213, 219);
+    border-radius: 6px;
+    font: inherit;
+    font-size: 16px;
+  }
+  .ct-field textarea {
+    height: 100px;
+    padding: 12px 14px;
+    resize: vertical;
+  }
+  .ct-field input:focus-visible,
+  .ct-field textarea:focus-visible,
+  .ct-submit:focus-visible {
+    outline: 2px solid #fcc4a1;
+    outline-offset: 2px;
+  }
+  .ct-status {
+    margin: 8px 0 12px;
+    padding: 12px 16px;
+    border-radius: 8px;
+    font-size: 15px;
+    line-height: 22px;
+    background: #fff;
+    color: #1f2937;
+  }
+  .ct-status[data-state='success'] {
+    color: #14532d;
+    background: #f0fdf4;
+  }
+  .ct-status[data-state='error'] {
+    color: #7f1d1d;
+    background: #fef2f2;
+  }
+  .ct-submit {
+    align-self: flex-start;
+    margin-top: 2px;
+    padding: 14px 24px;
+    background-color: rgb(247, 107, 21);
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 999px;
+    font: inherit;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 15px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  .ct-submit:hover:not(:disabled) {
+    background-color: rgb(212, 86, 8);
+  }
+  .ct-submit:disabled {
+    opacity: 0.7;
+    cursor: wait;
+  }
+
+  /* Responsive: stack columns below the desktop layout */
+  @media (max-width: 1023px) {
+    .ct-grid {
+      grid-template-columns: minmax(0, 1fr);
+      row-gap: 56px;
+    }
+    .ct-info {
+      padding-left: 0;
+    }
+  }
+  @media (max-width: 767px) {
+    .ct-hero {
+      padding-top: 120px;
+    }
+    .ct-main {
+      padding-top: 80px;
+      padding-bottom: 80px;
+    }
+    .ct-items {
+      grid-template-columns: minmax(0, 1fr);
+      row-gap: 32px;
+    }
+    .ct-items > .ct-item:nth-child(3) {
+      grid-column: auto;
+    }
+    .ct-map {
+      height: 300px;
+    }
+    .ct-panel {
+      padding: 24px 20px;
+    }
+  }
+</style>
+
+<script>
+  import 'altcha';
+
+  const form = document.getElementById('ct-contact-form') as HTMLFormElement | null;
+  const status = document.getElementById('ct-status') as HTMLParagraphElement | null;
+  const submitBtn = document.getElementById('ct-submit') as HTMLButtonElement | null;
+
+  const SUCCESS_MESSAGE = "Thanks for reaching out! We'll get back to you soon.";
+  const ERROR_MESSAGE = 'Sorry, something went wrong. Please call us at (586) 731-5006.';
+
+  function showStatus(text: string, state: 'success' | 'error') {
+    if (!status) return;
+    status.textContent = text;
+    status.dataset.state = state;
+    status.hidden = false;
+  }
+
+  form?.addEventListener('submit', async (event) => {
+    event.preventDefault();
+    if (!form.reportValidity()) return;
+
+    if (submitBtn) {
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Sending...';
+    }
+    if (status) status.hidden = true;
+
+    const data = new FormData(form);
+
+    try {
+      const response = await fetch('/psapi-internal-v1/forms/submit', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          _formId: data.get('_formId'),
+          name: data.get('name'),
+          phone: data.get('phone'),
+          email: data.get('email'),
+          message: data.get('message'),
+          altcha: data.get('altcha'),
+        }),
+      });
+      const result = await response.json().catch(() => ({}));
+      if (!response.ok || !result.success) {
+        throw new Error('send failed');
+      }
+      form.reset();
+      showStatus(SUCCESS_MESSAGE, 'success');
+    } catch {
+      showStatus(ERROR_MESSAGE, 'error');
+    } finally {
+      if (submitBtn) {
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Submit';
+      }
+    }
+  });
+</script>

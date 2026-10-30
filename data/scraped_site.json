@@ -1,0 +1,488 @@
+{
+  "success": true,
+  "url": "https://thenewrink.com/",
+  "structured": {
+    "title": "The New Rink – Roller skating in Shelby Township, MI",
+    "description": "Welcome to Our Roller Sports Complex in Shelby TWP, MI Enjoy a night out with the family, friends, co-workers, just about anyone that needs a night of good fun.",
+    "url": "https://thenewrink.com/",
+    "imageCount": 43,
+    "branding": {
+      "colors": {
+        "primary": "#F76B15",
+        "secondary": "#E3CFDC",
+        "accent": "#F76B15",
+        "background": "#FFFFFF",
+        "textPrimary": "#404040",
+        "link": "#F76B15"
+      },
+      "typography": {
+        "fontFamilies": {
+          "primary": "Poppins",
+          "heading": "ADLaM Display"
+        },
+        "fontStacks": {
+          "heading": [
+            "ADLaM Display",
+            "sans-serif"
+          ],
+          "body": [
+            "Poppins",
+            "sans-serif"
+          ],
+          "paragraph": [
+            "Poppins",
+            "sans-serif"
+          ]
+        },
+        "fontSizes": {
+          "h1": "43px",
+          "h2": "43px",
+          "body": "18px"
+        }
+      },
+      "spacing": {
+        "baseUnit": 4,
+        "borderRadius": "4px"
+      },
+      "logo": "https://thenewrink.com/wp-content/uploads/2026/09/the-new-rink-logo_transparent.webp",
+      "favicon": "https://thenewrink.com/wp-content/uploads/2026/10/the-new-rink-icon-512x512-1-150x150.png",
+      "faviconCdn": "https://pagesmith-cdn.com/0b4329bf/images/the-new-rink-icon-512x512-1-150x150-28284a-150.webp"
+    },
+    "pages": [
+      {
+        "slug": "index",
+        "path": "/",
+        "title": "The New Rink – Roller skating in Shelby Township, MI",
+        "file": "data/pages/index.md",
+        "elementorFile": "data/pages/index.elementor.json",
+        "visibleIrFile": "data/pages/index.visible-ir.json"
+      }
+    ],
+    "availablePages": [
+      {
+        "path": "/hours-and-pricing/",
+        "label": "Hours and Pricing",
+        "slug": "hours-and-pricing",
+        "scraped": false,
+        "group": "main"
+      },
+      {
+        "path": "/events/",
+        "label": "Events",
+        "slug": "events",
+        "scraped": false,
+        "group": "main"
+      },
+      {
+        "path": "/activities/",
+        "label": "Activities",
+        "slug": "activities",
+        "scraped": false,
+        "group": "main"
+      },
+      {
+        "path": "/parties/",
+        "label": "Parties",
+        "slug": "parties",
+        "scraped": false,
+        "group": "main"
+      },
+      {
+        "path": "/skate-lessons/",
+        "label": "Skate Lessons",
+        "slug": "skate-lessons",
+        "scraped": false,
+        "group": "main"
+      },
+      {
+        "path": "/blog/",
+        "label": "Blog",
+        "slug": "blog",
+        "scraped": false,
+        "group": "main"
+      },
+      {
+        "path": "/faq/",
+        "label": "Faq",
+        "slug": "faq",
+        "scraped": false,
+        "group": "main"
+      },
+      {
+        "path": "/contact/",
+        "label": "Contact",
+        "slug": "contact",
+        "scraped": false,
+        "group": "main"
+      },
+      {
+        "path": "/learn-to-rollerblade-5-week-beginner-classes-in-shelby-township/",
+        "label": "Learn to Rollerblade: 5-Week Beginner Classes in Shelby ...",
+        "slug": "learn-to-rollerblade-5-week-beginner-classes-in-shelby-township",
+        "scraped": false,
+        "group": "other"
+      },
+      {
+        "path": "/7-health-benefits-of-roller-skating-for-kids-and-families/",
+        "label": "7 Health Benefits of Roller Skating for Kids and Families",
+        "slug": "7-health-benefits-of-roller-skating-for-kids-and-families",
+        "scraped": false,
+        "group": "other"
+      },
+      {
+        "path": "/the-new-rink-shelby-township-your-familys-complete-guide-to-indoor-roller-skating/",
+        "label": "Your Family's Complete Guide to Indoor Roller Skating ...",
+        "slug": "the-new-rink-shelby-township-your-familys-complete-guide-to-indoor-roller-skating",
+        "scraped": false,
+        "group": "other"
+      },
+      {
+        "path": "/events/friday-family-fun-nights/",
+        "label": "Friday & Saturday Family Fun Nights",
+        "slug": "events-friday-family-fun-nights",
+        "scraped": false,
+        "group": "other"
+      },
+      {
+        "path": "/sample-page/",
+        "label": "Sample Page – The New Rink",
+        "slug": "sample-page",
+        "scraped": false,
+        "group": "other"
+      },
+      {
+        "path": "/skate-pro-shop/",
+        "label": "The Pro Shop",
+        "slug": "skate-pro-shop",
+        "scraped": false,
+        "group": "other"
+      },
+      {
+        "path": "/special-event/election-day-open-skate/",
+        "label": "Election Day Open Skate",
+        "slug": "special-event-election-day-open-skate",
+        "scraped": false,
+        "group": "other"
+      },
+      {
+        "path": "/special-event/friday-family-fun-nights/",
+        "label": "Friday Family Fun Nights – The New Rink",
+        "slug": "special-event-friday-family-fun-nights",
+        "scraped": false,
+        "group": "other"
+      },
+      {
+        "path": "/activities/family-fun-and-exercise-for-all/",
+        "label": "Family Fun and Exercise for all",
+        "slug": "activities-family-fun-and-exercise-for-all",
+        "scraped": false,
+        "group": "collection",
+        "collection": "/activities/"
+      },
+      {
+        "path": "/activities/skate-pro-shop/",
+        "label": "The Pro Shop - The New Rink",
+        "slug": "activities-skate-pro-shop",
+        "scraped": false,
+        "group": "collection",
+        "collection": "/activities/"
+      },
+      {
+        "path": "/activities/girl-scouts/",
+        "label": "Girl Scouts",
+        "slug": "activities-girl-scouts",
+        "scraped": false,
+        "group": "collection",
+        "collection": "/activities/"
+      },
+      {
+        "path": "/activities/school-events/",
+        "label": "School Events",
+        "slug": "activities-school-events",
+        "scraped": false,
+        "group": "collection",
+        "collection": "/activities/"
+      },
+      {
+        "path": "/activities/rollers-and-strollers/",
+        "label": "Rollers And Strollers",
+        "slug": "activities-rollers-and-strollers",
+        "scraped": false,
+        "group": "collection",
+        "collection": "/activities/"
+      },
+      {
+        "path": "/activities/public-group-rates/",
+        "label": "Public Group Rates - The New Rink",
+        "slug": "activities-public-group-rates",
+        "scraped": false,
+        "group": "collection",
+        "collection": "/activities/"
+      },
+      {
+        "path": "/activities/private-smaller-group-parties/",
+        "label": "Private Smaller Group Parties - The New Rink",
+        "slug": "activities-private-smaller-group-parties",
+        "scraped": false,
+        "group": "collection",
+        "collection": "/activities/"
+      },
+      {
+        "path": "/activities/private-parties-fundraisers/",
+        "label": "Private Parties Fundraisers",
+        "slug": "activities-private-parties-fundraisers",
+        "scraped": false,
+        "group": "collection",
+        "collection": "/activities/"
+      },
+      {
+        "path": "/activities/parties/",
+        "label": "Parties",
+        "slug": "activities-parties",
+        "scraped": false,
+        "group": "collection",
+        "collection": "/activities/"
+      },
+      {
+        "path": "/schedule/tuesday/",
+        "label": "Tuesday",
+        "slug": "schedule-tuesday",
+        "scraped": false,
+        "group": "collection",
+        "collection": "/schedule/"
+      },
+      {
+        "path": "/schedule/monday/",
+        "label": "Monday",
+        "slug": "schedule-monday",
+        "scraped": false,
+        "group": "collection",
+        "collection": "/schedule/"
+      },
+      {
+        "path": "/schedule/saturday/",
+        "label": "Saturday",
+        "slug": "schedule-saturday",
+        "scraped": false,
+        "group": "collection",
+        "collection": "/schedule/"
+      },
+      {
+        "path": "/schedule/thursday/",
+        "label": "Thursday",
+        "slug": "schedule-thursday",
+        "scraped": false,
+        "group": "collection",
+        "collection": "/schedule/"
+      },
+      {
+        "path": "/schedule/sunday/",
+        "label": "Sunday",
+        "slug": "schedule-sunday",
+        "scraped": false,
+        "group": "collection",
+        "collection": "/schedule/"
+      },
+      {
+        "path": "/schedule/wednesday/",
+        "label": "Wednesday",
+        "slug": "schedule-wednesday",
+        "scraped": false,
+        "group": "collection",
+        "collection": "/schedule/"
+      },
+      {
+        "path": "/activity/activity-parties/",
+        "label": "Parties",
+        "slug": "activity-activity-parties",
+        "scraped": false,
+        "group": "collection",
+        "collection": "/activity/"
+      },
+      {
+        "path": "/activity/private-parties-fundraisers/",
+        "label": "Private Parties / Fundraisers - The New Rink",
+        "slug": "activity-private-parties-fundraisers",
+        "scraped": false,
+        "group": "collection",
+        "collection": "/activity/"
+      },
+      {
+        "path": "/activity/family-fun-and-exercise-for-all/",
+        "label": "Family Fun and Exercise for all - The New Rink",
+        "slug": "activity-family-fun-and-exercise-for-all",
+        "scraped": false,
+        "group": "collection",
+        "collection": "/activity/"
+      },
+      {
+        "path": "/activity/rollers-and-strollers/",
+        "label": "Rollers and Strollers",
+        "slug": "activity-rollers-and-strollers",
+        "scraped": false,
+        "group": "collection",
+        "collection": "/activity/"
+      },
+      {
+        "path": "/activity/skate-pro-shop/",
+        "label": "The Pro Shop",
+        "slug": "activity-skate-pro-shop",
+        "scraped": false,
+        "group": "collection",
+        "collection": "/activity/"
+      },
+      {
+        "path": "/activity/private-smaller-group-parties/",
+        "label": "Private Smaller Group Parties",
+        "slug": "activity-private-smaller-group-parties",
+        "scraped": false,
+        "group": "collection",
+        "collection": "/activity/"
+      },
+      {
+        "path": "/faq/do-you-serve-or-allow-alcohol/",
+        "label": "Do you serve or allow alcohol?",
+        "slug": "faq-do-you-serve-or-allow-alcohol",
+        "scraped": false,
+        "group": "collection",
+        "collection": "/faq/"
+      },
+      {
+        "path": "/faq/what-type-of-payments-do-you-accept/",
+        "label": "What type of payments do you accept?",
+        "slug": "faq-what-type-of-payments-do-you-accept",
+        "scraped": false,
+        "group": "collection",
+        "collection": "/faq/"
+      },
+      {
+        "path": "/schedule/friday/",
+        "label": "Friday – The New Rink",
+        "slug": "schedule-friday",
+        "scraped": false,
+        "group": "collection",
+        "collection": "/schedule/"
+      },
+      {
+        "path": "/schedule/skate-rental/",
+        "label": "Skate Rental – The New Rink",
+        "slug": "schedule-skate-rental",
+        "scraped": false,
+        "group": "collection",
+        "collection": "/schedule/"
+      },
+      {
+        "path": "/faq/do-you-have-a-private-room-for-birthday-parties/",
+        "label": "Do you have a private room for birthday parties?",
+        "slug": "faq-do-you-have-a-private-room-for-birthday-parties",
+        "scraped": false,
+        "group": "collection",
+        "collection": "/faq/"
+      },
+      {
+        "path": "/faq/what-are-your-smallest-and-largest-size-rental-skates/",
+        "label": "What are your smallest and largest size rental skates?",
+        "slug": "faq-what-are-your-smallest-and-largest-size-rental-skates",
+        "scraped": false,
+        "group": "collection",
+        "collection": "/faq/"
+      },
+      {
+        "path": "/faq/do-we-have-the-table-for-the-whole-party/",
+        "label": "Do we have the table for the whole party?",
+        "slug": "faq-do-we-have-the-table-for-the-whole-party",
+        "scraped": false,
+        "group": "collection",
+        "collection": "/faq/"
+      },
+      {
+        "path": "/faq/can-we-bring-in-our-own-food-for-the-party/",
+        "label": "Can we bring in our own food for the party?",
+        "slug": "faq-can-we-bring-in-our-own-food-for-the-party",
+        "scraped": false,
+        "group": "collection",
+        "collection": "/faq/"
+      },
+      {
+        "path": "/faq/do-you-allow-strollers-to-be-pushed-on-the-floor/",
+        "label": "Do you allow strollers to be pushed on the floor?",
+        "slug": "faq-do-you-allow-strollers-to-be-pushed-on-the-floor",
+        "scraped": false,
+        "group": "collection",
+        "collection": "/faq/"
+      },
+      {
+        "path": "/faq/is-there-someone-on-site-to-teach-my-child-to-skate/",
+        "label": "Is there someone on site to teach my child to skate?",
+        "slug": "faq-is-there-someone-on-site-to-teach-my-child-to-skate",
+        "scraped": false,
+        "group": "collection",
+        "collection": "/faq/"
+      },
+      {
+        "path": "/faq/do-you-allow-adults-to-walk-on-the-floor-to-help-kids/",
+        "label": "Do you allow adults to walk on the floor to help kids?",
+        "slug": "faq-do-you-allow-adults-to-walk-on-the-floor-to-help-kids",
+        "scraped": false,
+        "group": "collection",
+        "collection": "/faq/"
+      },
+      {
+        "path": "/faq/can-we-come-in-early-to-set-up-for-a-reserved-birthday-party/",
+        "label": "Can we come in early to set-up for a reserved Birthday party?",
+        "slug": "faq-can-we-come-in-early-to-set-up-for-a-reserved-birthday-party",
+        "scraped": false,
+        "group": "collection",
+        "collection": "/faq/"
+      },
+      {
+        "path": "/faq/i-come-for-all-the-sessions-do-i-have-to-have-my-skates-checked-every-time/",
+        "label": "I come for all the sessions. Do I have to have my skates checked ...",
+        "slug": "faq-i-come-for-all-the-sessions-do-i-have-to-have-my-skates-checked-every-time",
+        "scraped": false,
+        "group": "collection",
+        "collection": "/faq/"
+      }
+    ],
+    "siteStructure": {
+      "mainNavPaths": [
+        "/hours-and-pricing/",
+        "/events/",
+        "/activities/",
+        "/parties/",
+        "/skate-lessons/",
+        "/blog/",
+        "/faq/",
+        "/contact/"
+      ],
+      "footerPaths": [],
+      "otherLanguageRoots": []
+    },
+    "pageInventory": "8 main navigation pages; 8 other pages; Faq (11 pages); Activities (9 pages); schedule (8 pages); activity (6 pages)",
+    "elementor": {
+      "file": "data/pages/index.elementor.json",
+      "note": "Elementor enrichment: widget data-settings, public Elementor CSS tokens/backgrounds, runtime carousel state, loop items, nav/social links"
+    },
+    "visibleIr": {
+      "file": "data/pages/index.visible-ir.json",
+      "note": "Rendered visible-only section IR for Elementor preserve mode; primary structure source for standard Astro/Tailwind output"
+    }
+  },
+  "metadata": {
+    "scraper": "firecrawl-crawl-endpoint",
+    "timestamp": "2026-10-28T18:42:23.655Z",
+    "homepageContentLength": 31216,
+    "imageCount": 43,
+    "hasBranding": true,
+    "hasElementorEnrichment": true,
+    "hasVisibleIr": true,
+    "pagesDiscovered": 50,
+    "pagesScraped": 1,
+    "screenshotUrl": "https://storage.googleapis.com/firecrawl-scrape-media/screenshot-d4c29148-6902-4cb3-a984-df7597c2c70e.png?GoogleAccessId=scrape-bucket-accessor%40firecrawl.iam.gserviceaccount.com&Expires=1793817711&Signature=wF64M9LWtedcFQvdjYZfdzslTUUb4nOyWi050v3t8lyXTKwoNBXQHaHhYrlS8lTEKuVjmvK5l%2FM33nByvQP2bnQnt6hrNutHEZXvAGZdiNx0FZXyubFZji5Yeblbe0HOt%2BFBot4tOf9vpmWNn6XJ%2B9AktMRmSORzDEswEmVDD8SRfDUZH5XRSBXAU2gA7SlvKMLsoDd6dgP2QtaiiP8QyuMz6M%2FclshZPPGd7q9K7A7iOUduhhbTmeSt3Xz%2F30tuEZj%2BnAkMsemSTaP3KnLoOWTBL1f%2FrEnTy34MxYxDPBMPRaSe7jlNzi7FdaR0Sm94Apm7Nk8GlaypgvGSpIWYdA%3D%3D",
+    "viewportScreenshots": [
+      "https://storage.googleapis.com/firecrawl-scrape-media/screenshot-18d21b76-f7d4-4a6f-b333-ab5a3c3e0fce.png?GoogleAccessId=scrape-bucket-accessor%40firecrawl.iam.gserviceaccount.com&Expires=1793817712&Signature=Vfhj0qOz6aEIasIgDCEaieh4a21HQ5eopStA%2BqG1bxsEKXCco7v%2FH%2FE2P2C8bdxM8uHM6bZAarqDNJH7eyXZp%2F48w9x4WYbIeRMNs4qP8xJ2BvYv2fFFL1KBewN5V2CQKZ11sWTfEa79bwVhJM0EnF%2B98Re0x3d18%2Bzafnk6Am0%2B%2BjtkF5tuAoC2%2FZVWs3EnvwRNiH5uWj6hUsktEG2rrg5GT%2BmrazLCMO%2F8YhJloxLKRyVx5Q%2BHTrl9P7s0BpJfQotwyr36wfNCVHfTqcZZSK8NXTETLxWL4Himuunw3GDwId9YTRJM38Pqxd7iY%2B8FfeVwobu0x2KXLR1on1Fp3g%3D%3D",
+      "https://storage.googleapis.com/firecrawl-scrape-media/screenshot-60527ca0-e552-4830-903e-91081cf25425.png?GoogleAccessId=scrape-bucket-accessor%40firecrawl.iam.gserviceaccount.com&Expires=1793817715&Signature=MUQ19DOSagItYT4B0K1SAuMTPoaQpPH0Bt%2Fi4GUcgRPw4NN1VtrqM%2BcVFzqll%2BpAuCNNK8Hse3KIRy0r17i5Sb%2FuF8E3cbPOhb3lTbEIGg2uZUqgRxk84xPXtjHkbSfh0lNgmEcrM8Fwn9aThry13r4GqM5lScxEm9VhQaVulS9%2BRnZ0kYTrG2WKCjHtHtE9siV0JqABhYpPmXnrcacMQn6fwRxOPB7Q1nEiMqGDAIpSkaLIT2tmTmcthHu%2BnVoAoXUC2hqGBJfdZkVFQFDJpXTx6JUsGMTljpYxZgjClphCziPf2j7F3%2FvSefPCJCnYeOCs%2FpUuBxOnlzdlhhub7Q%3D%3D",
+      "https://storage.googleapis.com/firecrawl-scrape-media/screenshot-60bec62b-c9b0-4d5b-9417-70f150233e47.png?GoogleAccessId=scrape-bucket-accessor%40firecrawl.iam.gserviceaccount.com&Expires=1793817719&Signature=PdbGIormkmTJBPDPUquurMW%2BZtBGVuBBG9APE7LU0Xne32T5fykNDkSDXcahCn4KX05QiEves4qPV1DG1CbjbGwnMPYDY0nogzBhYcbWrsnnU5sTulskPj0tzhbMZz3lKpNMQY%2B0La8H8aqyhClDCmqWP04%2BwPtNyOl35fBRWRdSOkAfbR5JHayhK%2Fk3vS%2FaJ%2FABPgG%2BnayK6QQsEstRPJfCC04WM6egk4ciPcrSL%2F7dEg1a6VWXmQILWoatp9ci8RVaUFEP3rU7jppVu0M3DFh2mlTUbdExwa6Y21IHbKUrH2OH%2FU1kHqETCokaIo4Y1gd2T0Tnoob8MpG2kGV0zA%3D%3D"
+    ]
+  }
+}

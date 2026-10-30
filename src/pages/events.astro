@@ -1,0 +1,130 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+
+const events = [
+  {
+    href: '/events/friday-family-fun-nights/',
+    image: 'https://pagesmith-cdn.com/0b4329bf/images/Friday-Family-Fun-Skate-1-scaled-1-3adcda-1536.webp',
+    alt: 'Friday & Saturday Family Fun Nights flyer',
+    title: 'Friday & Saturday Family Fun Nights',
+    meta: '7:00 p.m. - 10:00 p.m.',
+    text: 'Every Friday & Saturday Night!<br>Friday Night Family Rate: 4 for $60 (must include 1 parent and 1 child) includes choice of rental if needed, Bounce Zone (12 & under), 1 whole pizza and four 16 oz drinks. Must present deal at the time of purchase to be valid)',
+    price: '$14 Friday / $15 Saturday',
+    button: true,
+  },
+  {
+    href: '/events/friday-family-fun-nights/',
+    image: 'https://pagesmith-cdn.com/0b4329bf/images/Election-Day-26-2048x1024-1-104a8a-1536.webp',
+    alt: 'Election Day 26 2048x1024',
+    title: 'Election Day Open Skate',
+    meta: '1:00 p. m. - 4:00 p. m.',
+    text: 'Tuesday, November 3rd',
+    price: '$12 Bounce Zone $3 extra',
+    button: false,
+  },
+  {
+    href: '/events/friday-family-fun-nights/',
+    image: 'https://pagesmith-cdn.com/0b4329bf/images/the_new_rink_buzz_and_woody_special_event_image-1024.webp',
+    alt: 'Rollers and Strollers Skate with Buzz & Woody flyer',
+    title: 'Rollers and Strollers Skate with Buzz & Woody',
+    meta: '9:30 A.M. - 12:00 P.M.',
+    text: 'Saturday, November 21st',
+    price: '$14',
+    button: false,
+  },
+  {
+    href: '/events/',
+    image: 'https://pagesmith-cdn.com/0b4329bf/images/the_new_rink_turkey_trot_special_event_image-1536.webp',
+    alt: 'Turkey Trot Skates special event flyer',
+    title: 'Turkey Trot Skates',
+    meta: '1:00 P.M. - 4:00 P.M. each day',
+    text: 'Wednesday & Friday, November 25th & 27th',
+    price: '$12 Skate rental extra, Bounce Zone $3 extra',
+    button: false,
+  },
+];
+---
+
+<BaseLayout
+  title="Events – The New Rink"
+  description="More ways to roll Events How can we make skating even more fun you say? Special Events Check back frequently as we are constantly adding new special events you won't want to miss!"
+  headerVariant="transparent"
+>
+  <section class="bg-accent px-7 pt-[150px] pb-[100px] text-primary-foreground" data-ps="src/pages/events.astro:e6gh3a">
+    <div class="mx-auto max-w-[1344px]" data-ps="src/pages/events.astro:p1393j">
+      <p class="text-base text-border" data-ps="src/pages/events.astro:8g83ei">More ways to roll</p>
+      <h1 class="mt-3 text-h1 text-primary-foreground" data-ps="src/pages/events.astro:d6wkpf">Events</h1>
+    </div>
+  </section>
+
+  <section class="bg-surface px-7 py-[112px]" data-ps="src/pages/events.astro:e6gh3b">
+    <div class="mx-auto max-w-[1344px]" data-ps="src/pages/events.astro:p1393i">
+      <div class="max-w-xl" data-ps="src/pages/events.astro:p1393h">
+        <p class="text-[14px] font-semibold tracking-[0.28px] text-[rgb(203,88,17)] uppercase" data-ps="src/pages/events.astro:8g83ej">
+          How can we make skating even more fun you say?
+        </p>
+        <h2 class="mt-3 text-h2 leading-[1.2] text-secondary-foreground" data-ps="src/pages/events.astro:1hici7">Special Events</h2>
+        <p class="mt-4 text-lg leading-[1.5] text-foreground" data-ps="src/pages/events.astro:8g83f5">
+          Check back frequently as we are constantly adding new special events you won't want to miss!
+        </p>
+      </div>
+
+      <div class="mt-16 grid max-w-[1000px] gap-x-8 gap-y-12 md:grid-cols-2" data-ps="src/pages/events.astro:p1393g">
+        {events.map((event, __psIdx) => (
+          <article class="flex flex-col rounded-[20px] bg-background p-7 shadow-[5px_5px_0_0_rgba(113,13,82,0.35)]" data-ps={`src/pages/events.astro:fjhu71-${__psIdx}`}>
+            <a href={event.href} class="block overflow-hidden rounded-[12px]" data-ps={`src/pages/events.astro:fk6049-${__psIdx}`}>
+              <img
+                src={event.image}
+                alt={event.alt}
+                width="1536"
+                height="864"
+                loading="lazy"
+                class="block h-auto w-full" data-ps={`src/pages/events.astro:2w6neo-${__psIdx}`} />
+            </a>
+            <h3 class="mt-6 text-center text-[22px] leading-[1.3] text-black" data-ps={`src/pages/events.astro:g5x9ps-${__psIdx}`}>{event.title}</h3>
+            <p class="mt-3 text-center text-base leading-6 text-foreground" data-ps={`src/pages/events.astro:8g83f6-${__psIdx}`}>{event.meta}</p>
+            <p class="mt-4 text-center text-base leading-[1.6] font-semibold text-foreground" set:html={event.text} />
+            <p class="mt-4 text-center text-base font-semibold text-foreground" data-ps={`src/pages/events.astro:8g83f7-${__psIdx}`}>{event.price}</p>
+            {event.button && (
+              <a
+                href={event.href}
+                class="mt-6 inline-flex w-fit self-center items-center rounded-full bg-primary px-7 py-[14px] text-sm font-semibold tracking-[0.5px] text-primary-foreground transition-colors hover:bg-primary-hover"
+               data-ps={`src/pages/events.astro:fk604a-${__psIdx}`}>
+                Learn More
+              </a>
+            )}
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="relative isolate overflow-hidden bg-dark-background px-7 py-[112px] text-primary-foreground" data-ps="src/pages/events.astro:e6gh3c">
+    <img
+      src="https://pagesmith-cdn.com/0b4329bf/images/the-new-rink-074-da421d-360.webp"
+      alt="Roller skating party at The New Rink"
+      width="360"
+      height="200"
+      loading="lazy"
+      class="absolute inset-0 -z-10 h-full w-full object-cover" data-ps="src/pages/events.astro:g4ru88" />
+    <div class="relative mx-auto max-w-[1100px] text-center" data-ps="src/pages/events.astro:p1393f">
+      <p class="text-[14px] font-semibold tracking-[0.28px] text-border uppercase" data-ps="src/pages/events.astro:8g83f8">
+        Fun with family, friends, co-workers, and more
+      </p>
+      <h2 class="mt-4 text-[clamp(2.25rem,1.4rem+2.6vw,3.5625rem)] leading-[1.2] text-primary-foreground" data-ps="src/pages/events.astro:1hici6">
+        Schedule your next Birthday, Scout Outing, Get Together, Sports Team, Celebrations, and much more.
+      </h2>
+      <p class="mt-6 text-lg leading-[1.5] text-primary-foreground/90" data-ps="src/pages/events.astro:8g83f9">
+        We have many packages to make your party a memorable and fun event.
+      </p>
+      <a
+        href="https://thenewrink.pcsparty.com/bookings/index.asp"
+        target="_blank"
+        rel="noopener"
+        class="mt-10 inline-flex rounded-[4px] bg-primary px-7 py-[14px] text-lg font-semibold text-primary-foreground transition-colors hover:bg-primary-hover"
+       data-ps="src/pages/events.astro:fk604b">
+        Book a Party Now
+      </a>
+    </div>
+  </section>
+</BaseLayout>

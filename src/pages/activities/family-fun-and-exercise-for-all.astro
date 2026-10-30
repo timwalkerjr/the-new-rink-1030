@@ -1,0 +1,70 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+
+const pageTitle = 'Family Fun and Exercise for all – The New Rink';
+const pageDescription =
+  'Activities at The New Rink Family Fun and Exercise for all. Bring the entire family for fun, friend’s and exercise!!! Fun with family, friends, co-workers, and more.';
+const introImage = 'https://pagesmith-cdn.com/0b4329bf/images/the-new-rink-001-c44384-402.webp';
+const ctaImage = 'https://pagesmith-cdn.com/0b4329bf/images/the-new-rink-074-da421d-360.webp';
+const bookingUrl = 'https://thenewrink.pcsparty.com/bookings/index.asp';
+---
+
+<BaseLayout title={pageTitle} description={pageDescription} headerVariant="transparent">
+  <section class="bg-[#550172] text-white" data-ps="src/pages/activities/family-fun-and-exercise-for-all.astro:ykc5cb">
+    <div class="mx-auto max-w-[1344px] px-7 pt-[150px] pb-[60px] md:pb-[80px]" data-ps="src/pages/activities/family-fun-and-exercise-for-all.astro:10uqmi">
+      <p class="text-[16px] text-[#fcc4a1]" data-ps="src/pages/activities/family-fun-and-exercise-for-all.astro:7togb2">Activities at The New Rink</p>
+      <h1 class="mt-3 text-[clamp(2.25rem,1.2rem+3.2vw,48px)] leading-[1.2] font-normal text-white" data-ps="src/pages/activities/family-fun-and-exercise-for-all.astro:kej1pv">
+        Family Fun and Exercise for all
+      </h1>
+    </div>
+  </section>
+
+  <section class="bg-[#f3f3f3] py-[72px] md:py-[112px]" data-ps="src/pages/activities/family-fun-and-exercise-for-all.astro:ykc5cc">
+    <div class="mx-auto grid max-w-[1344px] items-center gap-10 px-7 md:grid-cols-2 md:gap-16" data-ps="src/pages/activities/family-fun-and-exercise-for-all.astro:10uqmh">
+      <div data-ps="src/pages/activities/family-fun-and-exercise-for-all.astro:10uqmg">
+        <h2 class="text-[clamp(1.75rem,1.2rem+2vw,40px)] leading-[1.25] font-normal text-black" data-ps="src/pages/activities/family-fun-and-exercise-for-all.astro:z2xyxh">
+          Bring the entire family for fun, friend’s and exercise!!!
+        </h2>
+      </div>
+      <div class="md:justify-self-end" data-ps="src/pages/activities/family-fun-and-exercise-for-all.astro:10uqmf">
+        <img
+          src={introImage}
+          alt="Family Fun and Exercise for all at The New Rink"
+          width="402"
+          height="240"
+          loading="lazy"
+          class="block aspect-[402/240] h-auto w-full max-w-[430px] rounded-[8px] object-cover" data-ps="src/pages/activities/family-fun-and-exercise-for-all.astro:y8q1mu" />
+      </div>
+    </div>
+  </section>
+
+  <section class="relative isolate overflow-hidden bg-[#270034] text-white" data-ps="src/pages/activities/family-fun-and-exercise-for-all.astro:ykc5cd">
+    <img
+      src={ctaImage}
+      alt="Roller skating party at The New Rink"
+      width="360"
+      height="216"
+      loading="lazy"
+      class="absolute inset-0 -z-20 h-full w-full object-cover" data-ps="src/pages/activities/family-fun-and-exercise-for-all.astro:uw3p9u" />
+    <div class="absolute inset-0 -z-10 bg-[#270034]/60" data-ps="src/pages/activities/family-fun-and-exercise-for-all.astro:10uqme"></div>
+    <div class="mx-auto flex max-w-[1344px] flex-col items-center px-7 py-[96px] text-center md:py-[112px]" data-ps="src/pages/activities/family-fun-and-exercise-for-all.astro:10uqmd">
+      <p class="text-[14px] font-semibold tracking-[0.28px] text-[#fcc4a1] uppercase" data-ps="src/pages/activities/family-fun-and-exercise-for-all.astro:7togb3">
+        Fun with family, friends, co-workers, and more
+      </p>
+      <h2 class="mt-5 max-w-[1000px] text-[clamp(2.25rem,1.2rem+3.4vw,57px)] leading-[1.2] font-normal text-white" data-ps="src/pages/activities/family-fun-and-exercise-for-all.astro:z2xyxg">
+        Schedule your next Birthday, Scout Outing, Get Together, Sports Team, Celebrations, and much more.
+      </h2>
+      <p class="mt-6 text-[18px] leading-[27px] text-white/90" data-ps="src/pages/activities/family-fun-and-exercise-for-all.astro:7togb4">
+        We have many packages to make your party a memorable and fun event.
+      </p>
+      <a
+        href={bookingUrl}
+        target="_blank"
+        rel="noopener"
+        class="mt-8 inline-block rounded-[4px] bg-[#f76d18] px-7 py-3.5 text-[18px] leading-[25.2px] font-semibold text-white transition-colors hover:bg-[#d45608]"
+       data-ps="src/pages/activities/family-fun-and-exercise-for-all.astro:exmd0v">
+        Book a Party Now
+      </a>
+    </div>
+  </section>
+</BaseLayout>

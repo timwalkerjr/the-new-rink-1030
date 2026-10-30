@@ -1,0 +1,142 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+
+const pageTitle = 'Private Parties / Fundraisers – The New Rink';
+const pageDescription =
+  'Activities at The New Rink Private Parties / Fundraisers Private Group Packages Option 1: PRIVATE SKATE PACKAGE Facility is reserved solely for you and your guests.';
+
+const sidePhotoSrc = 'https://pagesmith-cdn.com/0b4329bf/images/the-new-rink-022-0e3d6a-359.webp';
+const ctaPhotoSrc = 'https://pagesmith-cdn.com/0b4329bf/images/the-new-rink-074-da421d-360.webp';
+const guestListHref = 'https://thenewrink.com/wp-content/uploads/2026/09/The-New-Rink-Guest-List-Online-2023.pdf';
+const bookingHref = 'https://thenewrink.pcsparty.com/bookings/index.asp';
+
+const option1Details = [
+  'Facility is reserved solely for you and your guests.',
+  'Private two-hour session. Additional hour of time is $1.00 per skater.',
+  'Regular skate rental, Roller blades or speed skates are $3.00',
+  'Staff is provided to supervise and run the event.',
+  'Snack bar will be open for your guests to make purchases.',
+  'Food packages available. Additional $3.50 per person to include a slice of pizza & drink or $3.00 per person to include a hot dog & drink.',
+  'No charge for outside food if food package is purchased.',
+  'Outside food upon approval but no beverages allowed.',
+  'Deposit and signed agreement required.',
+  'Call for available dates.',
+];
+
+const option1Pricing = [
+  'Any open date/time completed by 10:00PM',
+  'Minimum of 100 guests',
+  '$8.00 PER PERSON',
+  '$3.00 Rental skates',
+];
+
+const option2Pricing = [
+  'Any open date/time completed by 10:00 p.m.',
+  'Minimum of 100 guests',
+  '$12.00 PER PERSON skate and bounce.',
+  '$3.00 Rental skates',
+];
+
+const lateNight = ['10:00pm or later', 'Minimum of 100 guests', 'CALL FOR PRICING'];
+
+const listClass = 'list-disc space-y-2 pl-6 text-base leading-[27px] text-[#404040]';
+const h4Class = 'mt-8 mb-3 font-display text-[1.625rem] leading-[1.3] font-normal text-black';
+---
+
+<BaseLayout title={pageTitle} description={pageDescription} headerVariant="transparent">
+  <section class="bg-accent pt-[150px] pb-[100px] text-white" data-ps="src/pages/activity/private-parties-fundraisers.astro:agts7q">
+    <div class="mx-auto max-w-[1344px] px-7" data-ps="src/pages/activity/private-parties-fundraisers.astro:h8x66t">
+      <p class="text-base text-[#fcc4a1]" data-ps="src/pages/activity/private-parties-fundraisers.astro:7ny7o4">Activities at The New Rink</p>
+      <h1 class="mt-4 text-h1 font-bold leading-[1.08] text-white" data-ps="src/pages/activity/private-parties-fundraisers.astro:v9qxht">Private Parties / Fundraisers</h1>
+    </div>
+  </section>
+
+  <section class="bg-[rgb(243,243,243)] py-28" data-ps="src/pages/activity/private-parties-fundraisers.astro:agts7p">
+    <div class="mx-auto grid max-w-[1344px] gap-14 px-7 lg:grid-cols-[minmax(0,1fr)_359px] xl:grid-cols-[minmax(0,1fr)_427px]" data-ps="src/pages/activity/private-parties-fundraisers.astro:h8x66u">
+      <div class="min-w-0" data-ps="src/pages/activity/private-parties-fundraisers.astro:h8x66v">
+        <h2 class="text-h2 leading-[1.2] font-normal text-black" data-ps="src/pages/activity/private-parties-fundraisers.astro:p2y79o">Private Group Packages</h2>
+
+        <h3 class="mt-8 mb-3 font-display text-[2rem] leading-[1.3] font-normal text-black" data-ps="src/pages/activity/private-parties-fundraisers.astro:aeja22">
+          Option 1: PRIVATE SKATE PACKAGE
+        </h3>
+        <ul class={listClass}>
+          {option1Details.map((item) => <li data-ps="src/pages/activity/private-parties-fundraisers.astro:ptx3qq">{item}</li>)}
+        </ul>
+
+        <h4 class={h4Class} data-ps="src/pages/activity/private-parties-fundraisers.astro:49vn67">Party Pricing:</h4>
+        <ul class={listClass}>
+          {option1Pricing.map((item) => <li data-ps="src/pages/activity/private-parties-fundraisers.astro:ptx3rc">{item}</li>)}
+        </ul>
+
+        <h4 class={h4Class} data-ps="src/pages/activity/private-parties-fundraisers.astro:49vn5l">Late Night Parties</h4>
+        <ul class={listClass}>
+          {lateNight.map((item) => <li data-ps="src/pages/activity/private-parties-fundraisers.astro:ptx3rd">{item}</li>)}
+        </ul>
+
+        <h3 class="mt-12 mb-3 font-display text-[2rem] leading-[1.3] font-normal text-black" data-ps="src/pages/activity/private-parties-fundraisers.astro:aeja23">
+          Option 2: PRIVATE SKATE AND BOUNCE PACKAGE
+        </h3>
+
+        <h4 class={h4Class} data-ps="src/pages/activity/private-parties-fundraisers.astro:49vn5k">Party Pricing:</h4>
+        <ul class={listClass}>
+          {option2Pricing.map((item) => <li data-ps="src/pages/activity/private-parties-fundraisers.astro:ptx3re">{item}</li>)}
+        </ul>
+
+        <h4 class={h4Class} data-ps="src/pages/activity/private-parties-fundraisers.astro:49vn5j">Late Night Parties</h4>
+        <ul class={listClass}>
+          {lateNight.map((item) => <li data-ps="src/pages/activity/private-parties-fundraisers.astro:ptx3rf">{item}</li>)}
+        </ul>
+      </div>
+
+      <aside class="min-w-0" data-ps="src/pages/activity/private-parties-fundraisers.astro:fm7tdp">
+        <img
+          src={sidePhotoSrc}
+          alt="Private Parties / Fundraisers at The New Rink"
+          width="359"
+          height="242"
+          loading="lazy"
+          class="block aspect-[427/285] w-full rounded-lg object-cover" data-ps="src/pages/activity/private-parties-fundraisers.astro:yyitr0" />
+        <h2 class="mt-8 font-display text-[1.875rem] leading-[1.3] font-normal text-black" data-ps="src/pages/activity/private-parties-fundraisers.astro:p2y79p">Necessary Documents</h2>
+        <div class="mt-6" data-ps="src/pages/activity/private-parties-fundraisers.astro:h8x66w">
+          <a
+            href={guestListHref}
+            target="_blank"
+            rel="noopener"
+            class="inline-flex items-center rounded-full bg-primary px-7 py-3.5 text-sm font-semibold tracking-[0.5px] text-primary-foreground transition-colors hover:bg-primary-hover"
+           data-ps="src/pages/activity/private-parties-fundraisers.astro:erw4dw">
+            Download a Guest List
+          </a>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <section class="relative isolate overflow-hidden bg-dark-background py-28 text-center text-white" data-ps="src/pages/activity/private-parties-fundraisers.astro:agts7o">
+    <img
+      src={ctaPhotoSrc}
+      alt="Roller skating party at The New Rink"
+      width="360"
+      height="240"
+      loading="lazy"
+      class="absolute inset-0 -z-10 h-full w-full object-cover" data-ps="src/pages/activity/private-parties-fundraisers.astro:cmbsgk" />
+    <div class="relative mx-auto max-w-[1000px] px-7" data-ps="src/pages/activity/private-parties-fundraisers.astro:h8x66x">
+      <p class="text-sm font-semibold tracking-[0.28px] text-[#fcc4a1] uppercase" data-ps="src/pages/activity/private-parties-fundraisers.astro:7ny7o5">
+        Fun with family, friends, co-workers, and more
+      </p>
+      <h2 class="mt-5 font-display text-[clamp(2rem,1.2rem+2.6vw,3.5625rem)] leading-[1.2] font-normal text-white" data-ps="src/pages/activity/private-parties-fundraisers.astro:p2y79q">
+        Schedule your next Birthday, Scout Outing, Get Together, Sports Team, Celebrations, and much more.
+      </h2>
+      <p class="mt-6 text-lg leading-[27px] text-white/90" data-ps="src/pages/activity/private-parties-fundraisers.astro:7ny7o6">
+        We have many packages to make your party a memorable and fun event.
+      </p>
+      <a
+        href={bookingHref}
+        target="_blank"
+        rel="noopener"
+        class="mt-10 inline-block rounded-[4px] bg-primary px-7 py-3.5 text-lg font-semibold text-white transition-colors hover:bg-primary-hover"
+       data-ps="src/pages/activity/private-parties-fundraisers.astro:erw4dx">
+        Book a Party Now
+      </a>
+    </div>
+  </section>
+</BaseLayout>

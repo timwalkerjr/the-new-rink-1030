@@ -1,0 +1,330 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+
+const pageTitle = 'Parties – The New Rink';
+const pageDescription =
+  'Make it a day to remember. There is plenty of fun to go around! Celebrate a birthday, bring your team, or reserve the rink for your group.';
+
+const partyCards = [
+  {
+    href: '/activities/parties/',
+    image: 'https://pagesmith-cdn.com/0b4329bf/images/the-new-rink-013-db936c-359.webp',
+    imageWidth: 359,
+    imageHeight: 201,
+    alt: 'Parties at The New Rink',
+    title: 'Parties',
+    text: 'There’s Always A Reason To Party! Birthdays, Scout Outings, Get Togethers, Sports Teams, Any Celebrations. Three Party Packages to Choose From.',
+  },
+  {
+    href: '/activities/private-parties-fundraisers/',
+    image: 'https://pagesmith-cdn.com/0b4329bf/images/the-new-rink-022-0e3d6a-359.webp',
+    imageWidth: 359,
+    imageHeight: 201,
+    alt: 'Private Parties / Fundraisers at The New Rink',
+    title: 'Private Parties / Fundraisers',
+    text: "There's Always A Reason To Party! Facility is reserved solely for you and your guests. We offer day and evening parties on any open...",
+  },
+  {
+    href: '/activities/private-smaller-group-parties/',
+    image: 'https://pagesmith-cdn.com/0b4329bf/images/the-new-rink-074-da421d-360.webp',
+    imageWidth: 360,
+    imageHeight: 200,
+    alt: 'Roller skating party at The New Rink',
+    title: 'Private Smaller Group Parties',
+    text: 'Great for parties of around 50 who want to rent the rink privately. Birthdays, Sports and Team parties, Office Parties, etc!',
+  },
+  {
+    href: '/activities/public-group-rates/',
+    image: 'https://pagesmith-cdn.com/0b4329bf/images/the-new-rink-011-4c92a6-359.webp',
+    imageWidth: 359,
+    imageHeight: 201,
+    alt: 'Public Group Rates at The New Rink',
+    title: 'Public Group Rates',
+    text: "There's Always A Reason To Party! Standard Group Discounts: Rates valid during public sessions only (see schedule). We can accommodate groups of 15 or...",
+  },
+  {
+    href: '/activities/school-events/',
+    image: 'https://pagesmith-cdn.com/0b4329bf/images/the-new-rink-069-9cc3fc-360.webp',
+    imageWidth: 360,
+    imageHeight: 200,
+    alt: 'School Events at The New Rink',
+    title: 'School Events',
+    text: 'We want to help you make your party a success! We work closely with your PTO/PTA to help create a fun filled event night....',
+  },
+];
+---
+
+<BaseLayout title={pageTitle} description={pageDescription} headerVariant="transparent">
+  <section class="pp-hero" data-ps="src/pages/parties.astro:v9rint">
+    <div class="pp-wrap" data-ps="src/pages/parties.astro:uynf5e">
+      <p class="pp-hero__eyebrow" data-ps="src/pages/parties.astro:6243ve">Make it a day to remember</p>
+      <h1 class="pp-hero__title" data-ps="src/pages/parties.astro:chx5zi">Parties</h1>
+    </div>
+  </section>
+
+  <section class="pp-activities" data-ps="src/pages/parties.astro:v9rins">
+    <div class="pp-wrap" data-ps="src/pages/parties.astro:uynf5f">
+      <div class="pp-intro" data-ps="src/pages/parties.astro:uynf5g">
+        <p class="pp-tagline" data-ps="src/pages/parties.astro:6243w0">There is plenty of fun to go around!</p>
+        <h2 class="pp-section-title" data-ps="src/pages/parties.astro:r6c374">Find your perfect party</h2>
+        <p class="pp-lead" data-ps="src/pages/parties.astro:6243w1">
+          Celebrate a birthday, bring your team, or reserve the rink for your group. Explore the options below and choose the party that fits your plans.
+        </p>
+      </div>
+
+      <div class="pp-grid" data-ps="src/pages/parties.astro:uynf5h">
+        {partyCards.map((card, __psIdx) => (
+          <article class="pp-card" data-ps={`src/pages/parties.astro:a1e810-${__psIdx}`}>
+            <a class="pp-card__media" href={card.href} data-ps={`src/pages/parties.astro:d620l6-${__psIdx}`}>
+              <img
+                class="pp-card__img"
+                src={card.image}
+                alt={card.alt}
+                width={card.imageWidth}
+                height={card.imageHeight}
+                loading="lazy" data-ps={`src/pages/parties.astro:xxg7of-${__psIdx}`} />
+            </a>
+            <h3 class="pp-card__title" data-ps={`src/pages/parties.astro:t6d1kf-${__psIdx}`}>{card.title}</h3>
+            <p class="pp-card__text" data-ps={`src/pages/parties.astro:6243w2-${__psIdx}`}>{card.text}</p>
+            <a class="pp-btn" href={card.href} data-ps={`src/pages/parties.astro:d620l7-${__psIdx}`}>Learn More</a>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="pp-cta" data-ps="src/pages/parties.astro:v9rinr">
+    <img
+      class="pp-cta__bg"
+      src="https://pagesmith-cdn.com/0b4329bf/images/the-new-rink-074-da421d-360.webp"
+      alt="Roller skating party at The New Rink"
+      width="360"
+      height="200"
+      loading="lazy" data-ps="src/pages/parties.astro:13egi1" />
+    <div class="pp-cta__inner" data-ps="src/pages/parties.astro:uynf5i">
+      <p class="pp-cta__tagline" data-ps="src/pages/parties.astro:6243w3">Fun with family, friends, co-workers, and more</p>
+      <h2 class="pp-cta__title" data-ps="src/pages/parties.astro:r6c373">
+        Schedule your next Birthday, Scout Outing, Get Together, Sports Team, Celebrations, and much more.
+      </h2>
+      <p class="pp-cta__text" data-ps="src/pages/parties.astro:6243w4">We have many packages to make your party a memorable and fun event.</p>
+      <a
+        class="pp-cta__btn"
+        href="https://thenewrink.pcsparty.com/bookings/index.asp"
+        target="_blank"
+        rel="noopener"
+       data-ps="src/pages/parties.astro:nc60nq">Book a Party Now</a>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .pp-wrap {
+    max-width: calc(1344px + 56px);
+    margin: 0 auto;
+    padding: 0 28px;
+  }
+
+  /* Hero */
+  .pp-hero {
+    background: hsl(285 98% 23%);
+    padding: 150px 0 100px;
+  }
+  .pp-hero__eyebrow {
+    color: hsl(23 94% 81%);
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+  }
+  .pp-hero__title {
+    color: #fff;
+    font-size: clamp(2rem, calc(1.5rem + 1.6vw), 3rem);
+    line-height: 1.2;
+    margin: 24px 0 0;
+  }
+
+  /* Activity cards */
+  .pp-activities {
+    background: var(--color-surface);
+    padding: 112px 0;
+  }
+  .pp-intro {
+    text-align: center;
+    max-width: 680px;
+    margin: 0 auto 64px;
+  }
+  .pp-tagline {
+    color: var(--color-primary);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.4;
+    letter-spacing: 0.28px;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  .pp-section-title {
+    color: hsl(285 98% 23%);
+    font-size: clamp(1.75rem, calc(1.2rem + 1.6vw), 2.69rem);
+    line-height: 1.2;
+    margin: 12px 0 0;
+  }
+  .pp-lead {
+    color: var(--color-foreground);
+    font-size: 18px;
+    line-height: 27px;
+    margin: 20px 0 0;
+  }
+  .pp-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 28px 36px;
+  }
+  .pp-card {
+    background: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 3px 3px 3px 3px rgba(113, 13, 82, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .pp-card__media {
+    display: block;
+    width: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  .pp-card__img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    height: auto;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+  .pp-card__title {
+    color: hsl(285 98% 23%);
+    font-size: 30px;
+    line-height: 39px;
+    margin: 20px 0 0;
+  }
+  .pp-card__text {
+    color: var(--color-foreground);
+    font-size: 16px;
+    line-height: 25.6px;
+    margin: 12px 0 0;
+  }
+  .pp-btn {
+    display: inline-block;
+    margin-top: 20px;
+    background: var(--color-primary);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0.5px;
+    padding: 14px 24px;
+    border-radius: 999px;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+  }
+  .pp-btn:hover,
+  .pp-btn:focus-visible {
+    background: var(--color-primary-hover);
+  }
+
+  /* Booking band */
+  .pp-cta {
+    position: relative;
+    overflow: hidden;
+    background: hsl(285 100% 10%);
+    padding: 112px 0;
+    text-align: center;
+    color: #fff;
+  }
+  .pp-cta__bg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+  }
+  .pp-cta__inner {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 28px;
+  }
+  .pp-cta__tagline {
+    color: hsl(23 94% 81%);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.4;
+    letter-spacing: 0.28px;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  .pp-cta__title {
+    color: #fff;
+    font-size: clamp(2.25rem, calc(1.5rem + 2.8vw), 3.56rem);
+    line-height: 1.2;
+    margin: 16px 0 0;
+  }
+  .pp-cta__text {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 18px;
+    line-height: 27px;
+    margin: 20px 0 0;
+  }
+  .pp-cta__btn {
+    display: inline-block;
+    margin-top: 32px;
+    background: var(--color-primary);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25.2px;
+    padding: 14px 28px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+  }
+  .pp-cta__btn:hover,
+  .pp-cta__btn:focus-visible {
+    background: var(--color-primary-hover);
+  }
+
+  @media (max-width: 960px) {
+    .pp-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 640px) {
+    .pp-hero {
+      padding: 120px 0 72px;
+    }
+    .pp-activities {
+      padding: 72px 0;
+    }
+    .pp-intro {
+      margin-bottom: 40px;
+    }
+    .pp-grid {
+      grid-template-columns: minmax(0, 1fr);
+    }
+    .pp-cta {
+      padding: 80px 0;
+    }
+    .pp-cta__btn {
+      font-size: 16px;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .pp-btn,
+    .pp-cta__btn {
+      transition: none;
+    }
+  }
+</style>

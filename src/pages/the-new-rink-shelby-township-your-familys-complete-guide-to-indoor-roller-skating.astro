@@ -1,0 +1,19 @@
+---
+import { getEntry, render } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import BlogLayout from '@/layouts/BlogLayout.astro';
+
+// Source: https://thenewrink.com/the-new-rink-shelby-township-your-familys-complete-guide-to-indoor-roller-skating/
+const entry = await getEntry('blog', 'the-new-rink-shelby-township-your-familys-complete-guide-to-indoor-roller-skating');
+const rendered = entry ? await render(entry) : undefined;
+---
+
+{entry && rendered ? (
+  <BlogLayout frontmatter={entry.data} mdxFilePath={`src/content/blog/${entry.id}.mdx`} headings={rendered.headings}>
+    <rendered.Content />
+  </BlogLayout>
+) : (
+  <BaseLayout title="Article not yet imported" noIndex>
+    <main class="container mx-auto px-7 py-24" data-ps="src/pages/the-new-rink-shelby-township-your-familys-complete-guide-to-indoor-roller-skating.astro:yyyflo"><p data-ps="src/pages/the-new-rink-shelby-township-your-familys-complete-guide-to-indoor-roller-skating.astro:mc9v5v">This article has not been imported yet.</p></main>
+  </BaseLayout>
+)}

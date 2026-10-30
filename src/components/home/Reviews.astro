@@ -1,0 +1,75 @@
+---
+// Happy Customers Speak Out: three-up review slider with dot pagination (6 reviews, source copy).
+const reviews = [
+  { name: 'Felipe Zafani', quote: 'The New Rink is a welcoming place to bring kids as adults of all ages, very affordable, clean with a variety of food and drink options, staff is friendly and are always...' },
+  { name: 'Lil Paige', quote: 'I love bringing my family here! Nevah is such a sweetheart! She was so kind and understanding. Everytime I come she always makes my experience so much better. She is great with...' },
+  { name: 'Shawn Reed', quote: 'Family fun!' },
+  { name: 'Danielle F', quote: 'I had my daughter’s 12th birthday party at this establishment last night and was greatly pleased. The process to book the party was very easy. They called 3 days before the party...' },
+  { name: 'Sydney Thompson', quote: 'We absolutely love coming here as a family for our school’s fundraising events. The atmosphere is so fun, it always feels clean, the pizza is delicious & the kids have a blast....' },
+  { name: 'Betty Fielder', quote: 'I attended a birthday party at The New Rink. I don’t skate anymore but my grandchildren had a ball. The employees were helpful and friendly especially Patty. Thank you for a great...' },
+];
+---
+
+<section id="reviews" class="bg-white px-[28px] py-[72px] md:py-[112px]" data-ps="src/components/home/Reviews.astro:378fhe">
+  <div class="mx-auto max-w-[1344px]" data-ps="src/components/home/Reviews.astro:giwhtz">
+    <div class="mx-auto max-w-[760px] text-center" data-ps="src/components/home/Reviews.astro:giwhu0">
+      <h2 class="text-[32px] leading-[1.2] font-normal text-accent md:text-[43px] md:leading-[51.6px]" data-ps="src/components/home/Reviews.astro:tv61jn">Happy Customers Speak Out</h2>
+      <p class="mt-[16px] text-[18px] leading-[27px] text-foreground" data-ps="src/components/home/Reviews.astro:zepj96">
+        We are so grateful to those who take the time to leave us a review about their experience. Thank you!
+      </p>
+    </div>
+    <div class="mt-[56px]" data-ps="src/components/home/Reviews.astro:giwhu1">
+      <div
+        data-reviews
+        tabindex="0"
+        role="region"
+        aria-roledescription="carousel"
+        aria-label="Customer reviews"
+        class="flex snap-x snap-mandatory gap-[28px] overflow-x-auto scroll-smooth [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+       data-ps="src/components/home/Reviews.astro:giwhu2">
+        {reviews.map((r, i) => (
+          <figure data-slide aria-roledescription="slide" aria-label={`${i + 1} / ${reviews.length}`} class="w-[85%] shrink-0 snap-start rounded-[20px] bg-surface p-[28px] md:w-[calc((100%-56px)/3)]">
+            <blockquote class="text-[16px] leading-[22.4px] text-foreground">{r.quote}</blockquote>
+            <figcaption class="mt-[16px] text-[16px] leading-[22.4px] font-semibold text-foreground">{r.name}</figcaption>
+          </figure>
+        ))}
+      </div>
+      <div class="mt-[24px] flex justify-center gap-[8px]" data-ps="src/components/home/Reviews.astro:giwhu3">
+        {reviews.map((_, i) => (
+          <button type="button" data-dot={i} aria-label={`Go to slide ${i + 1}`} class="h-[10px] w-[10px] rounded-full bg-primary opacity-40 transition-opacity" data-ps={`src/components/home/Reviews.astro:r41cd1-${i}`}></button>
+        ))}
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  const root = document.querySelector<HTMLElement>('[data-reviews]');
+  const dots = Array.from(document.querySelectorAll<HTMLButtonElement>('[data-dot]'));
+  if (root && dots.length) {
+    const slides = Array.from(root.querySelectorAll<HTMLElement>('[data-slide]'));
+    const step = slides.length > 1 ? slides[1].offsetLeft - slides[0].offsetLeft : 0;
+    const setActive = (index: number) => {
+      dots.forEach((dot, i) => {
+        const on = i === index;
+        dot.classList.toggle('opacity-100', on);
+        dot.classList.toggle('opacity-40', !on);
+        dot.setAttribute('aria-current', on ? 'true' : 'false');
+      });
+    };
+    const desktop = window.matchMedia('(min-width: 768px)').matches;
+    const start = desktop ? 1 : 0;
+    if (desktop && step) root.scrollLeft = step;
+    setActive(start);
+    root.addEventListener('scroll', () => {
+      if (!step) return;
+      setActive(Math.min(dots.length - 1, Math.round(root.scrollLeft / step)));
+    }, { passive: true });
+    dots.forEach((dot, i) => {
+      dot.addEventListener('click', () => {
+        root.scrollTo({ left: i * step, behavior: 'smooth' });
+        setActive(i);
+      });
+    });
+  }
+</script>

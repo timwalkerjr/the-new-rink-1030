@@ -1,0 +1,37 @@
+---
+// Our Image Gallery: 15 photos in a 5-column grid, original images, no overlay.
+const photos = [
+  'https://pagesmith-cdn.com/0b4329bf/images/the-new-rink-068-1-e12556-360.webp',
+  'https://pagesmith-cdn.com/0b4329bf/images/the-new-rink-026-967daf-359.webp',
+  'https://pagesmith-cdn.com/0b4329bf/images/the-new-rink-073-e5208c-360.webp',
+  'https://pagesmith-cdn.com/0b4329bf/images/the-new-rink-069-1-3d5a17-360.webp',
+  'https://pagesmith-cdn.com/0b4329bf/images/the-new-rink-049-3cee5e-359.webp',
+  'https://pagesmith-cdn.com/0b4329bf/images/the-new-rink-041-a6a66f-359.webp',
+  'https://pagesmith-cdn.com/0b4329bf/images/the-new-rink-034-ea6b8c-359.webp',
+  'https://pagesmith-cdn.com/0b4329bf/images/the-new-rink-030-79de35-359.webp',
+  'https://pagesmith-cdn.com/0b4329bf/images/the-new-rink-022-1-4d5e56-359.webp',
+  'https://pagesmith-cdn.com/0b4329bf/images/the-new-rink-007-493bf0-359.webp',
+  'https://pagesmith-cdn.com/0b4329bf/images/the-new-rink-017-7f3652-359.webp',
+  'https://pagesmith-cdn.com/0b4329bf/images/the-new-rink-019-20b075-359.webp',
+  'https://pagesmith-cdn.com/0b4329bf/images/the-new-rink-028-54c95a-359.webp',
+  'https://pagesmith-cdn.com/0b4329bf/images/the-new-rink-001-c44384-402.webp',
+  'https://pagesmith-cdn.com/0b4329bf/images/the-new-rink-069-9cc3fc-360.webp',
+];
+---
+
+<section id="gallery" class="bg-white px-[28px] py-[72px] md:py-[112px]" data-ps="src/components/home/Gallery.astro:svckgn">
+  <div class="mx-auto max-w-[1344px]" data-ps="src/components/home/Gallery.astro:hoiz9u">
+    <div class="mx-auto max-w-[760px] text-center" data-ps="src/components/home/Gallery.astro:hoiz9v">
+      <p class="text-[16px] font-semibold tracking-[0.32px] text-primary" data-ps="src/components/home/Gallery.astro:ijiq9d">Join the Fun with Us!</p>
+      <h2 class="mt-[8px] text-[32px] leading-[1.2] font-normal text-black md:text-[43px] md:leading-[51.6px]" data-ps="src/components/home/Gallery.astro:gc6k3t">Our Image Gallery</h2>
+      <p class="mt-[16px] text-[18px] leading-[27px] text-foreground" data-ps="src/components/home/Gallery.astro:ijiq9c">
+        Come skate, bounce, and make memories with family and friends at The New Rink.
+      </p>
+    </div>
+    <div class="mt-[56px] grid grid-cols-2 gap-[8px] sm:grid-cols-3 lg:grid-cols-5" data-ps="src/components/home/Gallery.astro:hoiz9w">
+      {photos.map((src, __psIdx) => (
+        <img src={src} alt="Roller skating at The New Rink in Shelby Township" width="360" height="240" loading="lazy" class="aspect-square w-full object-cover" data-ps={`src/components/home/Gallery.astro:c6pzdg-${__psIdx}`} />
+      ))}
+    </div>
+  </div>
+</section>

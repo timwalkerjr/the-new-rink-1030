@@ -1,0 +1,45 @@
+{
+  "sharedInstructions": "Source: https://thenewrink.com/ (WordPress, preserve mode). Shared content config: src/content.config.ts (collections blog and docs, both with glob loaders on src/content/blog and src/content/docs; the blog schema already includes title, description, pubDate, draft, imageAlt, jsonLd, toc, featured, series fields). No src/content/ entries exist yet. Article layouts: src/layouts/BlogLayout.astro (default data-mdx-type blog) and src/layouts/DocsLayout.astro. Routes: none of the requested source paths is an individual article, so no article route, [slug] catch-all or content mapping was added. Source evidence: every requested URL is a WordPress page (wp-singular page-template-default) or the blog archive (CollectionPage), not a post or custom editorial type. Requested paths map to existing src/pages placeholder files listed in data/import-placeholders.json; the page worker replaces them. Each entry below is type page and needs no targetPath. Use local paths for all internal navigation links (/hours-and-pricing/, /events/, /activities/, /parties/, /skate-lessons/, /blog/, /faq/, /contact/, /activities/<slug>/, /events/<slug>/). Keep the external Book a Party link (thenewrink.pcsparty.com) and tel:/mailto: links as they are. Unresolved: the source uses /faq/ in navigation, but the requested path /faqs/ returns 404 at source; the page worker should decide whether /faqs/ needs a redirect or a thin page and should not invent FAQ content.",
+  "entries": [
+    {
+      "path": "/hours-and-pricing/",
+      "type": "page",
+      "reason": "WordPress page (page-id-50, wp-singular page-template-default). Source title Hours and Pricing. Content: Rules of the Rink, Open Skating Hours by weekday, prices and class times. Not an article."
+    },
+    {
+      "path": "/events/",
+      "type": "page",
+      "reason": "WordPress page (page-id-51, page-parent). Source title Events. Lists Special Events (Friday and Saturday Family Fun Nights, Election Day Open Skate, Rollers and Strollers Skate) with links to individual event pages, plus a party call-to-action. Listing/landing page, not an article."
+    },
+    {
+      "path": "/activities/",
+      "type": "page",
+      "reason": "WordPress page (page-id-52, page-parent). Source title Activities. Lists activity cards (Family Fun and Exercise, Girl Scouts, Parties, Private Parties/Fundraisers, and others) that link to child pages. Listing page, not an article."
+    },
+    {
+      "path": "/parties/",
+      "type": "page",
+      "reason": "WordPress page (page-id-53). Source title Parties. Lists party package cards (Parties, Private Parties/Fundraisers, Private Smaller Group Parties, Public Group Rates, School Events). Listing page, not an article."
+    },
+    {
+      "path": "/skate-lessons/",
+      "type": "page",
+      "reason": "WordPress page (page-id-54). Source title Skate Lessons. Contains beginner and intermediate class schedules and session dates. Not an article."
+    },
+    {
+      "path": "/blog/",
+      "type": "page",
+      "reason": "WordPress blog archive (body class blog, og:type website, linked data CollectionPage, title Archives). Lists recent posts such as the 5-week rollerblade classes and health-benefits posts. This is a listing page. The posts it links to are individual articles that are not part of this request. Route for this listing is src/pages/blog.astro, not a collection route."
+    },
+    {
+      "path": "/faqs/",
+      "type": "page",
+      "reason": "Source returns 404 Page not found (statusCode 404, noindex). The source navigation links to /faq/ instead, so /faqs/ is a non-article page with no content to import. The page worker should decide whether to render a redirect or thin page to /faq/ and must not invent FAQ content."
+    },
+    {
+      "path": "/contact/",
+      "type": "page",
+      "reason": "WordPress page (page-id-56). Source title Contact. Contains phone number, email, address, and an embedded map. Not an article."
+    }
+  ]
+}

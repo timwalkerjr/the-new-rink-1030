@@ -1,0 +1,40 @@
+---
+// Activities to Enjoy With Us: lilac band with eleven white cards (3 columns on desktop).
+const activities = [
+  { title: 'Family Fun and Exercise for all', text: 'Bring the entire family for fun, friend’s and exercise!!!', href: '/activities/family-fun-and-exercise-for-all/', img: 'https://pagesmith-cdn.com/0b4329bf/images/the-new-rink-001-c44384-402.webp', alt: 'Family Fun and Exercise for all at The New Rink' },
+  { title: 'Girl Scouts', text: 'Bring Your Troop Roller Skating!! Ask about our annual Spectacular Scout Skate! Customized Packages for groups LARGE or Small', href: '/activities/girl-scouts/', img: 'https://pagesmith-cdn.com/0b4329bf/images/shutterstock_2540215587-3c7c84-1000.webp', alt: 'Girl Scouts at The New Rink' },
+  { title: 'Parties', text: 'There’s Always A Reason To Party! Birthdays, Scout Outings, Get Togethers, Sports Teams, Any Celebrations. Three Party Packages to Choose From.', href: '/activities/parties/', img: 'https://pagesmith-cdn.com/0b4329bf/images/the-new-rink-013-db936c-359.webp', alt: 'Parties at The New Rink' },
+  { title: 'Private Parties / Fundraisers', text: "There's Always A Reason To Party! Facility is reserved solely for you and your guests. We offer day and evening parties on any open...", href: '/activities/private-parties-fundraisers/', img: 'https://pagesmith-cdn.com/0b4329bf/images/the-new-rink-022-0e3d6a-359.webp', alt: 'Private Parties / Fundraisers at The New Rink' },
+  { title: 'Private Smaller Group Parties', text: 'Great for parties of around 50 who want to rent the rink privately. Birthdays, Sports and Team parties, Office Parties, etc!', href: '/activities/private-smaller-group-parties/', img: 'https://pagesmith-cdn.com/0b4329bf/images/the-new-rink-074-da421d-360.webp', alt: 'Roller skating party at The New Rink' },
+  { title: 'Public Group Rates', text: "There's Always A Reason To Party! Standard Group Discounts: Rates valid during public sessions only (see schedule). We can accommodate groups of 15 or...", href: '/activities/public-group-rates/', img: 'https://pagesmith-cdn.com/0b4329bf/images/the-new-rink-011-4c92a6-359.webp', alt: 'Public Group Rates at The New Rink' },
+  { title: 'Rollers and Strollers', text: 'Designed for children 7 & under and parents! Enjoy time playing or skating to your favorite children’s music and parents are allowed on the...', href: '/activities/rollers-and-strollers/', img: 'https://pagesmith-cdn.com/0b4329bf/images/IMG_8993-rotated-1-1-5baa7c-1536.webp', alt: 'Rollers and Strollers at The New Rink' },
+  { title: 'School Events', text: 'We want to help you make your party a success! We work closely with your PTO/PTA to help create a fun filled event night....', href: '/activities/school-events/', img: 'https://pagesmith-cdn.com/0b4329bf/images/the-new-rink-069-9cc3fc-360.webp', alt: 'School Events at The New Rink' },
+  { title: 'Skate Lessons', text: 'Skate Lessons - The New Rink - Shelby Township, Michigan. Receive a coupon for 10% off skate purchases in our Pro shop when you...', href: '/skate-lessons/', img: 'https://pagesmith-cdn.com/0b4329bf/images/Edruskate-learn-to-roller-skate-9026fc-500.webp', alt: 'Skate Lessons at The New Rink' },
+  { title: 'Special Events', text: 'Friday and Saturday Family Fun Nights. Skate, play, and celebrate at The New Rink.', href: '/events/', img: 'https://pagesmith-cdn.com/0b4329bf/images/the-new-rink-068-abca97-360.webp', alt: 'Special Events at The New Rink' },
+  { title: 'The Pro Shop', text: 'Welcome to the The New Rink, Shelby Township, MI Skates Pro Shop! Roller Skates, Roller Blades, and Skate Accessories. Stop in during office hours...', href: '/activities/skate-pro-shop/', img: 'https://pagesmith-cdn.com/0b4329bf/images/the-new-rink-047-13dbb2-359.webp', alt: 'The Pro Shop at The New Rink' },
+];
+---
+
+<section id="activities" class="bg-surface px-[28px] py-[72px] md:py-[112px]" data-ps="src/components/home/Activities.astro:7qcyfe">
+  <div class="mx-auto max-w-[1344px]" data-ps="src/components/home/Activities.astro:7saknh">
+    <div class="mx-auto max-w-[760px] text-center" data-ps="src/components/home/Activities.astro:7sakng">
+      <p class="text-[14px] font-semibold uppercase leading-[19.6px] tracking-[0.28px] text-primary" data-ps="src/components/home/Activities.astro:w75va2">There is plenty of fun to go around!</p>
+      <h2 class="mt-[8px] text-[32px] leading-[1.2] font-normal text-accent md:text-[43px] md:leading-[51.6px]" data-ps="src/components/home/Activities.astro:ma09bd">Activities to Enjoy With Us</h2>
+      <p class="mt-[16px] text-[18px] leading-[27px] text-foreground" data-ps="src/components/home/Activities.astro:utq9ym">
+        Strap on the skates and hit the rink in roller skates or roller blades. Don't know how to skate? No problem, check out our lessons and much more below.
+      </p>
+    </div>
+    <div class="mt-[56px] grid grid-cols-1 gap-[36px] md:grid-cols-2 lg:grid-cols-3" data-ps="src/components/home/Activities.astro:7saknf">
+      {activities.map((a, __psIdx) => (
+        <article class="flex flex-col rounded-[20px] bg-white p-[20px] shadow-[5px_5px_0_0_rgba(85,1,114,0.35)]" data-ps={`src/components/home/Activities.astro:lzlcux-${__psIdx}`}>
+          <a href={a.href} class="block overflow-hidden rounded-[12px]" data-ps={`src/components/home/Activities.astro:vq09za-${__psIdx}`}>
+            <img src={a.img} alt={a.alt} width="384" height="216" loading="lazy" class="aspect-[16/9] w-full object-cover" data-ps={`src/components/home/Activities.astro:xdkioc-${__psIdx}`} />
+          </a>
+          <h3 class="mt-[20px] text-[30px] leading-[39px] font-normal text-accent" data-ps={`src/components/home/Activities.astro:mr1wga-${__psIdx}`}>{a.title}</h3>
+          <p class="mt-[12px] text-[16px] leading-[25.6px] text-foreground" data-ps={`src/components/home/Activities.astro:utq9yn-${__psIdx}`}>{a.text}</p>
+          <a href={a.href} class="mt-[20px] inline-flex self-start rounded-full bg-primary px-[24px] py-[12px] text-[14px] font-semibold leading-[21px] tracking-[0.5px] text-white transition-colors hover:bg-primary-hover" data-ps={`src/components/home/Activities.astro:vq09z9-${__psIdx}`}>Learn More</a>
+        </article>
+      ))}
+    </div>
+  </div>
+</section>

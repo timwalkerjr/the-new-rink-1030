@@ -1,0 +1,195 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+
+const groups = [
+  {
+    title: 'Admission',
+    items: [
+      {
+        q: 'Can I bring in my own skates?',
+        a: 'Yes. However, they must pass inspection every time you come to skate.',
+      },
+      {
+        q: 'Can We bring in our own food and drinks?',
+        a: 'We do not allow any food or drinks to be brought into our building. You will be stopped at entry and asked to return any of these items to car or thrown away.',
+      },
+      {
+        q: 'Do you have the Skate Mate helpers available?',
+        a: 'Our skate mates are first come, first serve and are available to rent for $5.00 each.',
+      },
+      {
+        q: 'I come for all the sessions. Do I have to have my skates checked every time?',
+        a: 'Yes! We ask that both skates are pulled out of bag and ready to be inspected at window.',
+      },
+      {
+        q: 'Is there a fee to enter if not skating?',
+        a: 'Children pay admission whether they skate or not. Adults supervising their children aren’t charged admission until they decide to skate.',
+      },
+      {
+        q: 'What are your smallest and largest size rental skates?',
+        a: 'Our smallest skates are an infant size 6 and our largest skates are a size 15.',
+      },
+      {
+        q: 'What type of payments do you accept?',
+        a: 'Visa, Mastercard, Discover, American Express, Apple Pay, and Google Pay',
+      },
+      {
+        q: 'Why can’t I use my skates there?',
+        a: 'The axles extend past the wheels, the wheels/skates are too dirty, the boot is painted, the skates are missing a stopper/warn down, there is metal protruding on the skates ,there is visible damage to the skate.',
+      },
+    ],
+  },
+  {
+    title: 'General Questions',
+    items: [
+      {
+        q: 'Do you allow adults to walk on the floor to help kids?',
+        a: 'We only allow adults to walk on the floor during our Rollers and Strollers Skate on Saturday morning.',
+      },
+      {
+        q: 'Do you allow strollers to be pushed on the floor?',
+        a: 'We only allow Strollers on the Floor during our 7 &amp; under, Rollers and Strollers Skate on Saturday morning.',
+      },
+      {
+        q: 'Do you serve or allow alcohol?',
+        a: 'No. We don’t allow any alcohol in our building.',
+      },
+      {
+        q: 'Is there someone on site to teach my child to skate?',
+        a: 'We don’t have anyone available during skating hours to help with skating. We do offer lessons and you can find that information under our <a href="/skate-lessons/">lessons</a> tab.',
+      },
+      {
+        q: 'What type of music do you play?',
+        a: 'We play Top 40 Family friendly Music during all our open skating sessions.',
+      },
+    ],
+  },
+  {
+    title: 'Reserved Birthday Parties',
+    items: [
+      {
+        q: 'Are Skate mates included with my party?',
+        a: 'No. Skate mates are an additional $5.00 each.',
+      },
+      {
+        q: 'Can I reserve some skate mates for my party?',
+        a: 'Yes. However, Our skate mates are first come, first serve so we have a limited supply. There may be a limit depending on your party date.',
+      },
+      {
+        q: 'Can we bring in decorations for our birthday party?',
+        a: 'You can bring in any decorations you’d like for your party, we just ask no confetti or balloons with confetti.',
+      },
+      {
+        q: 'Can we bring in our own food for the party?',
+        a: 'No. We don’t allow any food or drinks to be brought into the building. We do allow you to bring in a cake with a RESERVED party only.',
+      },
+      {
+        q: 'Can we come in early to set-up for a reserved Birthday party?',
+        a: 'We only allow parties to come in 10-15 minutes prior to party for set up only.',
+      },
+      {
+        q: 'Do we have the table for the whole party?',
+        a: 'You have the party table for the 1 hour reserved',
+      },
+      {
+        q: 'Do you have a private room for birthday parties?',
+        a: 'No, we do not have a private party room.&nbsp; If you want to rent the entire rink out, check out our <a href="/activities/private-parties-fundraisers/">private party options</a>.',
+      },
+      {
+        q: 'Will there be seating available for everyone?',
+        a: 'We reserve the table for parties according to how many guests you’re paying for in your party package ONLY. We don’t guarantee seating for additional guests who aren’t in the party package.',
+      },
+    ],
+  },
+];
+---
+
+<BaseLayout
+  title="FAQs – The New Rink"
+  description="Answers before you roll: FAQs about admission, rental skates, food and drinks, and birthday parties at The New Rink."
+  headerVariant="transparent"
+>
+  <section class="bg-[hsl(285_98%_23%)] pb-16 pt-36 text-white md:pb-24 md:pt-44" data-ps="src/pages/faq.astro:hdge30">
+    <div class="mx-auto max-w-[1344px] px-7" data-ps="src/pages/faq.astro:2mg1wh">
+      <p class="text-base text-border" data-ps="src/pages/faq.astro:3y7152">Answers before you roll</p>
+      <h1 class="mt-3 text-h1 font-bold leading-[1.08] text-white" data-ps="src/pages/faq.astro:ksdz2d">FAQs</h1>
+    </div>
+  </section>
+
+  <section class="bg-[#f3f3f3] py-20 md:py-28" data-ps="src/pages/faq.astro:hdge2z">
+    <div class="mx-auto max-w-[780px] space-y-16 px-7" data-ps="src/pages/faq.astro:2mg1wg">
+      {groups.map((group, __psIdx) => (
+        <div data-ps={`src/pages/faq.astro:2mg1wf-${__psIdx}`}>
+          <h2 class="mb-6 text-h2 leading-[1.2] text-black" data-ps={`src/pages/faq.astro:63z1ur-${__psIdx}`}>{group.title}</h2>
+          <div class="space-y-2" data-ps={`src/pages/faq.astro:2mg1we-${__psIdx}`}>
+            {group.items.map((item, __psIdx2) => (
+              <details class="faq-item bg-[#faa673] text-black">
+                <summary class="faq-summary flex cursor-pointer items-center justify-between gap-4 px-5 py-[18px] text-[17px] font-semibold leading-snug">
+                  <span data-ps={`src/pages/faq.astro:bw9w9u-${__psIdx2}`}>{item.q}</span>
+                  <span class="faq-icon" aria-hidden="true" data-ps={`src/pages/faq.astro:bw9w9t-${__psIdx2}`}>
+                    <svg class="faq-icon-closed" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    <svg class="faq-icon-open" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
+                  </span>
+                </summary>
+                <div class="px-5 pb-5 text-base leading-relaxed text-foreground [&_a]:text-secondary-foreground [&_a]:underline" data-ps={`src/pages/faq.astro:2mg1wd-${__psIdx2}`}>
+                  <p set:html={item.a} />
+                </div>
+              </details>
+            ))}
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <section class="relative overflow-hidden bg-[hsl(285_100%_10%)] py-28 text-white" data-ps="src/pages/faq.astro:hdge2y">
+    <img
+      class="absolute inset-0 h-full w-full object-cover opacity-70"
+      src="https://pagesmith-cdn.com/0b4329bf/images/the-new-rink-074-da421d-360.webp"
+      alt="Roller skating party at The New Rink"
+      width="360"
+      height="240"
+      loading="lazy" data-ps="src/pages/faq.astro:whp0jt" />
+    <div class="relative mx-auto max-w-[1000px] px-7 text-center" data-ps="src/pages/faq.astro:2mg1wc">
+      <p class="text-sm font-semibold uppercase tracking-[0.28px] text-border" data-ps="src/pages/faq.astro:3y7153">
+        Fun with family, friends, co-workers, and more
+      </p>
+      <h2 class="mt-4 text-h1 leading-[1.15] text-white" data-ps="src/pages/faq.astro:63z1us">
+        Schedule your next Birthday, Scout Outing, Get Together, Sports Team, Celebrations, and much more.
+      </h2>
+      <p class="mt-6 text-lg leading-[1.5] text-white/90" data-ps="src/pages/faq.astro:3y7154">
+        We have many packages to make your party a memorable and fun event.
+      </p>
+      <a
+        class="mt-8 inline-block rounded-[4px] bg-primary px-7 py-3.5 text-lg font-semibold text-primary-foreground transition-colors hover:bg-primary-hover"
+        href="https://thenewrink.pcsparty.com/bookings/index.asp"
+        target="_blank"
+        rel="noopener"
+       data-ps="src/pages/faq.astro:b24xut">
+        Book a Party Now
+      </a>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .faq-summary {
+    list-style: none;
+  }
+  .faq-summary::-webkit-details-marker {
+    display: none;
+  }
+  .faq-summary:focus-visible {
+    outline: 2px solid hsl(285 98% 23%);
+    outline-offset: -2px;
+  }
+  .faq-icon {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+  }
+  .faq-item[open] .faq-icon-closed,
+  .faq-item:not([open]) .faq-icon-open {
+    display: none;
+  }
+</style>

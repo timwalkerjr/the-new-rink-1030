@@ -1,0 +1,27 @@
+---
+import { getEntry, render } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import BlogLayout from '@/layouts/BlogLayout.astro';
+
+// Source: https://thenewrink.com/learn-to-rollerblade-5-week-beginner-classes-in-shelby-township/
+const entry = await getEntry('blog', 'learn-to-rollerblade-5-week-beginner-classes-in-shelby-township');
+const rendered = entry ? await render(entry) : undefined;
+---
+
+{entry && rendered ? (
+  <BlogLayout frontmatter={entry.data} mdxFilePath={`src/content/blog/${entry.id}.mdx`} headings={rendered.headings}>
+    <rendered.Content />
+  </BlogLayout>
+) : (
+  <BaseLayout title="Article not yet imported" noIndex>
+    <main class="container mx-auto px-7 py-24" data-ps="src/pages/learn-to-rollerblade-5-week-beginner-classes-in-shelby-township.astro:vodg55"><p data-ps="src/pages/learn-to-rollerblade-5-week-beginner-classes-in-shelby-township.astro:tckiby">This article has not been imported yet.</p></main>
+  </BaseLayout>
+)}
+
+<style is:global>
+
+  article[data-mdx-file$="learn-to-rollerblade-5-week-beginner-classes-in-shelby-township.mdx"] .prose h2 {
+    font-size: 36px;
+    line-height: 1.2;
+  }
+</style>

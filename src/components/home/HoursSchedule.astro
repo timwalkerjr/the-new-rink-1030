@@ -1,0 +1,70 @@
+---
+// Open Skating Hours: lilac band with one white card per day, text copied from the source.
+const days = [
+  { title: 'Monday', items: [{ name: 'Call for Private Parties', note: ['(586) 731-5006', 'cwhitmer@thenewrink.com'] }] },
+  { title: 'Tuesday', items: [{ name: 'Beginner Learn to Skate', time: '5:30 PM - 6:00 PM', price: 'Price: $70', note: ['(5 week class)'] }] },
+  { title: 'Wednesday', items: [{ name: 'Open Skate & Bounce', time: '6:00 PM - 8:30 PM', price: 'Price: $10', note: ['(Bounce Zone $3 additional)'] }] },
+  {
+    title: 'Thursday',
+    items: [
+      { name: 'Call for Private Parties', note: ['(586) 731-5006', 'cwhitmer@thenewrink.com'] },
+      { name: 'Beginner Learn to Roller Blade', time: '5:30 PM - 6:00 PM', price: 'Price: $70', note: ['(5 week class)'] },
+    ],
+  },
+  {
+    title: 'Friday',
+    items: [
+      {
+        name: 'Friday Family Night Open Skate',
+        time: '7:00 p.m. - 10:00 p.m.',
+        price: 'Price: $14 or Friday/Saturday Family rate refer to Saturday Night Skate notes for price and description (includes skating admission only, rental extra)',
+        note: ['Note: Friday/Saturday Night Family Rate: 4 for $60 (must include 1 parent and 1 child) includes choice of rental if needed, 1 whole pizza and 4 16oz. drinks. (must present deal at the time of purchase to be valid)'],
+      },
+    ],
+  },
+  {
+    title: 'Saturday',
+    items: [
+      { name: 'Beginner Learn to Roller Blade', time: '9:30 AM - 10:00 AM', price: 'Price: $70', note: ['(5 week class)'] },
+      { name: 'Rollers & Strollers Skate', time: '10:00 a.m. - 12:00 p.m.', price: 'Price: $10', note: ['(Designed for 7 & under - includes skate rentals, snack, drink and bounce zone!- ALL children must pay to enter the building non-walking infants in strollers $1)'] },
+      { name: 'Beginner Learn to Skate', time: '12:00 PM - 12:30 PM', price: 'Price: $70', note: ['(5 week class)'] },
+      { name: 'Saturday Open Skate', time: '1:00 PM - 10:00 PM', price: 'Price $15 / Skate & Bounce $18' },
+      { name: 'Saturday Night Skate', time: '7:00 PM - 10:00 PM', price: 'Price: $15.00 admission or 4 for $60.00 (must request at time of purchase to be valid) / Bounce Zone $3 upgrade', note: ['Note: Friday/Saturday Night Family Rate: 4 for $60 (must include 1 parent and 1 child) includes choice of rental if needed, 1 whole pizza and 4 16oz. drinks. (must present deal at the time of purchase to be valid)'] },
+    ],
+  },
+  { title: 'Sunday', items: [{ name: 'Open Skate', time: '2:00 p.m. - 5:00 p.m.', price: 'Price: $12 / Skate & Bounce $15' }] },
+  { title: 'Skate Rental', items: [{ name: 'Roller Skates / Rollerblades / Speed Skates / Skate Mates', price: 'Price: $5' }] },
+];
+---
+
+<section id="hours" class="bg-surface px-[28px] py-[72px] md:py-[112px]" data-ps="src/components/home/HoursSchedule.astro:bwb91n">
+  <div class="mx-auto max-w-[1344px]" data-ps="src/components/home/HoursSchedule.astro:txjwte">
+    <div class="max-w-[640px]" data-ps="src/components/home/HoursSchedule.astro:txjwtd">
+      <p class="text-[14px] font-semibold uppercase leading-[19.6px] tracking-[0.28px] text-primary" data-ps="src/components/home/HoursSchedule.astro:m06vym">Rules of the Rink</p>
+      <h2 class="mt-[8px] text-[32px] leading-[1.2] text-black md:text-[43px] md:leading-[51.6px]" data-ps="src/components/home/HoursSchedule.astro:gvflqc">Open Skating Hours</h2>
+      <p class="mt-[16px] text-[18px] font-medium leading-[27px] text-primary" data-ps="src/components/home/HoursSchedule.astro:m06vyn">
+        All customers participating in an activity and all walking children must pay admission. Spectating adults accompanying a skating child enter free. No outside food or beverages, including birthday cakes, except with a booked party.
+      </p>
+    </div>
+    <ul class="mt-[56px] grid list-none grid-cols-1 gap-[28px] p-0 sm:grid-cols-2 lg:grid-cols-4">
+      {days.map((day, __psIdx) => (
+        <li class="flex flex-col rounded-[12px] bg-white p-[28px]" data-ps={`src/components/home/HoursSchedule.astro:qlm8ed-${__psIdx}`}>
+          <h3 class="border-b-[3px] border-border pb-[6px] text-[32px] leading-[41.6px] font-normal text-accent" data-ps={`src/components/home/HoursSchedule.astro:gedylf-${__psIdx}`}>{day.title}</h3>
+          {day.items.map((item, __psIdx2) => (
+            <div class="mt-[16px]" data-ps={`src/components/home/HoursSchedule.astro:txjwtc-${__psIdx2}`}>
+              <p class="text-[16px] font-semibold leading-[24px]" data-ps={`src/components/home/HoursSchedule.astro:nmfgrd-${__psIdx2}`}>{item.name}</p>
+              {item.time && <p class="text-[16px] leading-[24px]" data-ps={`src/components/home/HoursSchedule.astro:nmfgre-${__psIdx2}`}>{item.time}</p>}
+              {item.price && <p class="text-[16px] leading-[24px]" data-ps={`src/components/home/HoursSchedule.astro:nmfgrf-${__psIdx2}`}>{item.price}</p>}
+              {item.note && (
+                <p class="text-[16px] leading-[24px] text-[rgb(203,88,17)]" data-ps={`src/components/home/HoursSchedule.astro:nmfgrg-${__psIdx2}`}>
+                  {item.note.map((line) => <span class="block" data-ps={`src/components/home/HoursSchedule.astro:rll6hz-${__psIdx2}`}>{line}</span>)}
+                </p>
+              )}
+            </div>
+          ))}
+          <a href="https://thenewrink.pcsparty.com/bookings/index.asp" target="_blank" rel="noopener" class="mt-[24px] inline-flex self-start rounded-full bg-primary px-[28px] py-[14px] text-[14px] font-semibold leading-[21px] tracking-[0.5px] text-white transition-colors hover:bg-primary-hover" data-ps={`src/components/home/HoursSchedule.astro:t44soe-${__psIdx}`}>Book a Party</a>
+        </li>
+      ))}
+    </ul>
+  </div>
+</section>

@@ -1,0 +1,59 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Page not found – The New Rink" headerVariant="transparent">
+  <section class="sample-404" aria-labelledby="sample-404-title" data-ps="src/pages/sample-page.astro:h83thb">
+    <div class="sample-404__inner" data-ps="src/pages/sample-page.astro:jh93u0">
+      <h1 id="sample-404-title" class="sample-404__title" data-ps="src/pages/sample-page.astro:df9cuq">404</h1>
+      <p class="sample-404__text" data-ps="src/pages/sample-page.astro:sgw8iv">not found</p>
+      <svg
+        class="sample-404__icon"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 32 32"
+        aria-hidden="true"
+        focusable="false"
+      >
+        <path d="M16 32c8.837 0 16-7.163 16-16s-7.163-16-16-16-16 7.163-16 16 7.163 16 16 16zM16 3c7.18 0 13 5.82 13 13s-5.82 13-13 13-13-5.82-13-13 5.82-13 13-13zM8 10c0-1.105 0.895-2 2-2s2 0.895 2 2c0 1.105-0.895 2-2 2s-2-0.895-2-2zM20 10c0-1.105 0.895-2 2-2s2 0.895 2 2c0 1.105-0.895 2-2 2s-2-0.895-2-2zM9.997 24.398l-2.573-1.544c1.749-2.908 4.935-4.855 8.576-4.855s6.827 1.946 8.576 4.855l-2.573 1.544c-1.224-2.036-3.454-3.398-6.003-3.398s-4.779 1.362-6.003 3.398z" />
+      </svg>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .sample-404 {
+    background-color: #ffffff;
+    padding-top: clamp(6rem, 10.4vw, 12.5rem);
+    padding-bottom: clamp(6rem, 10.4vw, 12.5rem);
+  }
+
+  .sample-404__inner {
+    width: min(1080px, calc(100% - 56px));
+    margin: 0 auto;
+    text-align: left;
+  }
+
+  .sample-404__title {
+    font-family: 'ADLaM Display', var(--font-sans);
+    font-weight: 700;
+    font-size: clamp(4.5rem, 9vw, 8rem);
+    line-height: 1;
+    color: #550172;
+    margin: 0 0 11px;
+  }
+
+  .sample-404__text {
+    font-family: var(--font-sans);
+    font-size: 18px;
+    line-height: 27px;
+    color: #404040;
+    margin: 0 0 15px;
+  }
+
+  .sample-404__icon {
+    display: block;
+    width: 16px;
+    height: 16px;
+    fill: #000000;
+  }
+</style>

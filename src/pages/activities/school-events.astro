@@ -1,0 +1,91 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+
+const pageTitle = 'School Events – The New Rink';
+const pageDescription =
+  'Activities at The New Rink School Events For more information contact our Manager Ken Yee at kyee@thenewrink.com. We want to help you make your party a success!';
+const sideImage = 'https://pagesmith-cdn.com/0b4329bf/images/the-new-rink-069-9cc3fc-360.webp';
+const ctaImage = 'https://pagesmith-cdn.com/0b4329bf/images/the-new-rink-074-da421d-360.webp';
+const bookingUrl = 'https://thenewrink.pcsparty.com/bookings/index.asp';
+
+const ideas = [
+  'Promote the party as a Family Skate Night.',
+  'School Principal and Teachers attendance is key. Teachers and Principals are free to all parties with the skating pass provided.',
+  'Make sure the dates for the entire year are put into the school calendar.',
+  'Put the dates in the monthly newsletter the month before the party.',
+  'Send home a flyer two-weeks prior to the party and a reminder slip one-week prior to the party. Masters are included in your packet.',
+  'Announce the party in the morning announcements the entire week prior to the party and again the day of the party.',
+  'Hang up the five party posters provided two-weeks prior to the party.',
+  'Put the date and time of the party on the school sign (if available) the week prior to the party.',
+  'Announce the upcoming party at each PTA/PTO meeting.',
+  'Please call us to change the date if there is another event scheduled on the same date; i.e. 6th grade round-up or a snow day.',
+];
+---
+
+<BaseLayout title={pageTitle} description={pageDescription}>
+  <section class="bg-[#550172] pt-32 pb-16 md:pt-40 md:pb-20" data-ps="src/pages/activities/school-events.astro:tr6yfl">
+    <div class="mx-auto max-w-[1344px] px-7" data-ps="src/pages/activities/school-events.astro:6gxja2">
+      <p class="text-base font-normal text-[#fcc4a1]" data-ps="src/pages/activities/school-events.astro:9unbyh">Activities at The New Rink</p>
+      <h1 class="mt-3 text-h1 font-normal text-white" data-ps="src/pages/activities/school-events.astro:9mieiy">School Events</h1>
+    </div>
+  </section>
+
+  <section class="bg-[#f3f3f3] py-16 md:py-28" data-ps="src/pages/activities/school-events.astro:tr6yfk">
+    <div class="mx-auto grid max-w-[1344px] gap-10 px-7 lg:grid-cols-[minmax(0,1fr)_360px] lg:gap-14" data-ps="src/pages/activities/school-events.astro:6gxja3">
+      <div class="text-base leading-[27.2px] text-foreground" data-ps="src/pages/activities/school-events.astro:6gxja4">
+        <p data-ps="src/pages/activities/school-events.astro:9unbyi"><strong>For more information contact our Manager Ken Yee at kyee@thenewrink.com.</strong></p>
+        <p class="mt-6" data-ps="src/pages/activities/school-events.astro:9unbyj">
+          We want to help you make your party a success! We work closely with your PTO/PTA to help create a fun filled event night. We can provide your school with posters to hang in the hallways, flyers to pass out to the students, reminder slips, free passes for the principal and teachers, and presale tickets, if requested. Food isn’t a problem either. You can purchase pizza, hot dogs, nachos, popcorn, and more from our snack bar or you can add a food package to your private party for a discounted price.
+        </p>
+
+        <h2 class="mt-10 text-h2 font-normal leading-[1.2] text-black" data-ps="src/pages/activities/school-events.astro:51wioo">Ideas for a Successful School Event</h2>
+        <hr class="my-3 border-0 border-t border-[#808080]" />
+
+        <ul class="list-disc space-y-1 pl-6">
+          {ideas.map((idea) => <li data-ps="src/pages/activities/school-events.astro:4axm6s">{idea}</li>)}
+        </ul>
+      </div>
+
+      <aside class="self-start" data-ps="src/pages/activities/school-events.astro:g6yh54">
+        <img
+          src={sideImage}
+          alt="School Events at The New Rink"
+          width="360"
+          height="240"
+          loading="lazy"
+          class="block h-auto w-full rounded-lg object-cover" data-ps="src/pages/activities/school-events.astro:f0pojt" />
+      </aside>
+    </div>
+  </section>
+
+  <section class="relative isolate overflow-hidden bg-dark-background py-28 text-center" data-ps="src/pages/activities/school-events.astro:tr6yfj">
+    <img
+      src={ctaImage}
+      alt="Roller skating party at The New Rink"
+      width="360"
+      height="240"
+      loading="lazy"
+      class="absolute inset-0 -z-10 h-full w-full object-cover" data-ps="src/pages/activities/school-events.astro:nebfdb" />
+    <div class="absolute inset-0 -z-10 bg-[#270034]/50" aria-hidden="true" data-ps="src/pages/activities/school-events.astro:6gxja5"></div>
+
+    <div class="relative mx-auto max-w-[1000px] px-7" data-ps="src/pages/activities/school-events.astro:6gxja6">
+      <p class="text-sm font-semibold uppercase tracking-[0.28px] text-[#fcc4a1]" data-ps="src/pages/activities/school-events.astro:9unbyk">
+        Fun with family, friends, co-workers, and more
+      </p>
+      <h2 class="mt-6 text-h1 font-normal leading-[1.2] text-white" data-ps="src/pages/activities/school-events.astro:51wion">
+        Schedule your next Birthday, Scout Outing, Get Together, Sports Team, Celebrations, and much more.
+      </h2>
+      <p class="mt-6 text-lg leading-[27px] text-white/90" data-ps="src/pages/activities/school-events.astro:9unbyl">
+        We have many packages to make your party a memorable and fun event.
+      </p>
+      <a
+        href={bookingUrl}
+        target="_blank"
+        rel="noopener"
+        class="mt-10 inline-block rounded bg-primary px-7 py-3.5 text-lg font-semibold text-white transition-colors hover:bg-primary-hover"
+       data-ps="src/pages/activities/school-events.astro:gyl8oa">
+        Book a Party Now
+      </a>
+    </div>
+  </section>
+</BaseLayout>

@@ -1,0 +1,111 @@
+{
+  "sharedInstructions": "Source: https://thenewrink.com/ (WordPress 7.1, preserve mode). Content config: src/content.config.ts (Content Layer). Collection blog (glob loader on src/content/blog, schema includes title, description, pubDate required; draft default false; toc default true; category, author, image, imageAlt, canonicalUrl, updatedDate, tags, jsonLd optional). Entry id = filename without extension. Layout: src/layouts/BlogLayout.astro, data-mdx-type blog (default, correct for these posts). Shared BlogLayout was adjusted for the source look: wider 1080px column, 28px side padding, font-display purple #550172 headings, 16px body prose. No src/content/blog entries existed when prepared. Route mapping: the source article URLs are root-level (/slug/), so there is no blog/[...slug] catch-all. Each of the three post paths has its own route file (src/pages/<slug>.astro) that calls getEntry('blog', id) and renders BlogLayout; when the entry is missing it renders a noindex placeholder, so the route builds with an empty collection. Keep the entry id identical to the route file name. Required frontmatter for every post: title (source title without the ' – The New Rink' suffix), description (source meta description), pubDate (source article:published_time, date part). Set category 'Uncategorized' (source article:section), author as the source byline 'xufutakesu0593', canonicalUrl as the original https URL, draft false. Use YAML quoting rules for apostrophes. Do not add a '# Title' heading in the MDX body. Keep source-site links local (/hours-and-pricing/, /activities/, /events/, /parties/, /skate-lessons/, /contact/, /faq/, /blog/) and keep the external Book a Party link and tel: links. Pages (non-article paths) are imported by the page worker and need no targetPath. Unresolved: the visual comparison of the article body against a rendered entry is not yet done; the first entry worker must confirm the header, column width and body typography against the source screenshot.",
+  "entries": [
+    {
+      "path": "/learn-to-rollerblade-5-week-beginner-classes-in-shelby-township/",
+      "type": "post",
+      "reason": "WordPress post: body class single-post postid-81, og:type article, /wp-json/wp/v2/posts/81 endpoint, breadcrumb Home > Blog > Uncategorized, article:section Uncategorized, about 1268 words of editorial body text (5-week beginner rollerblade classes). Not a page or product.",
+      "targetPath": "src/content/blog/learn-to-rollerblade-5-week-beginner-classes-in-shelby-township.mdx",
+      "instructions": "Route file already prepared at src/pages/learn-to-rollerblade-5-week-beginner-classes-in-shelby-township.astro (replaces the import placeholder); it renders this entry via BlogLayout. Frontmatter: title 'Learn to Rollerblade: 5-Week Beginner Classes in Shelby Township'; description from og:description ('Discover the thrill of inline skating with our beginner classes designed to build confidence and skill. Join us at The New Rink in Shelby Township for a 5-week...' – use the full source meta description); pubDate 2026-05-20; author 'xufutakesu0593'; category 'Uncategorized'; image https://thenewrink.com/wp-content/uploads/2026/09/learn-to-rollerblade-5-week-beginner-classes-in-shelby-township.webp; imageAlt 'Learn to rollerblade 5 week beginner classes in shelby township'; canonicalUrl https://thenewrink.com/learn-to-rollerblade-5-week-beginner-classes-in-shelby-township/; draft false. Body: convert the source article text and headings (h2/h3, bullets) into MDX without a title heading; internal links to /learn-to-roller-skate-beginner-classes-at-the-new-rink-shelby-township/ and /activities/ stay local."
+    },
+    {
+      "path": "/7-health-benefits-of-roller-skating-for-kids-and-families/",
+      "type": "post",
+      "reason": "WordPress post: body class single-post postid-82, og:type article, /wp-json/wp/v2/posts/82 endpoint, breadcrumb Home > Blog > Uncategorized, about 863 words of editorial body text (health benefits of roller skating). Not a page or product.",
+      "targetPath": "src/content/blog/7-health-benefits-of-roller-skating-for-kids-and-families.mdx",
+      "instructions": "Route file already prepared at src/pages/7-health-benefits-of-roller-skating-for-kids-and-families.astro (replaces the import placeholder). Frontmatter: title '7 Health Benefits of Roller Skating for Kids and Families'; description 'Roller skating is an exhilarating way for families to stay active together. Discover its heart health benefits and more at The New Rink in Shelby Township.'; pubDate 2026-05-20; author 'xufutakesu0593'; category 'Uncategorized'; image https://thenewrink.com/wp-content/uploads/2026/09/7-health-benefits-of-roller-skating-for-kids-and-families-1.webp; imageAlt '7 health benefits of roller skating for kids and families'; canonicalUrl https://thenewrink.com/7-health-benefits-of-roller-skating-for-kids-and-families/; draft false. Body: h2 sections numbered 1 to 7 with benefit lists, convert to MDX without a title heading."
+    },
+    {
+      "path": "/the-new-rink-shelby-township-your-familys-complete-guide-to-indoor-roller-skating/",
+      "type": "post",
+      "reason": "WordPress post: body class single-post postid-80, og:type article, /wp-json/wp/v2/posts/80 endpoint, breadcrumb Home > Blog > Uncategorized, about 1215 words, modified 2026-09-29. Editorial family guide, not a page.",
+      "targetPath": "src/content/blog/the-new-rink-shelby-township-your-familys-complete-guide-to-indoor-roller-skating.mdx",
+      "instructions": "Route file already prepared at src/pages/the-new-rink-shelby-township-your-familys-complete-guide-to-indoor-roller-skating.astro (replaces the import placeholder). Frontmatter: title 'The New Rink Shelby Township: Your Family’s Complete Guide to Indoor Roller Skating'; description 'Discover The New Rink in Shelby Township, Michigan, where family-friendly roller skating meets affordability and safety. Whether you’re new or experienced, your guide to unforgettable fun is here.'; pubDate 2026-05-20; updatedDate 2026-09-29; author 'xufutakesu0593'; category 'Uncategorized'; image https://thenewrink.com/wp-content/uploads/2026/09/the-new-rink-shelby-township-your-family-s-complete-guide-to-indoor-roller-skating-1.webp; imageAlt 'The new rink shelby township your family s complete guide to indoor roller skating'; canonicalUrl https://thenewrink.com/the-new-rink-shelby-township-your-familys-complete-guide-to-indoor-roller-skating/; draft false. Body: h2/h3 sections, bullet lists, a FAQ-free article; links to /activities/ and the Friday Family Night page (/events/friday-family-fun-nights/) stay local. Quote the title and description per the YAML apostrophe rules."
+    },
+    {
+      "path": "/faq/",
+      "type": "page",
+      "reason": "WordPress page: page-id-55, wp-singular page-template-default. Title FAQs. Question and answer blocks (Admission, General Questions, party FAQs) with FAQPage structured data. Not an article. Existing src/pages/faq.astro is the page worker's route."
+    },
+    {
+      "path": "/events/friday-family-fun-nights/",
+      "type": "page",
+      "reason": "WordPress page: page-id-67, page-child under Events (parent 51). Event landing page with flyer, prices and party call to action. Not an article. Existing src/pages/events/friday-family-fun-nights.astro is the page worker's route."
+    },
+    {
+      "path": "/activities/family-fun-and-exercise-for-all/",
+      "type": "page",
+      "reason": "WordPress page: page-id-66, page-child under Activities (parent 52). Short activity page with flyer image and party call to action. Not an article."
+    },
+    {
+      "path": "/activities/girl-scouts/",
+      "type": "page",
+      "reason": "WordPress page: page-id-64, page-child under Activities. Group-booking activity page with feature list and contact details. Not an article."
+    },
+    {
+      "path": "/activities/parties/",
+      "type": "page",
+      "reason": "WordPress page: page-id-58, page-child under Activities. Party packages page with package pricing and inclusions. Not an article."
+    },
+    {
+      "path": "/activities/private-parties-fundraisers/",
+      "type": "page",
+      "reason": "WordPress page: page-id-59, page-child under Activities. Private group package pricing and document download. Not an article."
+    },
+    {
+      "path": "/activities/private-smaller-group-parties/",
+      "type": "page",
+      "reason": "WordPress page: page-id-60, page-child under Activities. Private party rental pricing and guest-list download. Not an article."
+    },
+    {
+      "path": "/activities/public-group-rates/",
+      "type": "page",
+      "reason": "WordPress page: page-id-61, page-child under Activities. Group discount tiers and guest-list download. Not an article."
+    },
+    {
+      "path": "/activities/rollers-and-strollers/",
+      "type": "page",
+      "reason": "WordPress page: page-id-62, page-child under Activities. Weekly session schedule and pricing with upcoming event flyers. Not an article."
+    },
+    {
+      "path": "/activities/school-events/",
+      "type": "page",
+      "reason": "WordPress page: page-id-63, page-child under Activities. School event planning guidance and contact. Not an article."
+    },
+    {
+      "path": "/activities/skate-pro-shop/",
+      "type": "page",
+      "reason": "WordPress page: page-id-65, page-child under Activities. Pro shop description with photos. Not an article."
+    },
+    {
+      "path": "/skate-pro-shop/",
+      "type": "page",
+      "reason": "Source path redirects to the canonical /activities/skate-pro-shop/ page (captured final URL is the activities path, same content). Not an article. Page worker should make this a redirect to the canonical local path rather than a duplicate page."
+    },
+    {
+      "path": "/special-event/friday-family-fun-nights/",
+      "type": "page",
+      "reason": "Source path redirects to the canonical /events/friday-family-fun-nights/ page (captured final URL is the events path, same content). Not an article. Page worker should redirect to the canonical local path."
+    },
+    {
+      "path": "/sample-page/",
+      "type": "page",
+      "reason": "Source returns 404 Page not found (statusCode 404, noindex). No content to import. Page worker should not create page content for it."
+    },
+    {
+      "path": "/special-event/election-day-open-skate/",
+      "type": "page",
+      "reason": "Source returns 404 Page not found (statusCode 404, noindex). No content to import. Page worker should not create page content for it."
+    },
+    {
+      "path": "/schedule/monday/",
+      "type": "page",
+      "reason": "Source returns 404 Page not found (statusCode 404, noindex). No content to import. Page worker should not create page content for it."
+    },
+    {
+      "path": "/schedule/tuesday/",
+      "type": "page",
+      "reason": "Source returns 404 Page not found (statusCode 404, noindex). No content to import. Page worker should not create page content for it."
+    }
+  ]
+}

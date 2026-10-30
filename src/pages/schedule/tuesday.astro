@@ -1,0 +1,48 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+
+const title = 'Page not found – The New Rink';
+const description = '';
+---
+
+<BaseLayout title={title} description={description} headerVariant="transparent">
+  <style is:global>
+    /* Source theme tokens used by the shared footer; scoped to this page. */
+    :root {
+      --dark: #270034;
+      --white: #ffffff;
+      --pink: #f76b15;
+      --pink-soft: #fcc4a1;
+    }
+    /* Tablet: keep the footer link row inside the screen width. */
+    @media (min-width: 768px) and (max-width: 1023px) {
+      .site-footer__nav {
+        gap: 12px 22px;
+      }
+    }
+  </style>
+  <section class="bg-background" data-ps="src/pages/schedule/tuesday.astro:yaf4gf">
+    <div class="mx-auto max-w-[1080px] px-7 pt-32 pb-32 lg:pt-[200px] lg:pb-[200px]" data-ps="src/pages/schedule/tuesday.astro:8dinew">
+      <h1
+        class="mb-[11px] text-[clamp(4rem,2.5rem+8vw,8rem)] leading-none font-bold text-secondary-foreground"
+       data-ps="src/pages/schedule/tuesday.astro:qdwxmm">
+        404
+      </h1>
+      <p class="mb-[15px] text-lg text-foreground" data-ps="src/pages/schedule/tuesday.astro:p2r8cp">not found</p>
+      <div class="flex" data-ps="src/pages/schedule/tuesday.astro:8dinev">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          id="icon-sad"
+          viewBox="0 0 32 32"
+          class="h-4 w-4 fill-black"
+          aria-hidden="true"
+          focusable="false"
+        >
+          <path
+            d="M16 32c8.837 0 16-7.163 16-16s-7.163-16-16-16-16 7.163-16 16 7.163 16 16 16zM16 3c7.18 0 13 5.82 13 13s-5.82 13-13 13-13-5.82-13-13 5.82-13 13-13zM8 10c0-1.105 0.895-2 2-2s2 0.895 2 2c0 1.105-0.895 2-2 2s-2-0.895-2-2zM20 10c0-1.105 0.895-2 2-2s2 0.895 2 2c0 1.105-0.895 2-2 2s-2-0.895-2-2zM9.997 24.398l-2.573-1.544c1.749-2.908 4.935-4.855 8.576-4.855s6.827 1.946 8.576 4.855l-2.573 1.544c-1.224-2.036-3.454-3.398-6.003-3.398s-4.779 1.362-6.003 3.398z"
+          />
+        </svg>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

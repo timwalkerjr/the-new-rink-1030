@@ -1,0 +1,72 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+
+const bookingUrl = 'https://thenewrink.pcsparty.com/bookings/index.asp';
+---
+
+<BaseLayout
+  title="The Pro Shop – The New Rink"
+  description="Activities at The New Rink: The Pro Shop. Roller skates, roller blades, and skate accessories at our full service pro shop in Shelby Township, MI."
+>
+  <section class="bg-accent text-white" data-ps="src/pages/skate-pro-shop.astro:3q4wx5">
+    <div class="mx-auto w-full max-w-[1344px] px-5 pt-24 pb-12 sm:px-7 md:pt-32 md:pb-16" data-ps="src/pages/skate-pro-shop.astro:2fqjgi">
+      <p class="text-base text-border" data-ps="src/pages/skate-pro-shop.astro:52ghok">Activities at The New Rink</p>
+      <h1 class="mt-2 text-4xl font-normal leading-[1.2] text-white md:text-[48px]" data-ps="src/pages/skate-pro-shop.astro:ahgnuk">The Pro Shop</h1>
+    </div>
+  </section>
+
+  <section class="bg-[#f3f3f3] py-20 md:py-28" data-ps="src/pages/skate-pro-shop.astro:3q4wx4">
+    <div class="mx-auto grid w-full max-w-[1344px] items-center gap-10 px-5 sm:px-7 lg:grid-cols-[minmax(0,1fr)_minmax(0,427px)] lg:gap-16" data-ps="src/pages/skate-pro-shop.astro:2fqjgj">
+      <div class="prose max-w-none" data-ps="src/pages/skate-pro-shop.astro:2fqjgk">
+        <h2 class="text-3xl font-normal leading-tight text-black md:text-[40px] md:leading-[50px]" data-ps="src/pages/skate-pro-shop.astro:ffstib">
+          Welcome to the The New Rink, Shelby Township, MI Skates Pro Shop!
+        </h2>
+        <p class="mt-4 text-base font-semibold leading-[27px] text-[#404040]" data-ps="src/pages/skate-pro-shop.astro:52ghol">
+          Roller Skates, Roller Blades, and Skate Accessories
+        </p>
+        <p class="mt-2 text-base leading-[27px] text-[#404040]" data-ps="src/pages/skate-pro-shop.astro:52ghom">
+          Stop in during skating hours to check out our full service pro shop!
+        </p>
+      </div>
+      <figure class="w-full lg:max-w-[427px] lg:justify-self-end">
+        <img
+          class="block h-auto w-full rounded-lg object-cover"
+          src="https://pagesmith-cdn.com/0b4329bf/images/the-new-rink-047-13dbb2-359.webp"
+          alt="The Pro Shop at The New Rink"
+          width="359"
+          height="241"
+          loading="lazy"
+          style="aspect-ratio: 359 / 241;" data-ps="src/pages/skate-pro-shop.astro:rfif6v" />
+      </figure>
+    </div>
+  </section>
+
+  <section class="relative isolate overflow-hidden bg-[#270034] py-24 text-center text-white md:py-28" data-ps="src/pages/skate-pro-shop.astro:3q4wx3">
+    <img
+      class="absolute inset-0 -z-10 h-full w-full object-cover opacity-70"
+      src="https://pagesmith-cdn.com/0b4329bf/images/the-new-rink-074-da421d-360.webp"
+      alt="Roller skating party at The New Rink"
+      width="360"
+      height="240"
+      loading="lazy" data-ps="src/pages/skate-pro-shop.astro:rfif6u" />
+    <div class="mx-auto w-full max-w-[1100px] px-5 sm:px-7" data-ps="src/pages/skate-pro-shop.astro:2fqjgl">
+      <p class="text-sm font-semibold uppercase tracking-[0.28px] text-border" data-ps="src/pages/skate-pro-shop.astro:52ghon">
+        Fun with family, friends, co-workers, and more
+      </p>
+      <h2 class="mt-4 text-4xl font-normal leading-[1.2] text-white md:text-5xl lg:text-[57px] lg:leading-[68.4px]" data-ps="src/pages/skate-pro-shop.astro:ffstic">
+        Schedule your next Birthday, Scout Outing, Get Together, Sports Team, Celebrations, and much more.
+      </h2>
+      <p class="mt-6 text-lg leading-[1.5] text-white/90" data-ps="src/pages/skate-pro-shop.astro:52ghoo">
+        We have many packages to make your party a memorable and fun event.
+      </p>
+      <a
+        class="mt-10 inline-flex items-center rounded-[4px] bg-primary px-7 py-3.5 text-lg font-semibold text-primary-foreground transition-colors hover:bg-primary-hover"
+        href={bookingUrl}
+        target="_blank"
+        rel="noopener"
+       data-ps="src/pages/skate-pro-shop.astro:c6eeed">
+        Book a Party Now
+      </a>
+    </div>
+  </section>
+</BaseLayout>

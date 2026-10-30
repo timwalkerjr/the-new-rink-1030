@@ -1,0 +1,34 @@
+---
+import { SITE } from '@/config/site';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Hero from '@/components/home/Hero.astro';
+import HoursSchedule from '@/components/home/HoursSchedule.astro';
+import PartyCta from '@/components/home/PartyCta.astro';
+import Activities from '@/components/home/Activities.astro';
+import Reviews from '@/components/home/Reviews.astro';
+import SpecialEvents from '@/components/home/SpecialEvents.astro';
+import Gallery from '@/components/home/Gallery.astro';
+import ContactSection from '@/components/home/ContactSection.astro';
+---
+
+<BaseLayout
+  title={SITE.title}
+  description={SITE.description}
+  type="website"
+  jsonLd={{
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: SITE.name,
+    url: new URL(Astro.url.pathname, SITE.url).toString(),
+    sameAs: Object.values(SITE.socials),
+  }}
+>
+  <Hero />
+  <HoursSchedule />
+  <PartyCta />
+  <Activities />
+  <Reviews />
+  <SpecialEvents />
+  <Gallery />
+  <ContactSection />
+</BaseLayout>

@@ -1,0 +1,60 @@
+---
+// Special Events: lilac band, left-aligned intro and three white event cards.
+const events = [
+  {
+    title: 'Friday & Saturday Family Fun Nights',
+    meta: '7:00 p.m. - 10:00 p.m.',
+    text: 'Every Friday & Saturday Night!<br />Friday Night Family Rate: 4 for $60 (must include 1 parent and 1 child) includes choice of rental if needed, Bounce Zone (12 & under), 1 whole pizza and four 16 oz drinks. Must present deal at the time of purchase to be valid)',
+    price: '$14 Friday / $15 Saturday',
+    href: '/events/friday-family-fun-nights/',
+    img: 'https://pagesmith-cdn.com/0b4329bf/images/Friday-Family-Fun-Skate-1-scaled-1-3adcda-1536.webp',
+    alt: 'Friday & Saturday Family Fun Nights flyer',
+  },
+  {
+    title: 'Election Day Open Skate',
+    meta: '1:00 p. m. - 4:00 p. m.',
+    text: 'Tuesday, November 3rd',
+    price: '$12 Bounce Zone $3 extra',
+    href: '/events/friday-family-fun-nights/',
+    img: 'https://pagesmith-cdn.com/0b4329bf/images/Election-Day-26-2048x1024-1-104a8a-1536.webp',
+    alt: 'Election Day 26 2048x1024',
+  },
+  {
+    title: 'Rollers and Strollers Skate with Buzz & Woody',
+    meta: '9:30 A.M. - 12:00 P.M.',
+    text: 'Saturday, November 21st',
+    price: '$14',
+    href: null,
+    img: 'https://pagesmith-cdn.com/0b4329bf/images/the_new_rink_buzz_and_woody_special_event_image-1024.webp',
+    alt: 'Rollers and Strollers Skate with Buzz & Woody flyer',
+  },
+];
+---
+
+<section id="events" class="bg-surface px-[28px] py-[72px] md:py-[112px]" data-ps="src/components/home/SpecialEvents.astro:2igf7b">
+  <div class="mx-auto max-w-[1344px]" data-ps="src/components/home/SpecialEvents.astro:3c82b6">
+    <div class="max-w-[640px]" data-ps="src/components/home/SpecialEvents.astro:3c82b7">
+      <p class="text-[14px] font-semibold uppercase leading-[19.6px] tracking-[0.28px] text-primary" data-ps="src/components/home/SpecialEvents.astro:kyx1j">How can we make skating even more fun you say?</p>
+      <h2 class="mt-[8px] text-[32px] leading-[1.2] font-normal text-accent md:text-[43px] md:leading-[51.6px]" data-ps="src/components/home/SpecialEvents.astro:qyk6dy">Special Events</h2>
+      <p class="mt-[16px] text-[18px] leading-[27px] text-foreground" data-ps="src/components/home/SpecialEvents.astro:kyx1i">
+        Check back frequently as we are constantly adding new special events you won't want to miss!
+      </p>
+    </div>
+    <div class="mt-[56px] grid max-w-[1000px] grid-cols-1 gap-[28px] md:grid-cols-2" data-ps="src/components/home/SpecialEvents.astro:3c82b8">
+      {events.map((e, __psIdx) => (
+        <article class="flex flex-col rounded-[20px] bg-white p-[20px] text-center shadow-[5px_5px_0_0_rgba(85,1,114,0.35)]" data-ps={`src/components/home/SpecialEvents.astro:w8eqhm-${__psIdx}`}>
+          <a href={e.href ?? '/events/'} class="block overflow-hidden rounded-[12px]" data-ps={`src/components/home/SpecialEvents.astro:6iyzo9-${__psIdx}`}>
+            <img src={e.img} alt={e.alt} width="1024" height="512" loading="lazy" class="aspect-[2/1] w-full object-cover" data-ps={`src/components/home/SpecialEvents.astro:qj0wc5-${__psIdx}`} />
+          </a>
+          <h3 class="mt-[20px] text-[22px] leading-[28.6px] font-normal text-black" data-ps={`src/components/home/SpecialEvents.astro:qhij91-${__psIdx}`}>{e.title}</h3>
+          <p class="mt-[12px] text-[16px] leading-[24px] uppercase text-foreground" data-ps={`src/components/home/SpecialEvents.astro:kyx1h-${__psIdx}`}>{e.meta}</p>
+          <p class="mt-[12px] text-[16px] leading-[25.6px] font-semibold text-foreground" set:html={e.text} data-ps={`src/components/home/SpecialEvents.astro:g237bn-${__psIdx}`}></p>
+          <p class="mt-[12px] text-[16px] leading-[22.4px] font-semibold text-foreground" data-ps={`src/components/home/SpecialEvents.astro:g237bm-${__psIdx}`}>{e.price}</p>
+          {e.href && (
+            <a href={e.href} class="mt-[20px] inline-flex self-start rounded-full bg-primary px-[24px] py-[12px] text-[14px] font-semibold leading-[21px] tracking-[0.5px] text-white transition-colors hover:bg-primary-hover" data-ps={`src/components/home/SpecialEvents.astro:6iyzoa-${__psIdx}`}>Learn More</a>
+          )}
+        </article>
+      ))}
+    </div>
+  </div>
+</section>

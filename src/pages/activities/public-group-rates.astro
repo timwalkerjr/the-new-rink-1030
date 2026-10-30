@@ -1,0 +1,104 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+
+const pageTitle = 'Public Group Rates – The New Rink';
+const pageDescription =
+  'Public group rates at The New Rink: standard group discounts for groups of 15 or more and 25 or more, with rental, guest list and food package details.';
+const groupImage = 'https://pagesmith-cdn.com/0b4329bf/images/the-new-rink-011-4c92a6-359.webp';
+const ctaImage = 'https://pagesmith-cdn.com/0b4329bf/images/the-new-rink-074-da421d-360.webp';
+const guestListUrl = 'https://thenewrink.com/wp-content/uploads/2026/09/The-New-Rink-Guest-List-Online-2023.pdf';
+const bookingUrl = 'https://thenewrink.pcsparty.com/bookings/index.asp';
+---
+
+<BaseLayout title={pageTitle} description={pageDescription} headerVariant="transparent">
+  <section class="bg-secondary-foreground pt-40 pb-16 text-primary-foreground" data-ps="src/pages/activities/public-group-rates.astro:rh2pvb">
+    <div class="mx-auto max-w-[1344px] px-7" data-ps="src/pages/activities/public-group-rates.astro:1frodw">
+      <p class="text-[15px] text-border" data-ps="src/pages/activities/public-group-rates.astro:mdmauv">Activities at The New Rink</p>
+      <h1 class="mt-3 text-h1 text-primary-foreground" data-ps="src/pages/activities/public-group-rates.astro:r74s4u">Public Group Rates</h1>
+    </div>
+  </section>
+
+  <section class="bg-[#f3f3f3] py-28 text-foreground" data-ps="src/pages/activities/public-group-rates.astro:rh2pva">
+    <div class="mx-auto grid max-w-[1344px] gap-14 px-7 lg:grid-cols-[minmax(0,1fr)_427px]" data-ps="src/pages/activities/public-group-rates.astro:1frodx">
+      <div class="min-w-0 text-[16px] leading-[27.2px]" data-ps="src/pages/activities/public-group-rates.astro:1frody">
+        <h2 class="text-h2 leading-[1.2] text-black" data-ps="src/pages/activities/public-group-rates.astro:t5kcmn">The New Rink Public Group Packages</h2>
+        <p class="mt-6 font-semibold" data-ps="src/pages/activities/public-group-rates.astro:mdmauw"><strong>To book a group rate please call us at 586-731-5006</strong></p>
+        <hr class="my-6 border-t border-[#808080]" />
+        <p data-ps="src/pages/activities/public-group-rates.astro:mdmaux">Standard Group Discounts: Rates valid during public sessions only (see schedule).</p>
+
+        <h3 class="mt-10 text-h3 leading-[1.3] text-black" data-ps="src/pages/activities/public-group-rates.astro:eh5ff0">For Groups of 15 or more</h3>
+        <ul class="mt-4 list-disc space-y-1 pl-8">
+          <li data-ps="src/pages/activities/public-group-rates.astro:twj93j">Session Price +</li>
+          <li data-ps="src/pages/activities/public-group-rates.astro:twj93k">Regular Skate Rental Included</li>
+        </ul>
+
+        <h3 class="mt-10 text-h3 leading-[1.3] text-black" data-ps="src/pages/activities/public-group-rates.astro:eh5ff1">For Groups of 25 or more</h3>
+        <ul class="mt-4 list-disc space-y-1 pl-8">
+          <li data-ps="src/pages/activities/public-group-rates.astro:twj93l">Session Price +</li>
+          <li data-ps="src/pages/activities/public-group-rates.astro:twj93m">Regular Skate Rental Included</li>
+          <li data-ps="src/pages/activities/public-group-rates.astro:twj93n">plus $.50 discount on Session Price</li>
+        </ul>
+
+        <h3 class="mt-10 text-h3 leading-[1.3] text-black" data-ps="src/pages/activities/public-group-rates.astro:eh5ff2">Details:</h3>
+        <ul class="mt-4 list-disc space-y-1 pl-8">
+          <li data-ps="src/pages/activities/public-group-rates.astro:twj93o">To receive group discount, minimums must be paid in advance or upon arrival.</li>
+          <li data-ps="src/pages/activities/public-group-rates.astro:twj94a">Signed agreement required.</li>
+          <li data-ps="src/pages/activities/public-group-rates.astro:twj94b">Guest list must be provided.</li>
+          <li data-ps="src/pages/activities/public-group-rates.astro:twj94c">No food or beverages allowed to bebrought into the building.</li>
+          <li data-ps="src/pages/activities/public-group-rates.astro:twj94d">Discounts not valid during special events.</li>
+          <li data-ps="src/pages/activities/public-group-rates.astro:twj94e">Food packages available. Additional $3.50 per person to include a slice of pizza &amp; drink or additional $3.00 per person to include a hot dog &amp; drink.</li>
+        </ul>
+
+        <p class="mt-8 font-semibold" data-ps="src/pages/activities/public-group-rates.astro:mdmavj"><strong>To book a group rate please call us at 586-731-5006</strong></p>
+      </div>
+
+      <aside class="space-y-6" data-ps="src/pages/activities/public-group-rates.astro:6iew2m">
+        <img
+          src={groupImage}
+          alt="Public Group Rates at The New Rink"
+          width="359"
+          height="201"
+          loading="lazy"
+          class="h-auto w-full rounded-lg object-cover" data-ps="src/pages/activities/public-group-rates.astro:sfha9i" />
+        <h2 class="text-[30px] leading-[1.3] text-black" data-ps="src/pages/activities/public-group-rates.astro:t5kcmo">Necessary Documents</h2>
+        <a
+          href={guestListUrl}
+          target="_blank"
+          rel="noopener"
+          class="inline-block rounded-full bg-primary px-7 py-3.5 text-[14px] font-semibold tracking-[0.5px] text-primary-foreground transition-colors hover:bg-primary-hover"
+         data-ps="src/pages/activities/public-group-rates.astro:thk7kn">
+          Download a Guest List
+        </a>
+      </aside>
+    </div>
+  </section>
+
+  <section class="relative overflow-hidden bg-dark-background py-28 text-dark-foreground" data-ps="src/pages/activities/public-group-rates.astro:rh2pv9">
+    <img
+      src={ctaImage}
+      alt="Roller skating party at The New Rink"
+      width="360"
+      height="200"
+      loading="lazy"
+      class="absolute inset-0 h-full w-full object-cover" data-ps="src/pages/activities/public-group-rates.astro:sfha9h" />
+    <div class="relative mx-auto max-w-4xl px-7 text-center" data-ps="src/pages/activities/public-group-rates.astro:1frodz">
+      <p class="text-[14px] font-semibold uppercase tracking-[0.28px] text-border" data-ps="src/pages/activities/public-group-rates.astro:mdmavk">
+        Fun with family, friends, co-workers, and more
+      </p>
+      <h2 class="mt-4 text-[clamp(2rem,1rem+3vw,3.5625rem)] leading-[1.2] text-white" data-ps="src/pages/activities/public-group-rates.astro:t5kcmp">
+        Schedule your next Birthday, Scout Outing, Get Together, Sports Team, Celebrations, and much more.
+      </h2>
+      <p class="mt-6 text-[18px] leading-[27px] text-white/90" data-ps="src/pages/activities/public-group-rates.astro:mdmavl">
+        We have many packages to make your party a memorable and fun event.
+      </p>
+      <a
+        href={bookingUrl}
+        target="_blank"
+        rel="noopener"
+        class="mt-10 inline-block rounded bg-primary px-7 py-3.5 text-[18px] font-semibold text-primary-foreground transition-colors hover:bg-primary-hover"
+       data-ps="src/pages/activities/public-group-rates.astro:thk7ko">
+        Book a Party Now
+      </a>
+    </div>
+  </section>
+</BaseLayout>

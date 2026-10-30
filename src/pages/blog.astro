@@ -1,0 +1,97 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+
+const posts = [
+  {
+    href: '/learn-to-rollerblade-5-week-beginner-classes-in-shelby-township/',
+    image: 'https://pagesmith-cdn.com/0b4329bf/images/learn-to-rollerblade-5-week-beginner-classes-in-shelby-township-12defa-1536.webp',
+    alt: 'Learn to Rollerblade: 5-Week Beginner Classes in Shelby Township',
+    title: 'Learn to Rollerblade: 5-Week Beginner Classes in Shelby Township',
+    author: 'xufutakesu0593',
+    date: 'May 20, 2026',
+    comments: 'No Comments',
+    excerpt:
+      'Discover the thrill of inline skating with our beginner classes designed to build confidence and skill. Join us at The New Rink in Shelby Township for a 5-week journey into…',
+  },
+  {
+    href: '/7-health-benefits-of-roller-skating-for-kids-and-families/',
+    image: 'https://pagesmith-cdn.com/0b4329bf/images/7-health-benefits-of-roller-skating-for-kids-and-families-1-e20c16-1024.webp',
+    alt: '7 Health Benefits of Roller Skating for Kids and Families',
+    title: '7 Health Benefits of Roller Skating for Kids and Families',
+    author: 'xufutakesu0593',
+    date: 'May 20, 2026',
+    comments: 'No Comments',
+    excerpt:
+      'Roller skating is an exhilarating way for families to stay active together. Discover its heart health benefits and more at The New Rink in Shelby Township.',
+  },
+  {
+    href: '/the-new-rink-shelby-township-your-familys-complete-guide-to-indoor-roller-skating/',
+    image: 'https://pagesmith-cdn.com/0b4329bf/images/the-new-rink-shelby-township-your-family-s-complete-guide-to-indoor-roller-skating-1-8e95ba-1536.webp',
+    alt: 'The New Rink Shelby Township: Your Family’s Complete Guide to Indoor Roller Skating',
+    title: 'The New Rink Shelby Township: Your Family’s Complete Guide to Indoor Roller Skating',
+    author: 'xufutakesu0593',
+    date: 'May 20, 2026',
+    comments: 'No Comments',
+    excerpt:
+      'Discover The New Rink in Shelby Township, Michigan, where family-friendly roller skating meets affordability and safety. Whether you’re new or experienced, your guide to unforgettable fun is here.',
+  },
+];
+---
+
+<BaseLayout headerVariant="transparent" title="Blog – The New Rink">
+  <section class="bg-[linear-gradient(150deg,hsl(319_79%_25%)_0%,hsl(285_98%_23%)_100%)] px-7 pt-[150px] pb-20 text-white md:pb-[100px]" data-ps="src/pages/blog.astro:hero">
+    <div class="mx-auto w-full max-w-[1344px]" data-ps="src/pages/blog.astro:3oei8k">
+      <h1 class="text-[clamp(2rem,1.5rem+1.5vw,43px)] leading-[1.2] font-normal text-white" data-ps="src/pages/blog.astro:gzulle">The New Rink Blog</h1>
+      <p class="mt-5 max-w-[640px] text-lg leading-[1.5] text-white/90" data-ps="src/pages/blog.astro:hkyyj8">Skating tips, family fun, and stories from The New Rink.</p>
+    </div>
+  </section>
+
+  <section class="bg-surface" data-ps="src/pages/blog.astro:msok1s">
+    <div class="mx-auto w-full max-w-[1344px] px-7 py-16 md:py-24" data-ps="src/pages/blog.astro:3oei8n">
+      <div class="mx-auto w-full" data-ps="src/pages/blog.astro:3oei8m">
+        <h2 class="mb-10 text-[clamp(1.75rem,1.4rem+1vw,2.5rem)] leading-[1.2] font-normal text-secondary-foreground" data-ps="src/pages/blog.astro:hgw8q5">Latest Articles</h2>
+
+        <ul class="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3" role="list">
+          {posts.map((post, __psIdx) => (
+            <li class="flex flex-col gap-5 rounded-[20px] bg-white p-5 shadow-[3px_3px_3px_3px_rgba(113,13,82,0.3)]" data-ps={`src/pages/blog.astro:rg3trq-${__psIdx}`}>
+              <a href={post.href} tabindex="-1" class="block aspect-video overflow-hidden rounded-xl" data-ps={`src/pages/blog.astro:uaqly7-${__psIdx}`}>
+                <img
+                  src={post.image}
+                  alt={post.alt}
+                  width="1536"
+                  height="1536"
+                  loading="lazy"
+                  decoding="async"
+                  class="h-full w-full object-cover" data-ps={`src/pages/blog.astro:xjngvx-${__psIdx}`} />
+              </a>
+
+              <div class="flex flex-1 flex-col items-start" data-ps={`src/pages/blog.astro:3oei8l-${__psIdx}`}>
+                <h3 class="mb-4 text-[24px] font-normal leading-[1.3] text-secondary-foreground" data-ps={`src/pages/blog.astro:hxxvv7-${__psIdx}`}>
+                  <a href={post.href} class="hover:underline" data-ps={`src/pages/blog.astro:uaqly8-${__psIdx}`}>{post.title}</a>
+                </h3>
+
+                <div class="mb-4 flex flex-wrap gap-x-2 text-[13px] leading-[18.2px] text-foreground" data-ps={`src/pages/blog.astro:3oei8k-${__psIdx}`}>
+                  <span data-ps={`src/pages/blog.astro:qr11eu-${__psIdx}`}>{post.author}</span>
+                  <span aria-hidden="true" data-ps={`src/pages/blog.astro:qr11et-${__psIdx}`}>/</span>
+                  <span data-ps={`src/pages/blog.astro:qr11es-${__psIdx}`}>{post.date}</span>
+                  <span aria-hidden="true" data-ps={`src/pages/blog.astro:qr11er-${__psIdx}`}>/</span>
+                  <span data-ps={`src/pages/blog.astro:5g1gfp-${__psIdx}`}>{post.comments}</span>
+                </div>
+
+                <p class="mb-6 text-base leading-[1.6] text-foreground" data-ps={`src/pages/blog.astro:hkyyje-${__psIdx}`}>{post.excerpt}</p>
+
+                <a
+                  href={post.href}
+                  aria-label={`Read more about ${post.title}`}
+                  class="mt-auto inline-flex items-center rounded-full bg-primary px-7 py-3.5 text-[15px] font-medium text-primary-foreground transition-colors hover:bg-primary-hover"
+                 data-ps={`src/pages/blog.astro:uaqly9-${__psIdx}`}>
+                  Read more
+                </a>
+              </div>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

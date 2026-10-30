@@ -1,0 +1,105 @@
+{
+  "sharedInstructions": "Source: https://thenewrink.com/ (WordPress, preserve mode). Shared content config: src/content.config.ts with collections blog and docs (glob loaders on src/content/blog and src/content/docs). The blog schema already declares title, description, pubDate, draft, imageAlt, jsonLd, toc, featured, series and related display fields. No src/content/ entries were created for this import. Article layouts: src/layouts/BlogLayout.astro (default data-mdx-type blog) and src/layouts/DocsLayout.astro. The blog archive route is src/pages/blog.astro. Evidence: the WordPress posts endpoint returns only three posts (learn-to-rollerblade-5-week-beginner-classes-in-shelby-township, 7-health-benefits-of-roller-skating-for-kids-and-families, the-new-rink-shelby-township-your-familys-complete-guide-to-indoor-roller-skating), and none of them matches a requested path. Every requested source URL is either a WordPress page (wp-singular page-template-default, or the events landing for /schedule/friday/) or a 404 at source. No requested path is an individual article, so no article route, catch-all or content mapping was added and no targetPath is needed. Each entry is type page. Source paths /activity/<slug>/ redirect to /activities/<slug>/ on the source site; the existing template files are under src/pages/activities/. The schedule/friday source redirects to /events/friday-family-fun-nights/, which exists as src/pages/events/friday-family-fun-nights.astro. Requested paths that return 404 at source (schedule Saturday, Thursday, Sunday, Wednesday, Skate Rental; the faq question paths) have no content to import. The page worker should verify each one and must not invent content, and should decide whether to keep a neutral not-found page or a redirect. Use local paths for all internal navigation links. Keep external booking links (thenewrink.pcsparty.com) and tel:/mailto: links unchanged. Unresolved for the page worker: whether /activity/<slug>/ requests should render the page or redirect to /activities/<slug>/, and whether /schedule/friday/ should render or redirect to /events/friday-family-fun-nights/.",
+  "entries": [
+    {
+      "path": "/schedule/saturday/",
+      "type": "page",
+      "reason": "Source returns 404 Page not found (statusCode 404, noindex). No content to import and no WordPress post matches this path. Verify, then render a not-found placeholder or skip."
+    },
+    {
+      "path": "/schedule/thursday/",
+      "type": "page",
+      "reason": "Source returns 404 Page not found (statusCode 404, noindex). No content to import and no WordPress post matches this path. Verify, then render a not-found placeholder or skip."
+    },
+    {
+      "path": "/schedule/sunday/",
+      "type": "page",
+      "reason": "Source returns 404 Page not found (statusCode 404, noindex). No content to import and no WordPress post matches this path. Verify, then render a not-found placeholder or skip."
+    },
+    {
+      "path": "/schedule/wednesday/",
+      "type": "page",
+      "reason": "Source returns 404 Page not found (statusCode 404, noindex). No content to import and no WordPress post matches this path. Verify, then render a not-found placeholder or skip."
+    },
+    {
+      "path": "/activity/activity-parties/",
+      "type": "page",
+      "reason": "Source returns 404 Page not found (statusCode 404, noindex). No content to import and no WordPress post matches this path. Verify, then render a not-found placeholder or skip."
+    },
+    {
+      "path": "/activity/private-parties-fundraisers/",
+      "type": "page",
+      "reason": "Source https://thenewrink.com/activities/private-parties-fundraisers/ returns 200 as a WordPress page (wp-singular page-template-default, page-id-59, parent Activities). It has Private Group Packages with pricing and a guest list download. Not an article. Existing template file src/pages/activities/private-parties-fundraisers.astro. The request path /activity/ is the source redirect alias; render the page or redirect to /activities/private-parties-fundraisers/."
+    },
+    {
+      "path": "/activity/family-fun-and-exercise-for-all/",
+      "type": "page",
+      "reason": "Source https://thenewrink.com/activities/family-fun-and-exercise-for-all/ returns 200 as a WordPress page (page-id-66, parent Activities). Short intro, two photos, party call to action. Not an article. Existing template file src/pages/activities/family-fun-and-exercise-for-all.astro. Render the page or redirect from /activity/ to /activities/."
+    },
+    {
+      "path": "/activity/rollers-and-strollers/",
+      "type": "page",
+      "reason": "Source https://thenewrink.com/activities/rollers-and-strollers/ returns 200 as a WordPress page (page-id-62, parent Activities). Describes the Saturday 10 a.m. to 12 p.m. session and pricing. Not an article. Existing template file src/pages/activities/rollers-and-strollers.astro. Render the page or redirect from /activity/ to /activities/."
+    },
+    {
+      "path": "/activity/skate-pro-shop/",
+      "type": "page",
+      "reason": "Source https://thenewrink.com/activities/skate-pro-shop/ returns 200 as a WordPress page (page-id-65, parent Activities). The Pro Shop sells roller skates, roller blades and accessories. Not an article. Existing template file src/pages/activities/skate-pro-shop.astro. Render the page or redirect from /activity/ to /activities/."
+    },
+    {
+      "path": "/activity/private-smaller-group-parties/",
+      "type": "page",
+      "reason": "Source https://thenewrink.com/activities/private-smaller-group-parties/ returns 200 as a WordPress page (page-id-60, parent Activities). Describes the $995 rink rental package with inclusions and a $100 deposit. Not an article. Existing template file src/pages/activities/private-smaller-group-parties.astro. Render the page or redirect from /activity/ to /activities/."
+    },
+    {
+      "path": "/faq/do-you-serve-or-allow-alcohol/",
+      "type": "page",
+      "reason": "Source returns 404 Page not found (statusCode 404, noindex). The source FAQ question paths are not present. No content to import. Verify, then render a not-found placeholder or skip. Do not invent an answer."
+    },
+    {
+      "path": "/faq/what-type-of-payments-do-you-accept/",
+      "type": "page",
+      "reason": "Source returns 404 Page not found (statusCode 404, noindex). No content to import. Verify, then render a not-found placeholder or skip. Do not invent an answer."
+    },
+    {
+      "path": "/schedule/friday/",
+      "type": "page",
+      "reason": "Source https://thenewrink.com/events/friday-family-fun-nights/ returns 200 as a WordPress page (page-id-67, parent Events). Friday and Saturday Family Fun Nights: 7 to 10 p.m., $14 Friday / $15 Saturday, family rate 4 for $60. Not an article. Existing template file src/pages/events/friday-family-fun-nights.astro. Render the page or redirect to /events/friday-family-fun-nights/."
+    },
+    {
+      "path": "/schedule/skate-rental/",
+      "type": "page",
+      "reason": "Source returns 404 Page not found (statusCode 404, noindex). No content to import. Verify, then render a not-found placeholder or skip."
+    },
+    {
+      "path": "/faq/do-you-have-a-private-room-for-birthday-parties/",
+      "type": "page",
+      "reason": "Source returns 404 Page not found (statusCode 404, noindex). No content to import. Verify, then render a not-found placeholder or skip. Do not invent an answer."
+    },
+    {
+      "path": "/faq/what-are-your-smallest-and-largest-size-rental-skates/",
+      "type": "page",
+      "reason": "Source returns 404 Page not found (statusCode 404, noindex). No content to import. Verify, then render a not-found placeholder or skip. Do not invent an answer."
+    },
+    {
+      "path": "/faq/do-we-have-the-table-for-the-whole-party/",
+      "type": "page",
+      "reason": "Source returns 404 Page not found (statusCode 404, noindex). No content to import. Verify, then render a not-found placeholder or skip. Do not invent an answer."
+    },
+    {
+      "path": "/faq/can-we-bring-in-our-own-food-for-the-party/",
+      "type": "page",
+      "reason": "Source returns 404 Page not found (statusCode 404, noindex). No content to import. Verify, then render a not-found placeholder or skip. Do not invent an answer."
+    },
+    {
+      "path": "/faq/do-you-allow-strollers-to-be-pushed-on-the-floor/",
+      "type": "page",
+      "reason": "Source returns 404 Page not found (statusCode 404, noindex). No content to import. Verify, then render a not-found placeholder or skip. Do not invent an answer."
+    },
+    {
+      "path": "/faq/is-there-someone-on-site-to-teach-my-child-to-skate/",
+      "type": "page",
+      "reason": "Source returns 404 Page not found (statusCode 404, noindex). No content to import. Verify, then render a not-found placeholder or skip. Do not invent an answer."
+    }
+  ]
+}

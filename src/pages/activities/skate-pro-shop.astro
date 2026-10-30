@@ -1,0 +1,72 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+
+const pageTitle = 'The Pro Shop – The New Rink';
+const pageDescription =
+  'Activities at The New Rink The Pro Shop. Welcome to the The New Rink, Shelby Township, MI Skates Pro Shop! Roller Skates, Roller Blades, and Skate Accessories. Stop in during skating hours to check out our full service pro shop!';
+const proShopImage = 'https://pagesmith-cdn.com/0b4329bf/images/the-new-rink-047-13dbb2-359.webp';
+const partyImage = 'https://pagesmith-cdn.com/0b4329bf/images/the-new-rink-074-da421d-360.webp';
+const bookingUrl = 'https://thenewrink.pcsparty.com/bookings/index.asp';
+---
+
+<BaseLayout title={pageTitle} description={pageDescription} headerVariant="transparent">
+  <section class="bg-[#550172] px-7 pt-44 pb-16 text-white" data-ps="src/pages/activities/skate-pro-shop.astro:ge4h40">
+    <div class="mx-auto max-w-[calc(1344px+56px)]" data-ps="src/pages/activities/skate-pro-shop.astro:va7kgb">
+      <p class="text-sm text-border" data-ps="src/pages/activities/skate-pro-shop.astro:kzj055">Activities at The New Rink</p>
+      <h1 class="mt-3 text-h1 leading-[1.08] text-white" data-ps="src/pages/activities/skate-pro-shop.astro:es1aiu">The Pro Shop</h1>
+    </div>
+  </section>
+
+  <section class="bg-[#f3f3f3] px-7 py-28" data-ps="src/pages/activities/skate-pro-shop.astro:ge4h41">
+    <div class="mx-auto grid max-w-[calc(1344px+56px)] gap-12 lg:grid-cols-[minmax(0,1fr)_427px] lg:gap-16" data-ps="src/pages/activities/skate-pro-shop.astro:va7kgc">
+      <div class="prose max-w-none" data-ps="src/pages/activities/skate-pro-shop.astro:va7kgd">
+        <h2 class="text-h2 leading-[1.2] text-black" data-ps="src/pages/activities/skate-pro-shop.astro:tgg7qg">
+          Welcome to the The New Rink, Shelby Township, MI Skates Pro Shop!
+        </h2>
+        <p class="mt-5 text-base font-semibold text-foreground" data-ps="src/pages/activities/skate-pro-shop.astro:kzj056">
+          Roller Skates, Roller Blades, and Skate Accessories
+        </p>
+        <p class="mt-4 text-base leading-[1.7] text-foreground" data-ps="src/pages/activities/skate-pro-shop.astro:kzj057">
+          Stop in during skating hours to check out our full service pro shop!
+        </p>
+      </div>
+      <img
+        src={proShopImage}
+        alt="The Pro Shop at The New Rink"
+        width="359"
+        height="240"
+        loading="lazy"
+        class="aspect-[3/2] w-full rounded-lg object-cover lg:w-[427px]" data-ps="src/pages/activities/skate-pro-shop.astro:1eylsy" />
+    </div>
+  </section>
+
+  <section class="relative isolate overflow-hidden bg-[#270034] px-7 py-28 text-center text-white" data-ps="src/pages/activities/skate-pro-shop.astro:ge4h42">
+    <img
+      src={partyImage}
+      alt="Roller skating party at The New Rink"
+      width="360"
+      height="200"
+      loading="lazy"
+      class="absolute inset-0 -z-10 h-full w-full object-cover" data-ps="src/pages/activities/skate-pro-shop.astro:1eylsz" />
+    
+    <div class="mx-auto max-w-[1000px]" data-ps="src/pages/activities/skate-pro-shop.astro:va7kgf">
+      <p class="text-sm font-semibold uppercase tracking-[0.28px] text-border" data-ps="src/pages/activities/skate-pro-shop.astro:kzj058">
+        Fun with family, friends, co-workers, and more
+      </p>
+      <h2 class="mt-6 text-[clamp(2rem,1.2rem+3vw,3.5625rem)] leading-[1.2] text-white" data-ps="src/pages/activities/skate-pro-shop.astro:tgg7qf">
+        Schedule your next Birthday, Scout Outing, Get Together, Sports Team, Celebrations, and much more.
+      </h2>
+      <p class="mt-6 text-lg leading-[1.5] text-white/90" data-ps="src/pages/activities/skate-pro-shop.astro:kzj059">
+        We have many packages to make your party a memorable and fun event.
+      </p>
+      <a
+        href={bookingUrl}
+        target="_blank"
+        rel="noopener"
+        class="mt-10 inline-block rounded bg-primary px-7 py-3.5 text-lg font-semibold text-white transition-colors hover:bg-primary-hover"
+       data-ps="src/pages/activities/skate-pro-shop.astro:s3gwuy">
+        Book a Party Now
+      </a>
+    </div>
+  </section>
+</BaseLayout>

@@ -1,0 +1,90 @@
+---
+// Contact band: phone, email and address on the left, contact form panel on the right.
+---
+
+<section id="contact" class="bg-[#550172] px-[28px] py-[72px] text-white md:py-[112px]" data-ps="src/components/home/ContactSection.astro:gb25hg">
+  <div class="mx-auto grid max-w-[1344px] items-start gap-[24px] md:grid-cols-[minmax(0,1fr)_656px]" data-ps="src/components/home/ContactSection.astro:v3uk7g">
+    <div class="grid grid-cols-1 gap-x-[28px] gap-y-[48px] px-0 sm:grid-cols-2 md:px-[28px]" data-ps="src/components/home/ContactSection.astro:v3uk7f">
+      <div data-ps="src/components/home/ContactSection.astro:v3uk7e">
+        <h3 class="text-[20px] leading-[24px] font-semibold text-white" data-ps="src/components/home/ContactSection.astro:6jw6tk">Phone number</h3>
+        <a href="tel:5867315006" class="mt-[8px] block text-[16px] leading-[22.4px] font-semibold text-white" data-ps="src/components/home/ContactSection.astro:d3emss">(586) 731-5006</a>
+      </div>
+      <div data-ps="src/components/home/ContactSection.astro:v3uk7d">
+        <h3 class="text-[20px] leading-[24px] font-semibold text-white" data-ps="src/components/home/ContactSection.astro:6jw6tl">Email</h3>
+        <a href="mailto:cwhitmer@thenewrink.com" class="mt-[8px] block text-[16px] leading-[22.4px] font-semibold text-white" data-ps="src/components/home/ContactSection.astro:d3emsr">cwhitmer@thenewrink.com</a>
+      </div>
+      <div data-ps="src/components/home/ContactSection.astro:v3uk7c">
+        <h3 class="text-[20px] leading-[24px] font-semibold text-white" data-ps="src/components/home/ContactSection.astro:6jw6tm">Address</h3>
+        <p class="mt-[8px] text-[16px] leading-[22.4px] text-white" data-ps="src/components/home/ContactSection.astro:k7cjhw">50625 Van Dyke Ave., Shelby Township MI 48317</p>
+      </div>
+    </div>
+    <div class="rounded-[12px] bg-[#46015d] p-[28px]" data-ps="src/components/home/ContactSection.astro:v3uk7b">
+      <h2 class="text-[32px] leading-[1.2] font-normal text-white md:text-[43px] md:leading-[51.6px]" data-ps="src/components/home/ContactSection.astro:l8b417">Contact Us</h2>
+      <p class="mt-[12px] text-[16px] leading-[25.6px] text-white" data-ps="src/components/home/ContactSection.astro:k7cjhv">
+        We value your input! If you have any questions, feedback, or just want to say hello, please don't hesitate to reach out using the contact information provided below.
+      </p>
+      <form id="contact-form" class="mt-[24px] grid gap-[16px]">
+        <input type="hidden" name="_formId" value="contact" />
+        <div data-ps="src/components/home/ContactSection.astro:v3uk7a">
+          <label for="contact-name" class="block text-[16px] font-medium text-white" data-ps="src/components/home/ContactSection.astro:y219vu">Name <span class="text-[rgb(252,196,161)]" aria-hidden="true" data-ps="src/components/home/ContactSection.astro:q5tl3x">*</span></label>
+          <input id="contact-name" name="name" type="text" required class="mt-[8px] block h-[50px] w-full rounded-[6px] border border-[rgb(209,213,219)] bg-white px-[14px] text-[16px] text-black" />
+        </div>
+        <div data-ps="src/components/home/ContactSection.astro:v3uk79">
+          <label for="contact-phone" class="block text-[16px] font-medium text-white" data-ps="src/components/home/ContactSection.astro:y219vt">Phone</label>
+          <input id="contact-phone" name="phone" type="tel" class="mt-[8px] block h-[50px] w-full rounded-[6px] border border-[rgb(209,213,219)] bg-white px-[14px] text-[16px] text-black" />
+        </div>
+        <div data-ps="src/components/home/ContactSection.astro:v3uk78">
+          <label for="contact-email" class="block text-[16px] font-medium text-white" data-ps="src/components/home/ContactSection.astro:y219vs">Email <span class="text-[rgb(252,196,161)]" aria-hidden="true" data-ps="src/components/home/ContactSection.astro:q5tl3w">*</span></label>
+          <input id="contact-email" name="email" type="email" required class="mt-[8px] block h-[50px] w-full rounded-[6px] border border-[rgb(209,213,219)] bg-white px-[14px] text-[16px] text-black" />
+        </div>
+        <div data-ps="src/components/home/ContactSection.astro:v3uk77">
+          <label for="contact-message" class="block text-[16px] font-medium text-white" data-ps="src/components/home/ContactSection.astro:y219vr">Message <span class="text-[rgb(252,196,161)]" aria-hidden="true" data-ps="src/components/home/ContactSection.astro:q5tl3v">*</span></label>
+          <textarea id="contact-message" name="message" rows="4" required class="mt-[8px] block w-full rounded-[6px] border border-[rgb(209,213,219)] bg-white px-[14px] py-[10px] text-[16px] text-black"></textarea>
+        </div>
+        <altcha-widget challenge="/psapi-internal-v1/altcha/challenge" display="invisible" auto="onfocus"></altcha-widget>
+        <button type="submit" id="contact-submit" class="inline-flex w-max justify-self-start rounded-full bg-primary px-[24px] py-[14px] text-[15px] font-medium text-white transition-colors hover:bg-primary-hover disabled:opacity-60" data-ps="src/components/home/ContactSection.astro:4fx290">Submit</button>
+        <p id="contact-status" role="status" class="hidden rounded-[6px] bg-white/10 px-[16px] py-[12px] text-[16px] text-white" data-ps="src/components/home/ContactSection.astro:ngnup"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<script>
+  import 'altcha';
+
+  const form = document.getElementById('contact-form') as HTMLFormElement | null;
+  const status = document.getElementById('contact-status') as HTMLParagraphElement | null;
+  const submitBtn = document.getElementById('contact-submit') as HTMLButtonElement | null;
+
+  form?.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    if (!form || !status || !submitBtn) return;
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Sending...';
+    const data = new FormData(form);
+    try {
+      const response = await fetch('/psapi-internal-v1/forms/submit', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          _formId: data.get('_formId'),
+          name: data.get('name'),
+          phone: data.get('phone'),
+          email: data.get('email'),
+          message: data.get('message'),
+          altcha: data.get('altcha'),
+        }),
+      });
+      const result = await response.json();
+      if (!result.success) throw new Error(result.error || 'Failed to send');
+      status.textContent = 'Thank you! Your message has been sent.';
+      form.reset();
+    } catch (err) {
+      status.textContent = err instanceof Error ? err.message : 'Failed to send. Please try again.';
+    } finally {
+      status.classList.remove('hidden');
+      submitBtn.disabled = false;
+      submitBtn.textContent = 'Submit';
+    }
+  });
+</script>

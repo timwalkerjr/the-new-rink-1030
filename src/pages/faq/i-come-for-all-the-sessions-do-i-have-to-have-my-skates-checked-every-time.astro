@@ -1,0 +1,72 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+
+const pageTitle = 'Page not found – The New Rink';
+---
+
+<BaseLayout title={pageTitle} headerVariant="transparent">
+  <section class="import-404-section" data-ps="src/pages/faq/i-come-for-all-the-sessions-do-i-have-to-have-my-skates-checked-every-time.astro:knlc4i">
+    <div class="import-404-container" data-ps="src/pages/faq/i-come-for-all-the-sessions-do-i-have-to-have-my-skates-checked-every-time.astro:o8t0ln">
+      <h1 class="import-404-heading" data-ps="src/pages/faq/i-come-for-all-the-sessions-do-i-have-to-have-my-skates-checked-every-time.astro:fs89tb">404</h1>
+      <p class="import-404-text" data-ps="src/pages/faq/i-come-for-all-the-sessions-do-i-have-to-have-my-skates-checked-every-time.astro:mr6ree">not found</p>
+      <div class="import-404-icon" data-ps="src/pages/faq/i-come-for-all-the-sessions-do-i-have-to-have-my-skates-checked-every-time.astro:o8t0lo">
+        <svg xmlns="http://www.w3.org/2000/svg" id="icon-sad" viewBox="0 0 32 32" width="16" height="16" aria-hidden="true" focusable="false">
+          <path d="M16 32c8.837 0 16-7.163 16-16s-7.163-16-16-16-16 7.163-16 16 7.163 16 16 16zM16 3c7.18 0 13 5.82 13 13s-5.82 13-13 13-13-5.82-13-13 5.82-13 13-13zM8 10c0-1.105 0.895-2 2-2s2 0.895 2 2c0 1.105-0.895 2-2 2s-2-0.895-2-2zM20 10c0-1.105 0.895-2 2-2s2 0.895 2 2c0 1.105-0.895 2-2 2s-2-0.895-2-2zM9.997 24.398l-2.573-1.544c1.749-2.908 4.935-4.855 8.576-4.855s6.827 1.946 8.576 4.855l-2.573 1.544c-1.224-2.036-3.454-3.398-6.003-3.398s-4.779 1.362-6.003 3.398z"></path>
+        </svg>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .import-404-section {
+    background-color: var(--color-background);
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+
+  .import-404-container {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .import-404-heading {
+    font-family: 'ADLaM Display', var(--font-sans);
+    font-size: clamp(5rem, 3.5rem + 6vw, 8rem);
+    font-weight: 700;
+    line-height: 1;
+    color: #550172;
+    margin: 0 0 11px;
+  }
+
+  .import-404-text {
+    font-family: 'Poppins', var(--font-sans);
+    font-size: 18px;
+    line-height: 1.5;
+    color: var(--color-foreground);
+    margin: 0 0 15px;
+  }
+
+  .import-404-icon {
+    display: flex;
+    color: #404040;
+  }
+
+  .import-404-icon svg {
+    width: 16px;
+    height: 16px;
+    fill: #000;
+  }
+
+  @media (max-width: 767px) {
+    .import-404-section {
+      padding-top: 120px;
+      padding-bottom: 120px;
+    }
+  }
+</style>

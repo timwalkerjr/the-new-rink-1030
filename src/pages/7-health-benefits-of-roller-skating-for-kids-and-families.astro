@@ -1,0 +1,19 @@
+---
+import { getEntry, render } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import BlogLayout from '@/layouts/BlogLayout.astro';
+
+// Source: https://thenewrink.com/7-health-benefits-of-roller-skating-for-kids-and-families/
+const entry = await getEntry('blog', '7-health-benefits-of-roller-skating-for-kids-and-families');
+const rendered = entry ? await render(entry) : undefined;
+---
+
+{entry && rendered ? (
+  <BlogLayout frontmatter={entry.data} mdxFilePath={`src/content/blog/${entry.id}.mdx`} headings={rendered.headings}>
+    <rendered.Content />
+  </BlogLayout>
+) : (
+  <BaseLayout title="Article not yet imported" noIndex>
+    <main class="container mx-auto px-7 py-24" data-ps="src/pages/7-health-benefits-of-roller-skating-for-kids-and-families.astro:xpv5bt"><p data-ps="src/pages/7-health-benefits-of-roller-skating-for-kids-and-families.astro:fxhfy8">This article has not been imported yet.</p></main>
+  </BaseLayout>
+)}

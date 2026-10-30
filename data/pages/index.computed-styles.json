@@ -1,0 +1,4063 @@
+{
+  "viewportWidth": 1920,
+  "pageBackground": {
+    "type": "color",
+    "value": "rgb(255, 255, 255)"
+  },
+  "fontSmoothing": null,
+  "isElementor": false,
+  "sectionThemes": [
+    {
+      "background": "rgb(255, 255, 255)",
+      "textColor": "rgb(255, 255, 255)",
+      "headings": [
+        {
+          "tag": "h1",
+          "fontSize": "43px",
+          "fontWeight": "400",
+          "fontFamily": "ADLaM Display",
+          "color": "rgb(255, 255, 255)",
+          "text": "Welcome to Our Roller Sports Complex in Shelby TWP, MI",
+          "textTransform": "none",
+          "textAlign": "start"
+        },
+        {
+          "tag": "h2",
+          "fontSize": "43px",
+          "fontWeight": "400",
+          "fontFamily": "ADLaM Display",
+          "color": "rgb(0, 0, 0)",
+          "text": "Open Skating Hours",
+          "textTransform": "none",
+          "textAlign": "start"
+        },
+        {
+          "tag": "h3",
+          "fontSize": "32px",
+          "fontWeight": "400",
+          "fontFamily": "ADLaM Display",
+          "color": "rgb(85, 1, 114)",
+          "text": "Monday",
+          "textTransform": "none",
+          "textAlign": "start"
+        },
+        {
+          "tag": "h3",
+          "fontSize": "32px",
+          "fontWeight": "400",
+          "fontFamily": "ADLaM Display",
+          "color": "rgb(85, 1, 114)",
+          "text": "Tuesday",
+          "textTransform": "none",
+          "textAlign": "start"
+        },
+        {
+          "tag": "h3",
+          "fontSize": "32px",
+          "fontWeight": "400",
+          "fontFamily": "ADLaM Display",
+          "color": "rgb(85, 1, 114)",
+          "text": "Wednesday",
+          "textTransform": "none",
+          "textAlign": "start"
+        }
+      ],
+      "bodyStyle": {
+        "fontSize": "18px",
+        "color": "rgba(255, 255, 255, 0.9)",
+        "lineHeight": "27px",
+        "textAlign": "start"
+      },
+      "buttons": [
+        {
+          "backgroundColor": "rgb(247, 107, 21)",
+          "color": "rgb(255, 255, 255)",
+          "borderRadius": "999px",
+          "padding": "14px 28px 14px 28px",
+          "fontSize": "15px",
+          "fontWeight": "600",
+          "fontFamily": "Poppins",
+          "fontStyle": "normal",
+          "textTransform": "none",
+          "text": "See Our Activities"
+        }
+      ],
+      "images": [
+        {
+          "displayWidth": 1905,
+          "displayHeight": 597,
+          "objectFit": "cover"
+        },
+        {
+          "displayWidth": 384,
+          "displayHeight": 216,
+          "objectFit": "cover"
+        },
+        {
+          "displayWidth": 384,
+          "displayHeight": 216,
+          "objectFit": "cover"
+        },
+        {
+          "displayWidth": 384,
+          "displayHeight": 216,
+          "objectFit": "cover"
+        },
+        {
+          "displayWidth": 384,
+          "displayHeight": 216,
+          "objectFit": "cover"
+        },
+        {
+          "displayWidth": 384,
+          "displayHeight": 216,
+          "objectFit": "cover"
+        },
+        {
+          "displayWidth": 384,
+          "displayHeight": 216,
+          "objectFit": "cover"
+        },
+        {
+          "displayWidth": 384,
+          "displayHeight": 216,
+          "objectFit": "cover"
+        }
+      ],
+      "layout": {
+        "containerMaxWidth": "1440px",
+        "paddingBlock": "20px 20px",
+        "display": "flex",
+        "flexDirection": "row",
+        "alignItems": "center",
+        "justifyContent": "flex-start",
+        "childCount": 10
+      },
+      "interactionType": "carousel",
+      "pseudoElements": [
+        {
+          "host": "breakdance-menu-toggle-lines",
+          "type": "::before",
+          "width": "32px",
+          "height": "4px",
+          "position": "absolute",
+          "top": "-10px",
+          "backgroundColor": "rgb(85, 1, 114)"
+        },
+        {
+          "host": "breakdance-menu-toggle-lines",
+          "type": "::after",
+          "width": "32px",
+          "height": "4px",
+          "position": "absolute",
+          "bottom": "-10px",
+          "backgroundColor": "rgb(85, 1, 114)"
+        }
+      ],
+      "contentAlignment": {
+        "container": "body > ",
+        "containerSize": {
+          "width": 1905,
+          "height": 10409
+        },
+        "offsets": {
+          "left": 281,
+          "top": 170,
+          "right": 1008,
+          "bottom": 10119
+        },
+        "center": {
+          "x": 0.309,
+          "y": 0.022
+        },
+        "layout": {
+          "display": "block",
+          "direction": "row",
+          "justifyContent": "normal",
+          "alignItems": "normal",
+          "padding": "0px",
+          "gap": "normal"
+        },
+        "item": {
+          "alignSelf": "auto",
+          "margin": "0px",
+          "padding": "0px",
+          "position": "static"
+        }
+      }
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "gradient": "linear-gradient(150deg, rgb(113, 13, 82) 0%, rgb(85, 1, 114) 100%)",
+      "textColor": "rgb(255, 255, 255)",
+      "headings": [
+        {
+          "tag": "h1",
+          "fontSize": "43px",
+          "fontWeight": "400",
+          "fontFamily": "ADLaM Display",
+          "color": "rgb(255, 255, 255)",
+          "text": "Welcome to Our Roller Sports Complex in Shelby TWP, MI",
+          "textTransform": "none",
+          "textAlign": "start"
+        }
+      ],
+      "bodyStyle": {
+        "fontSize": "18px",
+        "color": "rgba(255, 255, 255, 0.9)",
+        "lineHeight": "27px",
+        "textAlign": "start"
+      },
+      "buttons": [
+        {
+          "backgroundColor": "rgb(247, 107, 21)",
+          "color": "rgb(255, 255, 255)",
+          "borderRadius": "999px",
+          "padding": "14px 28px 14px 28px",
+          "fontSize": "15px",
+          "fontWeight": "600",
+          "fontFamily": "Poppins",
+          "fontStyle": "normal",
+          "textTransform": "none",
+          "text": "See Our Activities"
+        }
+      ],
+      "layout": {
+        "containerMaxWidth": "1344px",
+        "paddingBlock": "150px 100px",
+        "display": "flex",
+        "flexDirection": "column",
+        "alignItems": "start",
+        "gap": "28px",
+        "childCount": 3
+      },
+      "contentAlignment": {
+        "container": "body > section:nth-of-type(1)",
+        "containerSize": {
+          "width": 1905,
+          "height": 617
+        },
+        "offsets": {
+          "left": 281,
+          "top": 170,
+          "right": 1008,
+          "bottom": 327
+        },
+        "center": {
+          "x": 0.309,
+          "y": 0.372
+        },
+        "layout": {
+          "display": "flex",
+          "direction": "column",
+          "justifyContent": "normal",
+          "alignItems": "center",
+          "padding": "150px 28px 100px",
+          "gap": "normal"
+        },
+        "item": {
+          "alignSelf": "auto",
+          "margin": "0px",
+          "padding": "0px",
+          "position": "static"
+        }
+      }
+    },
+    {
+      "background": "rgb(227, 207, 220)",
+      "textColor": "rgb(0, 0, 0)",
+      "headings": [
+        {
+          "tag": "h2",
+          "fontSize": "43px",
+          "fontWeight": "400",
+          "fontFamily": "ADLaM Display",
+          "color": "rgb(0, 0, 0)",
+          "text": "Open Skating Hours",
+          "textTransform": "none",
+          "textAlign": "start"
+        },
+        {
+          "tag": "h3",
+          "fontSize": "32px",
+          "fontWeight": "400",
+          "fontFamily": "ADLaM Display",
+          "color": "rgb(85, 1, 114)",
+          "text": "Monday",
+          "textTransform": "none",
+          "textAlign": "start"
+        },
+        {
+          "tag": "h3",
+          "fontSize": "32px",
+          "fontWeight": "400",
+          "fontFamily": "ADLaM Display",
+          "color": "rgb(85, 1, 114)",
+          "text": "Tuesday",
+          "textTransform": "none",
+          "textAlign": "start"
+        },
+        {
+          "tag": "h3",
+          "fontSize": "32px",
+          "fontWeight": "400",
+          "fontFamily": "ADLaM Display",
+          "color": "rgb(85, 1, 114)",
+          "text": "Wednesday",
+          "textTransform": "none",
+          "textAlign": "start"
+        },
+        {
+          "tag": "h3",
+          "fontSize": "32px",
+          "fontWeight": "400",
+          "fontFamily": "ADLaM Display",
+          "color": "rgb(85, 1, 114)",
+          "text": "Thursday",
+          "textTransform": "none",
+          "textAlign": "start"
+        }
+      ],
+      "bodyStyle": {
+        "fontSize": "14px",
+        "color": "rgb(247, 107, 21)",
+        "lineHeight": "19.6px",
+        "textAlign": "start"
+      },
+      "buttons": [
+        {
+          "backgroundColor": "rgb(247, 107, 21)",
+          "color": "rgb(255, 255, 255)",
+          "borderRadius": "999px",
+          "padding": "14px 28px 14px 28px",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "fontFamily": "Poppins",
+          "fontStyle": "normal",
+          "textTransform": "none",
+          "text": "Book a Party"
+        }
+      ],
+      "layout": {
+        "containerMaxWidth": "1344px",
+        "paddingBlock": "112px 112px",
+        "display": "flex",
+        "flexDirection": "column",
+        "gap": "14px",
+        "childCount": 3
+      },
+      "contentAlignment": {
+        "container": "#hours",
+        "containerSize": {
+          "width": 1905,
+          "height": 2037
+        },
+        "offsets": {
+          "left": 281,
+          "top": 146,
+          "right": 845,
+          "bottom": 1840
+        },
+        "center": {
+          "x": 0.352,
+          "y": 0.084
+        },
+        "layout": {
+          "display": "flex",
+          "direction": "column",
+          "justifyContent": "normal",
+          "alignItems": "center",
+          "padding": "112px 28px",
+          "gap": "normal"
+        },
+        "item": {
+          "alignSelf": "auto",
+          "margin": "0px",
+          "padding": "0px",
+          "position": "static"
+        }
+      }
+    },
+    {
+      "background": "rgb(39, 0, 52)",
+      "isBackgroundPhoto": true,
+      "textColor": "rgb(255, 255, 255)",
+      "headings": [
+        {
+          "tag": "h2",
+          "fontSize": "57px",
+          "fontWeight": "400",
+          "fontFamily": "ADLaM Display",
+          "color": "rgb(255, 255, 255)",
+          "text": "Schedule your next Birthday, Scout Outing, Get Together, Sports Team, Celebratio",
+          "textTransform": "none",
+          "textAlign": "center"
+        }
+      ],
+      "bodyStyle": {
+        "fontSize": "14px",
+        "color": "rgb(252, 196, 161)",
+        "lineHeight": "19.6px",
+        "textAlign": "center"
+      },
+      "buttons": [
+        {
+          "backgroundColor": "rgb(247, 107, 21)",
+          "color": "rgb(255, 255, 255)",
+          "borderRadius": "4px",
+          "padding": "14px 28px 14px 28px",
+          "fontSize": "18px",
+          "fontWeight": "600",
+          "fontFamily": "Poppins",
+          "fontStyle": "normal",
+          "textTransform": "none",
+          "text": "Book a Party Now"
+        }
+      ],
+      "images": [
+        {
+          "displayWidth": 1905,
+          "displayHeight": 597,
+          "objectFit": "cover"
+        }
+      ],
+      "layout": {
+        "containerMaxWidth": "1120px",
+        "paddingBlock": "112px 112px"
+      },
+      "contentAlignment": {
+        "container": "body > div:nth-of-type(2) > section:nth-of-type(1)",
+        "containerSize": {
+          "width": 1905,
+          "height": 597
+        },
+        "offsets": {
+          "left": 393,
+          "top": 152,
+          "right": 393,
+          "bottom": 240
+        },
+        "center": {
+          "x": 0.5,
+          "y": 0.426
+        },
+        "layout": {
+          "display": "flex",
+          "direction": "column",
+          "justifyContent": "normal",
+          "alignItems": "center",
+          "padding": "112px 28px",
+          "gap": "normal"
+        },
+        "item": {
+          "alignSelf": "auto",
+          "margin": "0px",
+          "padding": "0px",
+          "position": "static"
+        }
+      }
+    },
+    {
+      "background": "rgb(227, 207, 220)",
+      "textColor": "rgb(85, 1, 114)",
+      "headings": [
+        {
+          "tag": "h2",
+          "fontSize": "43px",
+          "fontWeight": "400",
+          "fontFamily": "ADLaM Display",
+          "color": "rgb(85, 1, 114)",
+          "text": "Activities to Enjoy With Us",
+          "textTransform": "none",
+          "textAlign": "center"
+        },
+        {
+          "tag": "h3",
+          "fontSize": "30px",
+          "fontWeight": "400",
+          "fontFamily": "ADLaM Display",
+          "color": "rgb(85, 1, 114)",
+          "text": "Family Fun and Exercise for all",
+          "textTransform": "none",
+          "textAlign": "start"
+        },
+        {
+          "tag": "h3",
+          "fontSize": "30px",
+          "fontWeight": "400",
+          "fontFamily": "ADLaM Display",
+          "color": "rgb(85, 1, 114)",
+          "text": "Girl Scouts",
+          "textTransform": "none",
+          "textAlign": "start"
+        },
+        {
+          "tag": "h3",
+          "fontSize": "30px",
+          "fontWeight": "400",
+          "fontFamily": "ADLaM Display",
+          "color": "rgb(85, 1, 114)",
+          "text": "Parties",
+          "textTransform": "none",
+          "textAlign": "start"
+        },
+        {
+          "tag": "h3",
+          "fontSize": "30px",
+          "fontWeight": "400",
+          "fontFamily": "ADLaM Display",
+          "color": "rgb(85, 1, 114)",
+          "text": "Private Parties / Fundraisers",
+          "textTransform": "none",
+          "textAlign": "start"
+        }
+      ],
+      "bodyStyle": {
+        "fontSize": "14px",
+        "color": "rgb(247, 107, 21)",
+        "lineHeight": "19.6px",
+        "textAlign": "center"
+      },
+      "buttons": [
+        {
+          "backgroundColor": "rgb(247, 107, 21)",
+          "color": "rgb(255, 255, 255)",
+          "borderRadius": "999px",
+          "padding": "14px 28px 14px 28px",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "fontFamily": "Poppins",
+          "fontStyle": "normal",
+          "textTransform": "none",
+          "text": "Learn More"
+        }
+      ],
+      "images": [
+        {
+          "displayWidth": 384,
+          "displayHeight": 216,
+          "objectFit": "cover"
+        },
+        {
+          "displayWidth": 384,
+          "displayHeight": 216,
+          "objectFit": "cover"
+        },
+        {
+          "displayWidth": 384,
+          "displayHeight": 216,
+          "objectFit": "cover"
+        },
+        {
+          "displayWidth": 384,
+          "displayHeight": 216,
+          "objectFit": "cover"
+        },
+        {
+          "displayWidth": 384,
+          "displayHeight": 216,
+          "objectFit": "cover"
+        },
+        {
+          "displayWidth": 384,
+          "displayHeight": 216,
+          "objectFit": "cover"
+        },
+        {
+          "displayWidth": 384,
+          "displayHeight": 216,
+          "objectFit": "cover"
+        },
+        {
+          "displayWidth": 384,
+          "displayHeight": 216,
+          "objectFit": "cover"
+        }
+      ],
+      "layout": {
+        "containerMaxWidth": "1344px",
+        "paddingBlock": "112px 112px",
+        "display": "flex",
+        "flexDirection": "column",
+        "alignItems": "center",
+        "gap": "14px",
+        "childCount": 3
+      },
+      "contentAlignment": {
+        "container": "body > div:nth-of-type(3) > section:nth-of-type(1)",
+        "containerSize": {
+          "width": 1905,
+          "height": 2567
+        },
+        "offsets": {
+          "left": 680,
+          "top": 146,
+          "right": 680,
+          "bottom": 2370
+        },
+        "center": {
+          "x": 0.5,
+          "y": 0.067
+        },
+        "layout": {
+          "display": "flex",
+          "direction": "column",
+          "justifyContent": "normal",
+          "alignItems": "center",
+          "padding": "112px 28px",
+          "gap": "normal"
+        },
+        "item": {
+          "alignSelf": "auto",
+          "margin": "0px",
+          "padding": "0px",
+          "position": "static"
+        }
+      }
+    },
+    {
+      "background": "rgb(227, 207, 220)",
+      "textColor": "rgb(85, 1, 114)",
+      "headings": [
+        {
+          "tag": "h2",
+          "fontSize": "43px",
+          "fontWeight": "400",
+          "fontFamily": "ADLaM Display",
+          "color": "rgb(85, 1, 114)",
+          "text": "Special Events",
+          "textTransform": "none",
+          "textAlign": "start"
+        },
+        {
+          "tag": "h3",
+          "fontSize": "22px",
+          "fontWeight": "400",
+          "fontFamily": "ADLaM Display",
+          "color": "rgb(0, 0, 0)",
+          "text": "Friday & Saturday Family Fun Nights",
+          "textTransform": "none",
+          "textAlign": "start"
+        },
+        {
+          "tag": "h3",
+          "fontSize": "22px",
+          "fontWeight": "400",
+          "fontFamily": "ADLaM Display",
+          "color": "rgb(0, 0, 0)",
+          "text": "Election Day Open Skate",
+          "textTransform": "none",
+          "textAlign": "start"
+        },
+        {
+          "tag": "h3",
+          "fontSize": "22px",
+          "fontWeight": "400",
+          "fontFamily": "ADLaM Display",
+          "color": "rgb(0, 0, 0)",
+          "text": "Rollers and Strollers Skate with Buzz & Woody",
+          "textTransform": "none",
+          "textAlign": "start"
+        }
+      ],
+      "bodyStyle": {
+        "fontSize": "14px",
+        "color": "rgb(247, 107, 21)",
+        "lineHeight": "19.6px",
+        "textAlign": "start"
+      },
+      "buttons": [
+        {
+          "backgroundColor": "rgb(247, 107, 21)",
+          "color": "rgb(255, 255, 255)",
+          "borderRadius": "999px",
+          "padding": "14px 28px 14px 28px",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "fontFamily": "Poppins",
+          "fontStyle": "normal",
+          "textTransform": "none",
+          "text": "Learn More"
+        }
+      ],
+      "images": [
+        {
+          "displayWidth": 430,
+          "displayHeight": 215,
+          "objectFit": "cover"
+        },
+        {
+          "displayWidth": 430,
+          "displayHeight": 215,
+          "objectFit": "cover"
+        },
+        {
+          "displayWidth": 430,
+          "displayHeight": 215,
+          "objectFit": "cover"
+        }
+      ],
+      "layout": {
+        "containerMaxWidth": "1344px",
+        "paddingBlock": "112px 112px",
+        "display": "flex",
+        "flexDirection": "column",
+        "gap": "14px",
+        "childCount": 3
+      },
+      "contentAlignment": {
+        "container": "body > div:nth-of-type(5) > section:nth-of-type(1)",
+        "containerSize": {
+          "width": 1905,
+          "height": 1528
+        },
+        "offsets": {
+          "left": 281,
+          "top": 146,
+          "right": 1065,
+          "bottom": 1331
+        },
+        "center": {
+          "x": 0.294,
+          "y": 0.112
+        },
+        "layout": {
+          "display": "flex",
+          "direction": "column",
+          "justifyContent": "normal",
+          "alignItems": "center",
+          "padding": "112px 28px",
+          "gap": "normal"
+        },
+        "item": {
+          "alignSelf": "auto",
+          "margin": "0px",
+          "padding": "0px",
+          "position": "static"
+        }
+      }
+    },
+    {
+      "background": "rgb(85, 1, 114)",
+      "textColor": "rgb(255, 255, 255)",
+      "headings": [
+        {
+          "tag": "h3",
+          "fontSize": "20px",
+          "fontWeight": "600",
+          "fontFamily": "Poppins",
+          "color": "rgb(255, 255, 255)",
+          "text": "Phone number",
+          "textTransform": "none",
+          "textAlign": "start"
+        },
+        {
+          "tag": "h3",
+          "fontSize": "20px",
+          "fontWeight": "600",
+          "fontFamily": "Poppins",
+          "color": "rgb(255, 255, 255)",
+          "text": "Email",
+          "textTransform": "none",
+          "textAlign": "start"
+        },
+        {
+          "tag": "h3",
+          "fontSize": "20px",
+          "fontWeight": "600",
+          "fontFamily": "Poppins",
+          "color": "rgb(255, 255, 255)",
+          "text": "Address",
+          "textTransform": "none",
+          "textAlign": "start"
+        },
+        {
+          "tag": "h2",
+          "fontSize": "43px",
+          "fontWeight": "400",
+          "fontFamily": "ADLaM Display",
+          "color": "rgb(255, 255, 255)",
+          "text": "Contact Us",
+          "textTransform": "none",
+          "textAlign": "start"
+        }
+      ],
+      "bodyStyle": {
+        "fontSize": "16px",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "22.4px",
+        "textAlign": "start"
+      },
+      "buttons": [
+        {
+          "backgroundColor": "rgb(247, 107, 21)",
+          "color": "rgb(255, 255, 255)",
+          "borderRadius": "999px",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "14px 24px 14px 24px",
+          "fontSize": "15px",
+          "fontWeight": "500",
+          "fontFamily": "Poppins",
+          "fontStyle": "normal",
+          "textTransform": "none",
+          "text": "Submit"
+        }
+      ],
+      "links": [
+        {
+          "text": "(586) 731-5006",
+          "color": "rgb(255, 255, 255)",
+          "fontWeight": "600"
+        }
+      ],
+      "layout": {
+        "containerMaxWidth": "1344px",
+        "paddingBlock": "112px 112px",
+        "display": "flex",
+        "flexDirection": "column",
+        "gap": "56px",
+        "childCount": 2
+      },
+      "contentAlignment": {
+        "container": "#contact",
+        "containerSize": {
+          "width": 1905,
+          "height": 935
+        },
+        "offsets": {
+          "left": 309,
+          "top": 140,
+          "right": 1310,
+          "bottom": 771
+        },
+        "center": {
+          "x": 0.237,
+          "y": 0.163
+        },
+        "layout": {
+          "display": "flex",
+          "direction": "column",
+          "justifyContent": "normal",
+          "alignItems": "center",
+          "padding": "112px 28px",
+          "gap": "normal"
+        },
+        "item": {
+          "alignSelf": "auto",
+          "margin": "0px",
+          "padding": "0px",
+          "position": "static"
+        }
+      }
+    },
+    {
+      "background": "rgb(39, 0, 52)",
+      "textColor": "rgb(255, 255, 255)",
+      "headings": [],
+      "bodyStyle": {
+        "fontSize": "13px",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "18.2px",
+        "textAlign": "start"
+      },
+      "buttons": [],
+      "links": [
+        {
+          "text": "Lively Designs",
+          "color": "rgb(247, 107, 21)",
+          "fontWeight": "400"
+        }
+      ],
+      "layout": {
+        "paddingBlock": "40px 40px",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+        "justifyContent": "center",
+        "gap": "12px 56px",
+        "childCount": 2
+      }
+    }
+  ],
+  "globalTypography": {
+    "headingFont": "ADLaM Display",
+    "bodyFont": "Poppins",
+    "scale": {
+      "h1": {
+        "fontSize": "43px",
+        "fontWeight": "400",
+        "lineHeight": "60.2px",
+        "fontFamily": "ADLaM Display",
+        "fontStyle": "normal",
+        "textTransform": "none"
+      },
+      "h2": {
+        "fontSize": "57px",
+        "fontWeight": "400",
+        "lineHeight": "68.4px",
+        "fontFamily": "ADLaM Display",
+        "fontStyle": "normal",
+        "textTransform": "none"
+      },
+      "h3": {
+        "fontSize": "32px",
+        "fontWeight": "400",
+        "lineHeight": "41.6px",
+        "fontFamily": "ADLaM Display",
+        "fontStyle": "normal",
+        "textTransform": "none"
+      },
+      "body": {
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "27px",
+        "fontFamily": "Poppins"
+      }
+    },
+    "paragraphMargin": "0px 0px"
+  },
+  "navigation": {
+    "isFullWidth": true,
+    "width": "1905px",
+    "position": "fixed",
+    "logo": {
+      "width": "93px",
+      "height": "64px",
+      "position": "inside-nav",
+      "hasBadge": false,
+      "src": "https://thenewrink.com/wp-content/uploads/2026/09/the-new-rink-logo_transparent.webp"
+    },
+    "hasLogo": true,
+    "links": [
+      {
+        "text": "Home",
+        "fontSize": "15px",
+        "fontFamily": "Poppins",
+        "fontWeight": "500",
+        "fontStyle": "normal",
+        "textTransform": "none",
+        "color": "rgb(252, 196, 161)"
+      },
+      {
+        "text": "Hours and Pricing",
+        "fontSize": "15px",
+        "fontFamily": "Poppins",
+        "fontWeight": "500",
+        "fontStyle": "normal",
+        "textTransform": "none",
+        "color": "rgb(230, 230, 230)"
+      },
+      {
+        "text": "Events",
+        "fontSize": "15px",
+        "fontFamily": "Poppins",
+        "fontWeight": "500",
+        "fontStyle": "normal",
+        "textTransform": "none",
+        "color": "rgb(230, 230, 230)"
+      },
+      {
+        "text": "Activities",
+        "fontSize": "15px",
+        "fontFamily": "Poppins",
+        "fontWeight": "500",
+        "fontStyle": "normal",
+        "textTransform": "none",
+        "color": "rgb(230, 230, 230)"
+      },
+      {
+        "text": "Parties",
+        "fontSize": "15px",
+        "fontFamily": "Poppins",
+        "fontWeight": "500",
+        "fontStyle": "normal",
+        "textTransform": "none",
+        "color": "rgb(230, 230, 230)"
+      },
+      {
+        "text": "Skate Lessons",
+        "fontSize": "15px",
+        "fontFamily": "Poppins",
+        "fontWeight": "500",
+        "fontStyle": "normal",
+        "textTransform": "none",
+        "color": "rgb(230, 230, 230)"
+      },
+      {
+        "text": "Blog",
+        "fontSize": "15px",
+        "fontFamily": "Poppins",
+        "fontWeight": "500",
+        "fontStyle": "normal",
+        "textTransform": "none",
+        "color": "rgb(230, 230, 230)"
+      },
+      {
+        "text": "FAQs",
+        "fontSize": "15px",
+        "fontFamily": "Poppins",
+        "fontWeight": "500",
+        "fontStyle": "normal",
+        "textTransform": "none",
+        "color": "rgb(230, 230, 230)"
+      },
+      {
+        "text": "Contact",
+        "fontSize": "15px",
+        "fontFamily": "Poppins",
+        "fontWeight": "500",
+        "fontStyle": "normal",
+        "textTransform": "none",
+        "color": "rgb(230, 230, 230)"
+      },
+      {
+        "text": "(586) 731-5006",
+        "fontSize": "15px",
+        "fontFamily": "Poppins",
+        "fontWeight": "500",
+        "fontStyle": "normal",
+        "textTransform": "none",
+        "color": "rgb(255, 255, 255)",
+        "isButton": true,
+        "buttonStyle": {
+          "backgroundColor": "rgb(247, 107, 21)",
+          "borderRadius": "999px",
+          "border": "1px solid rgba(0, 0, 0, 0)"
+        }
+      }
+    ],
+    "linkLayout": {
+      "paddingX": "14px 14px",
+      "pitchPx": 97,
+      "distribution": "right",
+      "verticalAlign": "middle",
+      "containerAlignment": {
+        "container": "body > header:nth-of-type(1) > div:nth-of-type(1)",
+        "containerSize": {
+          "width": 1440,
+          "height": 104
+        },
+        "offsets": {
+          "left": 393,
+          "top": 35,
+          "right": 974,
+          "bottom": 35
+        },
+        "center": {
+          "x": 0.298,
+          "y": 0.5
+        },
+        "layout": {
+          "display": "flex",
+          "direction": "row",
+          "justifyContent": "space-between",
+          "alignItems": "center",
+          "padding": "20px 28px",
+          "gap": "20px"
+        },
+        "item": {
+          "alignSelf": "auto",
+          "margin": "0px",
+          "padding": "10px 14px",
+          "position": "relative"
+        }
+      }
+    },
+    "pseudoElements": [
+      {
+        "host": "breakdance-menu-toggle-lines",
+        "type": "::before",
+        "width": "32px",
+        "height": "4px",
+        "position": "absolute",
+        "top": "-10px",
+        "backgroundColor": "rgb(85, 1, 114)"
+      },
+      {
+        "host": "breakdance-menu-toggle-lines",
+        "type": "::after",
+        "width": "32px",
+        "height": "4px",
+        "position": "absolute",
+        "bottom": "-10px",
+        "backgroundColor": "rgb(85, 1, 114)"
+      }
+    ]
+  },
+  "sliders": [
+    {
+      "sectionHeading": "Happy Customers Speak Out",
+      "totalSlides": 1,
+      "visibleAtOnce": 1,
+      "slideType": "text",
+      "topPosition": 6106,
+      "items": [
+        {
+          "texts": [
+            "The New Rink is a welcoming place to bring kids as adults of all ages, very affordable, clean with a variety of food and drink options, staff is friendly and are always...",
+            "I love bringing my family here! Nevah is such a sweetheart! She was so kind and understanding. Everytime I come she always makes my experience so much better. She is great with...",
+            "Family fun!"
+          ],
+          "images": []
+        }
+      ],
+      "initialIndex": 0,
+      "activeIndexSource": "visibility"
+    },
+    {
+      "sectionHeading": "Happy Customers Speak Out",
+      "totalSlides": 6,
+      "visibleAtOnce": 3,
+      "slideType": "text",
+      "topPosition": 6106,
+      "items": [
+        {
+          "texts": [
+            "The New Rink is a welcoming place to bring kids as adults of all ages, very affordable, clean with a variety of food and drink options, staff is friendly and are always..."
+          ],
+          "images": [],
+          "sourceIndex": 0
+        },
+        {
+          "texts": [
+            "I love bringing my family here! Nevah is such a sweetheart! She was so kind and understanding. Everytime I come she always makes my experience so much better. She is great with..."
+          ],
+          "images": [],
+          "sourceIndex": 1
+        },
+        {
+          "texts": [
+            "Family fun!"
+          ],
+          "images": [],
+          "sourceIndex": 2
+        },
+        {
+          "texts": [
+            "I had my daughter’s 12th birthday party at this establishment last night and was greatly pleased. The process to book the party was very easy. They called 3 days before the party..."
+          ],
+          "images": [],
+          "sourceIndex": 3
+        },
+        {
+          "texts": [
+            "We absolutely love coming here as a family for our school’s fundraising events. The atmosphere is so fun, it always feels clean, the pizza is delicious & the kids have a blast...."
+          ],
+          "images": [],
+          "sourceIndex": 4
+        },
+        {
+          "texts": [
+            "I attended a birthday party at The New Rink. I don’t skate anymore but my grandchildren had a ball. The employees were helpful and friendly especially Patty. Thank you for a great..."
+          ],
+          "images": [],
+          "sourceIndex": 5
+        }
+      ],
+      "initialIndex": 2,
+      "activeIndexSource": "class",
+      "initialSourceIndex": 2
+    }
+  ],
+  "buttons": [
+    {
+      "backgroundColor": "rgb(247, 107, 21)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "999px",
+      "padding": "14px 28px 14px 28px",
+      "fontSize": "15px",
+      "fontWeight": "600",
+      "fontFamily": "Poppins",
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "text": "See Our Activities"
+    }
+  ],
+  "videos": [],
+  "footer": {
+    "background": "rgb(39, 0, 52)",
+    "textColor": "rgb(64, 64, 64)",
+    "columns": 1,
+    "textAlign": "start"
+  },
+  "socialLinks": null,
+  "hoverStyles": {
+    ".breakdance-menu-item": {
+      "backgroundColor": "var(--link-background-color-hover)",
+      "color": "var(--link-color-hover)"
+    },
+    ".breakdance-menu-item .breakdance-menu-link-arrow": {
+      "backgroundColor": "var(--link-arrow-color-hover)"
+    },
+    ".breakdance-menu .breakdance-menu-link": {
+      "color": "inherit"
+    },
+    ".breakdance-menu .breakdance-dropdown-link": {
+      "backgroundColor": "var(--dropdown-link-background-color-hover)",
+      "color": "var(--dropdown-link-color)"
+    },
+    ".breakdance-dropdown-link .breakdance-dropdown-link__icon": {
+      "backgroundColor": "var(--dropdown-link-icon-background-hover, var(--dropdown-link-icon-background))",
+      "color": "var(--dropdown-link-icon-color-hover, var(--dropdown-link-icon-color))"
+    },
+    ".breakdance-dropdown-link .breakdance-dropdown-link__icon img": {
+      "opacity": "var(--dropdown-link-img-opacity-hover)"
+    },
+    ".breakdance-menu-close-button, .breakdance-menu-close-button": {
+      "backgroundColor": "var(--mobile-topbar-close-button-color-hover)"
+    },
+    ".breakdance-menu-toggle": {
+      "backgroundColor": "var(--toggle-background-color-hover)",
+      "color": "var(--toggle-layer-color-hover)"
+    },
+    ".breakdance-menu--effect .breakdance-menu-item": {
+      "backgroundColor": "var(--link-effect-color-hover)",
+      "transform": "none",
+      "opacity": "1"
+    },
+    ".breakdance-menu--active-styles .breakdance-menu-item": {
+      "backgroundColor": "var(--link-effect-color)"
+    },
+    ".swiper-pagination-bullet:not(.swiper-pagination-bullet-active)": {
+      "opacity": "0.4"
+    },
+    ".breakdance-form-files-list-item__delete": {
+      "backgroundColor": "var(--red-500)"
+    },
+    ".breakdance-form-dropzone, .breakdance-form-dropzone:focus": {
+      "backgroundColor": "var(--bde-form-dropzone-background-color-hover)",
+      "color": "var(--bde-form-dropzone-color-hover)",
+      "borderColor": "var(--bde-form-dropzone-border-color-hover)"
+    },
+    ".breakdance-form-dropzone:where(:focus, ) .breakdance-form-dropzone__title span": {
+      "color": "var(--bde-form-dropzone-link-color-hover)"
+    },
+    ".breakdance-form-dropzone:where(:focus, ) .breakdance-form-dropzone__icon": {
+      "color": "var(--bde-form-dropzone-icon-color-hover)"
+    },
+    ".lg-next:not(.disabled), .lg-prev:not(.disabled)": {
+      "color": "rgb(255, 255, 255)"
+    },
+    ".lg-toolbar .lg-icon": {
+      "color": "rgb(255, 255, 255)"
+    },
+    ".lg-outer .lg-thumb-item.active, .lg-outer .lg-thumb-item": {
+      "borderColor": "rgb(169, 7, 7)"
+    },
+    ".lg-video-play-button .lg-video-play-icon, .lg-video-play-button .lg-video-play-icon-bg": {
+      "opacity": "1"
+    },
+    ".lg-outer .lg-pager-cont .lg-pager-thumb-cont": {
+      "transform": "translate3d(0px, 0px, 0px)",
+      "opacity": "1"
+    },
+    ".lg-outer .lg-pager:focus, .lg-outer .lg-pager": {
+      "boxShadow": "rgb(255, 255, 255) 0px 0px 0px 8px inset"
+    },
+    ".lg-outer .lg-dropdown > li a": {
+      "color": "rgb(51, 51, 51)"
+    },
+    ".lg-outer .lg-dropdown a": {
+      "backgroundColor": "rgba(0, 0, 0, 0.07)"
+    },
+    ".lg-comment-box .lg-comment-close": {
+      "color": "rgb(255, 255, 255)"
+    },
+    ".ee-vimeo-poster .ee-vimeo-play-button": {
+      "backgroundColor": "rgb(98, 175, 237)",
+      "opacity": "1"
+    },
+    ".button-atom--text": {
+      "color": "var(--bde-button-text-text-color-hover)"
+    },
+    ".button-atom--primary": {
+      "color": "var(--bde-button-primary-text-color-hover)",
+      "borderColor": "var(--bde-button-primary-border-color-hover)"
+    },
+    ".button-atom--secondary": {
+      "color": "var(--bde-button-secondary-text-color-hover)",
+      "borderColor": "var(--bde-button-secondary-border-color-hover)"
+    },
+    ".button-atom--custom": {
+      "color": "var(--bde-button-custom-text-color-hover)",
+      "borderColor": "var(--bde-button-custom-border-color-hover)"
+    },
+    ".button-atom:disabled, .button-atom:disabled": {
+      "opacity": "0.6"
+    },
+    "a, .button-atom--text": {
+      "color": "var(--bde-links-color-hover)"
+    },
+    ".button-atom--primary, .bde-mini-cart-offcanvas .button, .bde-woo-product-quicklook-button, .woocommerce-page.woocommerce-lost-password .breakdance-woocommerce button[type=\"submit\"], .breakdance-woocommerce .woocommerce-form-track-order button[type=\"submit\"], .breakdance-woocommerce #place_order, .breakdance-woocommerce .woocommerce-button.pay, .breakdance-woocommerce button.single_add_to_cart_button, .breakdance-woocommerce a.single_add_to_cart_button, .breakdance-woocommerce a.button.wc-backward, .breakdance-woocommerce a.checkout-button, .breakdance-woocommerce p.order-again a.button, .breakdance-woocommerce button[name=\"add-to-cart\"], .breakdance-woocommerce button[name=\"login\"], .breakdance-woocommerce button[name=\"save_address\"], .breakdance-woocommerce button[name=\"save_account_details\"], .breakdance-woocommerce button[name=\"woocommerce_checkout_place_order\"], .breakdance-woocommerce .bde-review-modal-trigger, .breakdance-woocommerce .woocommerce-MyAccount-content a.button[href*=\"add-payment-method\"]": {
+      "color": "rgb(255, 255, 255)"
+    },
+    ".btn": {
+      "backgroundColor": "var(--pink-dark)",
+      "color": "var(--white)"
+    },
+    ".cta__btn": {
+      "backgroundColor": "var(--pink-dark)",
+      "color": "var(--white)"
+    },
+    ".contact__value": {
+      "color": "var(--pink-soft)"
+    },
+    ".site-footer__link": {
+      "color": "var(--pink-soft)"
+    },
+    ".site-footer__credit-link": {
+      "color": "var(--pink-soft)"
+    },
+    ".bde-lightbox-49-120 .lg-outer .lg-thumb-item.active, .bde-lightbox-49-120 .lg-outer .lg-thumb-item": {
+      "backgroundColor": "rgba(1, 210, 232, 0.94)",
+      "borderColor": "rgba(1, 210, 232, 0.94)"
+    }
+  },
+  "cssVariables": {
+    "--font-display": "\"ADLaM Display\",sans-serif",
+    "--font-body": "\"Poppins\",sans-serif",
+    "--radius-card": "20px",
+    "--radius-pill": "999px"
+  },
+  "externalFonts": [
+    "https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=ADLaM+Display:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
+    "font-face: lg"
+  ],
+  "portSectionStyles": [
+    {
+      "index": 0,
+      "heading": "Site header / navigation (port into Navigation.astro)",
+      "elements": [
+        {
+          "tag": "a",
+          "cls": "bde-f-container-link-74-102",
+          "color": "rgb(247, 107, 21)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "img",
+          "cls": "bde-f-image-74-101",
+          "color": "rgb(247, 107, 21)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "span",
+          "cls": "breakdance-menu-toggle-lines",
+          "color": "rgb(85, 1, 114)",
+          "backgroundColor": "rgb(85, 1, 114)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "li",
+          "cls": "breakdance-menu-item-74-104",
+          "text": "Home",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "22.4px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "a",
+          "cls": "breakdance-link",
+          "text": "Home",
+          "color": "rgb(252, 196, 161)",
+          "fontSize": "15px",
+          "fontWeight": "500",
+          "ownText": true,
+          "leading": "15px",
+          "fontFamily": "Poppins",
+          "textTransform": "none"
+        },
+        {
+          "tag": "li",
+          "cls": "breakdance-menu-item-74-105",
+          "text": "Hours and Pricing",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "22.4px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "a",
+          "cls": "breakdance-link",
+          "text": "Hours and Pricing",
+          "color": "rgb(230, 230, 230)",
+          "fontSize": "15px",
+          "fontWeight": "500",
+          "ownText": true,
+          "leading": "15px",
+          "fontFamily": "Poppins",
+          "textTransform": "none"
+        },
+        {
+          "tag": "li",
+          "cls": "breakdance-menu-item-74-106",
+          "text": "Events",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "22.4px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "a",
+          "cls": "breakdance-link",
+          "text": "Events",
+          "color": "rgb(230, 230, 230)",
+          "fontSize": "15px",
+          "fontWeight": "500",
+          "ownText": true,
+          "leading": "15px",
+          "fontFamily": "Poppins",
+          "textTransform": "none"
+        },
+        {
+          "tag": "li",
+          "cls": "breakdance-menu-item-74-107",
+          "text": "Activities",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "22.4px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "a",
+          "cls": "breakdance-link",
+          "text": "Activities",
+          "color": "rgb(230, 230, 230)",
+          "fontSize": "15px",
+          "fontWeight": "500",
+          "ownText": true,
+          "leading": "15px",
+          "fontFamily": "Poppins",
+          "textTransform": "none"
+        },
+        {
+          "tag": "li",
+          "cls": "breakdance-menu-item-74-108",
+          "text": "Parties",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "22.4px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "a",
+          "cls": "breakdance-link",
+          "text": "Parties",
+          "color": "rgb(230, 230, 230)",
+          "fontSize": "15px",
+          "fontWeight": "500",
+          "ownText": true,
+          "leading": "15px",
+          "fontFamily": "Poppins",
+          "textTransform": "none"
+        },
+        {
+          "tag": "li",
+          "cls": "breakdance-menu-item-74-109",
+          "text": "Skate Lessons",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "22.4px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "a",
+          "cls": "breakdance-link",
+          "text": "Skate Lessons",
+          "color": "rgb(230, 230, 230)",
+          "fontSize": "15px",
+          "fontWeight": "500",
+          "ownText": true,
+          "leading": "15px",
+          "fontFamily": "Poppins",
+          "textTransform": "none"
+        },
+        {
+          "tag": "li",
+          "cls": "breakdance-menu-item-74-113",
+          "text": "Blog",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "22.4px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "a",
+          "cls": "breakdance-link",
+          "text": "Blog",
+          "color": "rgb(230, 230, 230)",
+          "fontSize": "15px",
+          "fontWeight": "500",
+          "ownText": true,
+          "leading": "15px",
+          "fontFamily": "Poppins",
+          "textTransform": "none"
+        },
+        {
+          "tag": "li",
+          "cls": "breakdance-menu-item-74-110",
+          "text": "FAQs",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "22.4px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "a",
+          "cls": "breakdance-link",
+          "text": "FAQs",
+          "color": "rgb(230, 230, 230)",
+          "fontSize": "15px",
+          "fontWeight": "500",
+          "ownText": true,
+          "leading": "15px",
+          "fontFamily": "Poppins",
+          "textTransform": "none"
+        },
+        {
+          "tag": "li",
+          "cls": "breakdance-menu-item-74-111",
+          "text": "Contact",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "22.4px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "a",
+          "cls": "breakdance-link",
+          "text": "Contact",
+          "color": "rgb(230, 230, 230)",
+          "fontSize": "15px",
+          "fontWeight": "500",
+          "ownText": true,
+          "leading": "15px",
+          "fontFamily": "Poppins",
+          "textTransform": "none"
+        },
+        {
+          "tag": "li",
+          "cls": "bde-button-74-112",
+          "text": "(586) 731-5006",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "22.4px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "a",
+          "cls": "breakdance-link",
+          "text": "(586) 731-5006",
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(247, 107, 21)",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "borderRadius": "999px",
+          "fontSize": "15px",
+          "fontWeight": "500",
+          "ownText": false,
+          "leading": "15px",
+          "fontFamily": "Poppins",
+          "textTransform": "none"
+        },
+        {
+          "tag": "span",
+          "cls": "button-atom__text",
+          "text": "(586) 731-5006",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "15px",
+          "fontWeight": "500",
+          "ownText": true,
+          "leading": "15px",
+          "fontFamily": "Poppins"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "heading": "Welcome to Our Roller Sports Complex in Shelby TWP, MI",
+      "background": "rgb(255, 255, 255)",
+      "elements": [
+        {
+          "tag": "h1",
+          "cls": "bde-f-text-49-100",
+          "text": "Welcome to Our Roller Sports Complex in Shelby TWP, MI",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "43px",
+          "ownText": true,
+          "leading": "60.2px",
+          "fontFamily": "ADLaM Display",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-49-101",
+          "text": "Enjoy a night out with the family, friends, co-workers, just about anyone that n",
+          "color": "rgba(255, 255, 255, 0.9)",
+          "fontSize": "18px",
+          "ownText": true,
+          "leading": "27px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "a",
+          "cls": "bde-f-text-link-49-102",
+          "text": "See Our Activities",
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(247, 107, 21)",
+          "borderRadius": "999px",
+          "fontSize": "15px",
+          "fontWeight": "600",
+          "ownText": true,
+          "leading": "22.5px",
+          "tracking": "0.5px",
+          "fontFamily": "Poppins",
+          "textTransform": "none"
+        },
+        {
+          "tag": "div",
+          "cls": "bde-video-49-107",
+          "color": "rgb(64, 64, 64)",
+          "backgroundColor": "rgb(0, 0, 0)",
+          "fontSize": "16px"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "heading": "Open Skating Hours",
+      "background": "rgb(227, 207, 220)",
+      "elements": [
+        {
+          "tag": "p",
+          "cls": "bde-f-text-68-103-68-1",
+          "text": "Rules of the Rink",
+          "color": "rgb(247, 107, 21)",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "ownText": true,
+          "leading": "19.6px",
+          "tracking": "0.28px",
+          "fontFamily": "Poppins",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "h2",
+          "cls": "bde-f-text-68-104-68-1",
+          "text": "Open Skating Hours",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "43px",
+          "ownText": true,
+          "leading": "51.6px",
+          "fontFamily": "ADLaM Display",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-68-105-68-1",
+          "text": "All customers participating in an activity and all walking children must pay adm",
+          "color": "rgb(247, 107, 21)",
+          "fontSize": "18px",
+          "fontWeight": "500",
+          "ownText": true,
+          "leading": "27px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "li",
+          "cls": "bde-f-container-68-196-68-1",
+          "text": "Monday Call for Private Parties (586) 731-5006cwhitmer@thenewrink.com Book a Par",
+          "color": "rgb(64, 64, 64)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderRadius": "12px",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "22.4px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "h3",
+          "cls": "bde-f-text-68-197-68-1",
+          "text": "Monday",
+          "color": "rgb(85, 1, 114)",
+          "border": "3px solid rgb(252, 196, 161)",
+          "fontSize": "32px",
+          "ownText": true,
+          "leading": "41.6px",
+          "fontFamily": "ADLaM Display",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-68-199-68-1",
+          "text": "Call for Private Parties",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "16px",
+          "fontWeight": "600",
+          "ownText": true,
+          "leading": "24px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-68-200-68-1",
+          "text": "(586) 731-5006cwhitmer@thenewrink.com",
+          "color": "rgb(203, 88, 17)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "24px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "a",
+          "cls": "bde-f-text-link-68-201-68-1",
+          "text": "Book a Party",
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(247, 107, 21)",
+          "borderRadius": "999px",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "ownText": true,
+          "leading": "21px",
+          "tracking": "0.5px",
+          "fontFamily": "Poppins",
+          "textTransform": "none"
+        },
+        {
+          "tag": "li",
+          "cls": "bde-f-container-68-202-68-1",
+          "text": "Tuesday Beginner Learn to Skate 5:30 PM - 6:00 PM Price: $70 (5 week class) Book",
+          "color": "rgb(64, 64, 64)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderRadius": "12px",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "22.4px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "h3",
+          "cls": "bde-f-text-68-203-68-1",
+          "text": "Tuesday",
+          "color": "rgb(85, 1, 114)",
+          "border": "3px solid rgb(252, 196, 161)",
+          "fontSize": "32px",
+          "ownText": true,
+          "leading": "41.6px",
+          "fontFamily": "ADLaM Display",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-68-205-68-1",
+          "text": "Beginner Learn to Skate",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "16px",
+          "fontWeight": "600",
+          "ownText": true,
+          "leading": "24px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-68-206-68-1",
+          "text": "5:30 PM - 6:00 PM",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "24px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-68-207-68-1",
+          "text": "Price: $70",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "24px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-68-208-68-1",
+          "text": "(5 week class)",
+          "color": "rgb(203, 88, 17)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "24px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "a",
+          "cls": "bde-f-text-link-68-209-68-1",
+          "text": "Book a Party",
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(247, 107, 21)",
+          "borderRadius": "999px",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "ownText": true,
+          "leading": "21px",
+          "tracking": "0.5px",
+          "fontFamily": "Poppins",
+          "textTransform": "none"
+        },
+        {
+          "tag": "li",
+          "cls": "bde-f-container-68-210-68-1",
+          "text": "Wednesday Open Skate & Bounce 6:00 PM - 8:30 PM Price: $10 (Bounce Zone $3 addit",
+          "color": "rgb(64, 64, 64)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderRadius": "12px",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "22.4px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "h3",
+          "cls": "bde-f-text-68-211-68-1",
+          "text": "Wednesday",
+          "color": "rgb(85, 1, 114)",
+          "border": "3px solid rgb(252, 196, 161)",
+          "fontSize": "32px",
+          "ownText": true,
+          "leading": "41.6px",
+          "fontFamily": "ADLaM Display",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-68-213-68-1",
+          "text": "Open Skate & Bounce",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "16px",
+          "fontWeight": "600",
+          "ownText": true,
+          "leading": "24px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-68-214-68-1",
+          "text": "6:00 PM - 8:30 PM",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "24px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-68-215-68-1",
+          "text": "Price: $10",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "24px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-68-216-68-1",
+          "text": "(Bounce Zone $3 additional)",
+          "color": "rgb(203, 88, 17)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "24px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "a",
+          "cls": "bde-f-text-link-68-217-68-1",
+          "text": "Book a Party",
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(247, 107, 21)",
+          "borderRadius": "999px",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "ownText": true,
+          "leading": "21px",
+          "tracking": "0.5px",
+          "fontFamily": "Poppins",
+          "textTransform": "none"
+        },
+        {
+          "tag": "li",
+          "cls": "bde-f-container-68-218-68-1",
+          "text": "Thursday Call for Private Parties (586) 731-5006cwhitmer@thenewrink.com Beginner",
+          "color": "rgb(64, 64, 64)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderRadius": "12px",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "22.4px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "h3",
+          "cls": "bde-f-text-68-219-68-1",
+          "text": "Thursday",
+          "color": "rgb(85, 1, 114)",
+          "border": "3px solid rgb(252, 196, 161)",
+          "fontSize": "32px",
+          "ownText": true,
+          "leading": "41.6px",
+          "fontFamily": "ADLaM Display",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-68-221-68-1",
+          "text": "Call for Private Parties",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "16px",
+          "fontWeight": "600",
+          "ownText": true,
+          "leading": "24px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-68-222-68-1",
+          "text": "(586) 731-5006cwhitmer@thenewrink.com",
+          "color": "rgb(203, 88, 17)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "24px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-68-224-68-1",
+          "text": "Beginner Learn to Roller Blade",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "16px",
+          "fontWeight": "600",
+          "ownText": true,
+          "leading": "24px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-68-225-68-1",
+          "text": "5:30 PM - 6:00 PM",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "24px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-68-226-68-1",
+          "text": "Price: $70",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "24px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-68-227-68-1",
+          "text": "(5 week class)",
+          "color": "rgb(203, 88, 17)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "24px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "a",
+          "cls": "bde-f-text-link-68-228-68-1",
+          "text": "Book a Party",
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(247, 107, 21)",
+          "borderRadius": "999px",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "ownText": true,
+          "leading": "21px",
+          "tracking": "0.5px",
+          "fontFamily": "Poppins",
+          "textTransform": "none"
+        },
+        {
+          "tag": "li",
+          "cls": "bde-f-container-68-229-68-1",
+          "text": "Friday Friday Family Night Open Skate 7:00 p.m. - 10:00 p.m. Price: $14 or Frida",
+          "color": "rgb(64, 64, 64)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderRadius": "12px",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "22.4px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "h3",
+          "cls": "bde-f-text-68-230-68-1",
+          "text": "Friday",
+          "color": "rgb(85, 1, 114)",
+          "border": "3px solid rgb(252, 196, 161)",
+          "fontSize": "32px",
+          "ownText": true,
+          "leading": "41.6px",
+          "fontFamily": "ADLaM Display",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-68-232-68-1",
+          "text": "Friday Family Night Open Skate",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "16px",
+          "fontWeight": "600",
+          "ownText": true,
+          "leading": "24px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-68-233-68-1",
+          "text": "7:00 p.m. - 10:00 p.m.",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "24px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-68-234-68-1",
+          "text": "Price: $14 or Friday/Saturday Family rate refer to Saturday Night Skate notes fo",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "24px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-68-235-68-1",
+          "text": "Note: Friday/Saturday Night Family Rate: 4 for $60 (must include 1 parent and 1 ",
+          "color": "rgb(203, 88, 17)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "24px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "a",
+          "cls": "bde-f-text-link-68-236-68-1",
+          "text": "Book a Party",
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(247, 107, 21)",
+          "borderRadius": "999px",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "ownText": true,
+          "leading": "21px",
+          "tracking": "0.5px",
+          "fontFamily": "Poppins",
+          "textTransform": "none"
+        },
+        {
+          "tag": "li",
+          "cls": "bde-f-container-68-237-68-1",
+          "text": "Saturday Beginner Learn to Roller Blade 9:30 AM - 10:00 AM Price: $70 (5 week cl",
+          "color": "rgb(64, 64, 64)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderRadius": "12px",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "22.4px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "h3",
+          "cls": "bde-f-text-68-238-68-1",
+          "text": "Saturday",
+          "color": "rgb(85, 1, 114)",
+          "border": "3px solid rgb(252, 196, 161)",
+          "fontSize": "32px",
+          "ownText": true,
+          "leading": "41.6px",
+          "fontFamily": "ADLaM Display",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-68-240-68-1",
+          "text": "Beginner Learn to Roller Blade",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "16px",
+          "fontWeight": "600",
+          "ownText": true,
+          "leading": "24px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-68-241-68-1",
+          "text": "9:30 AM - 10:00 AM",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "24px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-68-242-68-1",
+          "text": "Price: $70",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "24px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-68-243-68-1",
+          "text": "(5 week class)",
+          "color": "rgb(203, 88, 17)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "24px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-68-245-68-1",
+          "text": "Rollers & Strollers Skate",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "16px",
+          "fontWeight": "600",
+          "ownText": true,
+          "leading": "24px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-68-246-68-1",
+          "text": "10:00 a.m. - 12:00 p.m.",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "24px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-68-247-68-1",
+          "text": "Price: $10",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "24px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-68-248-68-1",
+          "text": "(Designed for 7 & under - includes skate rentals, snack, drink and bounce zone!-",
+          "color": "rgb(203, 88, 17)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "24px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-68-250-68-1",
+          "text": "Beginner Learn to Skate",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "16px",
+          "fontWeight": "600",
+          "ownText": true,
+          "leading": "24px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-68-251-68-1",
+          "text": "12:00 PM - 12:30 PM",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "24px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-68-252-68-1",
+          "text": "Price: $70",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "24px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-68-253-68-1",
+          "text": "(5 week class)",
+          "color": "rgb(203, 88, 17)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "24px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-68-255-68-1",
+          "text": "Saturday Open Skate",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "16px",
+          "fontWeight": "600",
+          "ownText": true,
+          "leading": "24px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-68-256-68-1",
+          "text": "1:00 PM - 10:00 PM",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "24px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-68-257-68-1",
+          "text": "Price $15 / Skate & Bounce $18",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "24px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-68-259-68-1",
+          "text": "Saturday Night Skate",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "16px",
+          "fontWeight": "600",
+          "ownText": true,
+          "leading": "24px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-68-260-68-1",
+          "text": "7:00 PM - 10:00 PM",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "24px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-68-261-68-1",
+          "text": "Price: $15.00 admission or 4 for $60.00 (must request at time of purchase to be ",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "24px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-68-262-68-1",
+          "text": "Note: Friday/Saturday Night Family Rate: 4 for $60 (must include 1 parent and 1 ",
+          "color": "rgb(203, 88, 17)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "24px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "a",
+          "cls": "bde-f-text-link-68-263-68-1",
+          "text": "Book a Party",
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(247, 107, 21)",
+          "borderRadius": "999px",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "ownText": true,
+          "leading": "21px",
+          "tracking": "0.5px",
+          "fontFamily": "Poppins",
+          "textTransform": "none"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "heading": "Schedule your next Birthday, Scout Outing, Get Together, Sports Team, Celebratio",
+      "background": "rgb(39, 0, 52)",
+      "elements": [
+        {
+          "tag": "img",
+          "cls": "bde-f-image-72-101-72-1",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-72-103-72-1",
+          "text": "Fun with family, friends, co-workers, and more",
+          "color": "rgb(252, 196, 161)",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "ownText": true,
+          "leading": "19.6px",
+          "fontFamily": "Poppins",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "h2",
+          "cls": "bde-f-text-72-104-72-1",
+          "text": "Schedule your next Birthday, Scout Outing, Get Together, Sports Team, Celebratio",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "57px",
+          "ownText": true,
+          "leading": "68.4px",
+          "fontFamily": "ADLaM Display",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-72-105-72-1",
+          "text": "We have many packages to make your party a memorable and fun event.",
+          "color": "rgba(255, 255, 255, 0.9)",
+          "fontSize": "18px",
+          "ownText": true,
+          "leading": "27px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "a",
+          "cls": "bde-f-text-link-72-106-72-1",
+          "text": "Book a Party Now",
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(247, 107, 21)",
+          "borderRadius": "4px",
+          "fontSize": "18px",
+          "fontWeight": "600",
+          "ownText": true,
+          "leading": "25.2px",
+          "fontFamily": "Poppins",
+          "textTransform": "none"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "heading": "Activities to Enjoy With Us",
+      "background": "rgb(227, 207, 220)",
+      "elements": [
+        {
+          "tag": "p",
+          "cls": "bde-f-text-69-103-69-1",
+          "text": "There is plenty of fun to go around!",
+          "color": "rgb(247, 107, 21)",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "ownText": true,
+          "leading": "19.6px",
+          "tracking": "0.28px",
+          "fontFamily": "Poppins",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "h2",
+          "cls": "bde-f-text-69-104-69-1",
+          "text": "Activities to Enjoy With Us",
+          "color": "rgb(85, 1, 114)",
+          "fontSize": "43px",
+          "ownText": true,
+          "leading": "51.6px",
+          "fontFamily": "ADLaM Display",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-69-105-69-1",
+          "text": "Strap on the skates and hit the rink in roller skates or roller blades. Don't kn",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "18px",
+          "ownText": true,
+          "leading": "27px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "article",
+          "cls": "bde-f-container-69-167-69-1",
+          "text": "Family Fun and Exercise for all Bring the entire family for fun, friend’s and ex",
+          "color": "rgb(64, 64, 64)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderRadius": "20px",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "22.4px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "a",
+          "cls": "bde-f-container-link-69-168-69-1",
+          "color": "rgb(247, 107, 21)",
+          "borderRadius": "12px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "img",
+          "cls": "bde-f-image-69-169-69-1",
+          "color": "rgb(247, 107, 21)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "h3",
+          "cls": "bde-f-text-69-170-69-1",
+          "text": "Family Fun and Exercise for all",
+          "color": "rgb(85, 1, 114)",
+          "fontSize": "30px",
+          "ownText": true,
+          "leading": "39px",
+          "fontFamily": "ADLaM Display",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-69-171-69-1",
+          "text": "Bring the entire family for fun, friend’s and exercise!!!",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "25.6px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "a",
+          "cls": "bde-f-text-link-69-172-69-1",
+          "text": "Learn More",
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(247, 107, 21)",
+          "borderRadius": "999px",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "ownText": true,
+          "leading": "21px",
+          "tracking": "0.5px",
+          "fontFamily": "Poppins",
+          "textTransform": "none"
+        },
+        {
+          "tag": "article",
+          "cls": "bde-f-container-69-173-69-1",
+          "text": "Girl Scouts Bring Your Troop Roller Skating!! Ask about our annual Spectacular S",
+          "color": "rgb(64, 64, 64)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderRadius": "20px",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "22.4px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "a",
+          "cls": "bde-f-container-link-69-174-69-1",
+          "color": "rgb(247, 107, 21)",
+          "borderRadius": "12px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "img",
+          "cls": "bde-f-image-69-175-69-1",
+          "color": "rgb(247, 107, 21)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "h3",
+          "cls": "bde-f-text-69-176-69-1",
+          "text": "Girl Scouts",
+          "color": "rgb(85, 1, 114)",
+          "fontSize": "30px",
+          "ownText": true,
+          "leading": "39px",
+          "fontFamily": "ADLaM Display",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-69-177-69-1",
+          "text": "Bring Your Troop Roller Skating!! Ask about our annual Spectacular Scout Skate! ",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "25.6px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "a",
+          "cls": "bde-f-text-link-69-178-69-1",
+          "text": "Learn More",
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(247, 107, 21)",
+          "borderRadius": "999px",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "ownText": true,
+          "leading": "21px",
+          "tracking": "0.5px",
+          "fontFamily": "Poppins",
+          "textTransform": "none"
+        },
+        {
+          "tag": "article",
+          "cls": "bde-f-container-69-179-69-1",
+          "text": "Parties There’s Always A Reason To Party! Birthdays, Scout Outings, Get Together",
+          "color": "rgb(64, 64, 64)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderRadius": "20px",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "22.4px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "a",
+          "cls": "bde-f-container-link-69-180-69-1",
+          "color": "rgb(247, 107, 21)",
+          "borderRadius": "12px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "img",
+          "cls": "bde-f-image-69-181-69-1",
+          "color": "rgb(247, 107, 21)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "h3",
+          "cls": "bde-f-text-69-182-69-1",
+          "text": "Parties",
+          "color": "rgb(85, 1, 114)",
+          "fontSize": "30px",
+          "ownText": true,
+          "leading": "39px",
+          "fontFamily": "ADLaM Display",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-69-183-69-1",
+          "text": "There’s Always A Reason To Party! Birthdays, Scout Outings, Get Togethers, Sport",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "25.6px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "a",
+          "cls": "bde-f-text-link-69-184-69-1",
+          "text": "Learn More",
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(247, 107, 21)",
+          "borderRadius": "999px",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "ownText": true,
+          "leading": "21px",
+          "tracking": "0.5px",
+          "fontFamily": "Poppins",
+          "textTransform": "none"
+        },
+        {
+          "tag": "article",
+          "cls": "bde-f-container-69-185-69-1",
+          "text": "Private Parties / Fundraisers There's Always A Reason To Party! Facility is rese",
+          "color": "rgb(64, 64, 64)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderRadius": "20px",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "22.4px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "a",
+          "cls": "bde-f-container-link-69-186-69-1",
+          "color": "rgb(247, 107, 21)",
+          "borderRadius": "12px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "img",
+          "cls": "bde-f-image-69-187-69-1",
+          "color": "rgb(247, 107, 21)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "h3",
+          "cls": "bde-f-text-69-188-69-1",
+          "text": "Private Parties / Fundraisers",
+          "color": "rgb(85, 1, 114)",
+          "fontSize": "30px",
+          "ownText": true,
+          "leading": "39px",
+          "fontFamily": "ADLaM Display",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-69-189-69-1",
+          "text": "There's Always A Reason To Party! Facility is reserved solely for you and your g",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "25.6px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "a",
+          "cls": "bde-f-text-link-69-190-69-1",
+          "text": "Learn More",
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(247, 107, 21)",
+          "borderRadius": "999px",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "ownText": true,
+          "leading": "21px",
+          "tracking": "0.5px",
+          "fontFamily": "Poppins",
+          "textTransform": "none"
+        },
+        {
+          "tag": "article",
+          "cls": "bde-f-container-69-191-69-1",
+          "text": "Private Smaller Group Parties Great for parties of around 50 who want to rent th",
+          "color": "rgb(64, 64, 64)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderRadius": "20px",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "22.4px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "a",
+          "cls": "bde-f-container-link-69-192-69-1",
+          "color": "rgb(247, 107, 21)",
+          "borderRadius": "12px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "img",
+          "cls": "bde-f-image-69-193-69-1",
+          "color": "rgb(247, 107, 21)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "h3",
+          "cls": "bde-f-text-69-194-69-1",
+          "text": "Private Smaller Group Parties",
+          "color": "rgb(85, 1, 114)",
+          "fontSize": "30px",
+          "ownText": true,
+          "leading": "39px",
+          "fontFamily": "ADLaM Display",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-69-195-69-1",
+          "text": "Great for parties of around 50 who want to rent the rink privately. Birthdays, S",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "25.6px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "a",
+          "cls": "bde-f-text-link-69-196-69-1",
+          "text": "Learn More",
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(247, 107, 21)",
+          "borderRadius": "999px",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "ownText": true,
+          "leading": "21px",
+          "tracking": "0.5px",
+          "fontFamily": "Poppins",
+          "textTransform": "none"
+        },
+        {
+          "tag": "article",
+          "cls": "bde-f-container-69-197-69-1",
+          "text": "Public Group Rates There's Always A Reason To Party! Standard Group Discounts: R",
+          "color": "rgb(64, 64, 64)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderRadius": "20px",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "22.4px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "a",
+          "cls": "bde-f-container-link-69-198-69-1",
+          "color": "rgb(247, 107, 21)",
+          "borderRadius": "12px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "img",
+          "cls": "bde-f-image-69-199-69-1",
+          "color": "rgb(247, 107, 21)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "h3",
+          "cls": "bde-f-text-69-200-69-1",
+          "text": "Public Group Rates",
+          "color": "rgb(85, 1, 114)",
+          "fontSize": "30px",
+          "ownText": true,
+          "leading": "39px",
+          "fontFamily": "ADLaM Display",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-69-201-69-1",
+          "text": "There's Always A Reason To Party! Standard Group Discounts: Rates valid during p",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "25.6px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "a",
+          "cls": "bde-f-text-link-69-202-69-1",
+          "text": "Learn More",
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(247, 107, 21)",
+          "borderRadius": "999px",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "ownText": true,
+          "leading": "21px",
+          "tracking": "0.5px",
+          "fontFamily": "Poppins",
+          "textTransform": "none"
+        },
+        {
+          "tag": "article",
+          "cls": "bde-f-container-69-203-69-1",
+          "text": "Rollers and Strollers Designed for children 7 & under and parents! Enjoy time pl",
+          "color": "rgb(64, 64, 64)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderRadius": "20px",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "22.4px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "a",
+          "cls": "bde-f-container-link-69-204-69-1",
+          "color": "rgb(247, 107, 21)",
+          "borderRadius": "12px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "img",
+          "cls": "bde-f-image-69-205-69-1",
+          "color": "rgb(247, 107, 21)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "h3",
+          "cls": "bde-f-text-69-206-69-1",
+          "text": "Rollers and Strollers",
+          "color": "rgb(85, 1, 114)",
+          "fontSize": "30px",
+          "ownText": true,
+          "leading": "39px",
+          "fontFamily": "ADLaM Display",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-69-207-69-1",
+          "text": "Designed for children 7 & under and parents! Enjoy time playing or skating to yo",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "25.6px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "a",
+          "cls": "bde-f-text-link-69-208-69-1",
+          "text": "Learn More",
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(247, 107, 21)",
+          "borderRadius": "999px",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "ownText": true,
+          "leading": "21px",
+          "tracking": "0.5px",
+          "fontFamily": "Poppins",
+          "textTransform": "none"
+        },
+        {
+          "tag": "article",
+          "cls": "bde-f-container-69-209-69-1",
+          "text": "School Events We want to help you make your party a success! We work closely wit",
+          "color": "rgb(64, 64, 64)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderRadius": "20px",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "22.4px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "a",
+          "cls": "bde-f-container-link-69-210-69-1",
+          "color": "rgb(247, 107, 21)",
+          "borderRadius": "12px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "img",
+          "cls": "bde-f-image-69-211-69-1",
+          "color": "rgb(247, 107, 21)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "h3",
+          "cls": "bde-f-text-69-212-69-1",
+          "text": "School Events",
+          "color": "rgb(85, 1, 114)",
+          "fontSize": "30px",
+          "ownText": true,
+          "leading": "39px",
+          "fontFamily": "ADLaM Display",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-69-213-69-1",
+          "text": "We want to help you make your party a success! We work closely with your PTO/PTA",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "25.6px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "a",
+          "cls": "bde-f-text-link-69-214-69-1",
+          "text": "Learn More",
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(247, 107, 21)",
+          "borderRadius": "999px",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "ownText": true,
+          "leading": "21px",
+          "tracking": "0.5px",
+          "fontFamily": "Poppins",
+          "textTransform": "none"
+        },
+        {
+          "tag": "article",
+          "cls": "bde-f-container-69-215-69-1",
+          "text": "Skate Lessons Skate Lessons - The New Rink - Shelby Township, Michigan. Receive ",
+          "color": "rgb(64, 64, 64)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderRadius": "20px",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "22.4px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "a",
+          "cls": "bde-f-container-link-69-216-69-1",
+          "color": "rgb(247, 107, 21)",
+          "borderRadius": "12px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "img",
+          "cls": "bde-f-image-69-217-69-1",
+          "color": "rgb(247, 107, 21)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "h3",
+          "cls": "bde-f-text-69-218-69-1",
+          "text": "Skate Lessons",
+          "color": "rgb(85, 1, 114)",
+          "fontSize": "30px",
+          "ownText": true,
+          "leading": "39px",
+          "fontFamily": "ADLaM Display",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-69-219-69-1",
+          "text": "Skate Lessons - The New Rink - Shelby Township, Michigan. Receive a coupon for 1",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "25.6px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "a",
+          "cls": "bde-f-text-link-69-220-69-1",
+          "text": "Learn More",
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(247, 107, 21)",
+          "borderRadius": "999px",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "ownText": true,
+          "leading": "21px",
+          "tracking": "0.5px",
+          "fontFamily": "Poppins",
+          "textTransform": "none"
+        },
+        {
+          "tag": "article",
+          "cls": "bde-f-container-69-221-69-1",
+          "text": "Special Events Friday and Saturday Family Fun Nights. Skate, play, and celebrate",
+          "color": "rgb(64, 64, 64)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderRadius": "20px",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "22.4px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "a",
+          "cls": "bde-f-container-link-69-222-69-1",
+          "color": "rgb(247, 107, 21)",
+          "borderRadius": "12px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "img",
+          "cls": "bde-f-image-69-223-69-1",
+          "color": "rgb(247, 107, 21)",
+          "fontSize": "16px"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "heading": "Happy Customers Speak Out",
+      "background": "rgb(255, 255, 255)",
+      "elements": [
+        {
+          "tag": "h2",
+          "cls": "bde-f-text-71-103-71-1",
+          "text": "Happy Customers Speak Out",
+          "color": "rgb(85, 1, 114)",
+          "fontSize": "43px",
+          "ownText": true,
+          "leading": "51.6px",
+          "fontFamily": "ADLaM Display",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-71-104-71-1",
+          "text": "We are so grateful to those who take the time to leave us a review about their e",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "18px",
+          "ownText": true,
+          "leading": "27px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "figure",
+          "cls": "bde-f-container-71-151-71-1",
+          "text": "The New Rink is a welcoming place to bring kids as adults of all ages, very affo",
+          "color": "rgb(64, 64, 64)",
+          "backgroundColor": "rgb(227, 207, 220)",
+          "borderRadius": "20px",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "22.4px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "figure",
+          "cls": "bde-f-container-71-155-71-1",
+          "text": "I love bringing my family here! Nevah is such a sweetheart! She was so kind and ",
+          "color": "rgb(64, 64, 64)",
+          "backgroundColor": "rgb(227, 207, 220)",
+          "borderRadius": "20px",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "22.4px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "figure",
+          "cls": "bde-f-container-71-159-71-1",
+          "text": "Family fun! Shawn Reed",
+          "color": "rgb(64, 64, 64)",
+          "backgroundColor": "rgb(227, 207, 220)",
+          "borderRadius": "20px",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "22.4px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "figure",
+          "cls": "bde-f-container-71-163-71-1",
+          "text": "I had my daughter’s 12th birthday party at this establishment last night and was",
+          "color": "rgb(64, 64, 64)",
+          "backgroundColor": "rgb(227, 207, 220)",
+          "borderRadius": "20px",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "22.4px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "figure",
+          "cls": "bde-f-container-71-167-71-1",
+          "text": "We absolutely love coming here as a family for our school’s fundraising events. ",
+          "color": "rgb(64, 64, 64)",
+          "backgroundColor": "rgb(227, 207, 220)",
+          "borderRadius": "20px",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "22.4px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "figure",
+          "cls": "bde-f-container-71-171-71-1",
+          "text": "I attended a birthday party at The New Rink. I don’t skate anymore but my grandc",
+          "color": "rgb(64, 64, 64)",
+          "backgroundColor": "rgb(227, 207, 220)",
+          "borderRadius": "20px",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "22.4px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "span",
+          "cls": "swiper-pagination-bullet",
+          "color": "rgb(64, 64, 64)",
+          "backgroundColor": "rgb(247, 107, 21)",
+          "borderRadius": "50%",
+          "fontSize": "16px"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "heading": "Special Events",
+      "background": "rgb(227, 207, 220)",
+      "elements": [
+        {
+          "tag": "p",
+          "cls": "bde-f-text-70-103-70-1",
+          "text": "How can we make skating even more fun you say?",
+          "color": "rgb(247, 107, 21)",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "ownText": true,
+          "leading": "19.6px",
+          "tracking": "0.28px",
+          "fontFamily": "Poppins",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "h2",
+          "cls": "bde-f-text-70-104-70-1",
+          "text": "Special Events",
+          "color": "rgb(85, 1, 114)",
+          "fontSize": "43px",
+          "ownText": true,
+          "leading": "51.6px",
+          "fontFamily": "ADLaM Display",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-70-105-70-1",
+          "text": "Check back frequently as we are constantly adding new special events you won't w",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "18px",
+          "ownText": true,
+          "leading": "27px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "article",
+          "cls": "bde-f-container-70-107-70-1",
+          "text": "Friday & Saturday Family Fun Nights 7:00 p.m. - 10:00 p.m. Every Friday & Saturd",
+          "color": "rgb(64, 64, 64)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderRadius": "20px",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "22.4px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "a",
+          "cls": "bde-f-container-link-70-108-70-1",
+          "color": "rgb(247, 107, 21)",
+          "borderRadius": "12px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "img",
+          "cls": "bde-f-image-70-109-70-1",
+          "color": "rgb(247, 107, 21)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "h3",
+          "cls": "bde-f-text-70-110-70-1",
+          "text": "Friday & Saturday Family Fun Nights",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "22px",
+          "ownText": true,
+          "leading": "28.6px",
+          "fontFamily": "ADLaM Display",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-70-111-70-1",
+          "text": "7:00 p.m. - 10:00 p.m.",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "24px",
+          "fontFamily": "Poppins",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-70-112-70-1",
+          "text": "Every Friday & Saturday Night!Friday Night Family Rate: 4 for $60 (must include ",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "16px",
+          "fontWeight": "600",
+          "ownText": true,
+          "leading": "25.6px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-70-113-70-1",
+          "text": "$14 Friday / $15 Saturday",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "16px",
+          "fontWeight": "600",
+          "ownText": true,
+          "leading": "22.4px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "a",
+          "cls": "bde-f-text-link-70-114-70-1",
+          "text": "Learn More",
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(247, 107, 21)",
+          "borderRadius": "999px",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "ownText": true,
+          "leading": "21px",
+          "tracking": "0.5px",
+          "fontFamily": "Poppins",
+          "textTransform": "none"
+        },
+        {
+          "tag": "article",
+          "cls": "bde-f-container-70-115-70-1",
+          "text": "Election Day Open Skate 1:00 p. m. - 4:00 p. m. Tuesday, November 3rd $12 Bounce",
+          "color": "rgb(64, 64, 64)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderRadius": "20px",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "22.4px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "a",
+          "cls": "bde-f-container-link-70-116-70-1",
+          "color": "rgb(247, 107, 21)",
+          "borderRadius": "12px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "img",
+          "cls": "bde-f-image-70-117-70-1",
+          "color": "rgb(247, 107, 21)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "h3",
+          "cls": "bde-f-text-70-118-70-1",
+          "text": "Election Day Open Skate",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "22px",
+          "ownText": true,
+          "leading": "28.6px",
+          "fontFamily": "ADLaM Display",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-70-119-70-1",
+          "text": "1:00 p. m. - 4:00 p. m.",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "24px",
+          "fontFamily": "Poppins",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-70-120-70-1",
+          "text": "Tuesday, November 3rd",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "16px",
+          "fontWeight": "600",
+          "ownText": true,
+          "leading": "25.6px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-70-121-70-1",
+          "text": "$12 Bounce Zone $3 extra",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "16px",
+          "fontWeight": "600",
+          "ownText": true,
+          "leading": "22.4px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "a",
+          "cls": "bde-f-text-link-70-122-70-1",
+          "text": "Learn More",
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(247, 107, 21)",
+          "borderRadius": "999px",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "ownText": true,
+          "leading": "21px",
+          "tracking": "0.5px",
+          "fontFamily": "Poppins",
+          "textTransform": "none"
+        },
+        {
+          "tag": "article",
+          "cls": "bde-f-container-70-123-70-1",
+          "text": "Rollers and Strollers Skate with Buzz & Woody 9:30 A.M. - 12:00 P.M. Saturday, N",
+          "color": "rgb(64, 64, 64)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderRadius": "20px",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "22.4px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "a",
+          "cls": "bde-f-container-link-70-124-70-1",
+          "color": "rgb(247, 107, 21)",
+          "borderRadius": "12px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "img",
+          "cls": "bde-f-image-70-125-70-1",
+          "color": "rgb(247, 107, 21)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "h3",
+          "cls": "bde-f-text-70-126-70-1",
+          "text": "Rollers and Strollers Skate with Buzz & Woody",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "22px",
+          "ownText": true,
+          "leading": "28.6px",
+          "fontFamily": "ADLaM Display",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-70-127-70-1",
+          "text": "9:30 A.M. - 12:00 P.M.",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "24px",
+          "fontFamily": "Poppins",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-70-128-70-1",
+          "text": "Saturday, November 21st",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "16px",
+          "fontWeight": "600",
+          "ownText": true,
+          "leading": "25.6px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-70-129-70-1",
+          "text": "$14",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "16px",
+          "fontWeight": "600",
+          "ownText": true,
+          "leading": "22.4px",
+          "fontFamily": "Poppins"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "heading": "Our Image Gallery",
+      "background": "rgb(255, 255, 255)",
+      "elements": [
+        {
+          "tag": "p",
+          "cls": "bde-f-text-49-113",
+          "text": "Join the Fun with Us!",
+          "color": "rgb(247, 107, 21)",
+          "fontSize": "16px",
+          "fontWeight": "600",
+          "ownText": true,
+          "leading": "22.4px",
+          "tracking": "0.32px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "h2",
+          "cls": "bde-f-text-49-114",
+          "text": "Our Image Gallery",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "43px",
+          "ownText": true,
+          "leading": "51.6px",
+          "fontFamily": "ADLaM Display",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-49-115",
+          "text": "Come skate, bounce, and make memories with family and friends at The New Rink.",
+          "color": "rgb(64, 64, 64)",
+          "fontSize": "18px",
+          "ownText": true,
+          "leading": "27px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "a",
+          "cls": "ee-gallery-item",
+          "color": "rgb(247, 107, 21)",
+          "backgroundColor": "rgba(0, 0, 0, 0.19)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "img",
+          "cls": "breakdance-image-object",
+          "color": "rgb(247, 107, 21)",
+          "fontSize": "16px"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "heading": "Phone number",
+      "background": "rgb(85, 1, 114)",
+      "elements": [
+        {
+          "tag": "h3",
+          "cls": "bde-f-text-73-105-73-1",
+          "text": "Phone number",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "20px",
+          "fontWeight": "600",
+          "ownText": true,
+          "leading": "24px",
+          "fontFamily": "Poppins",
+          "textTransform": "none"
+        },
+        {
+          "tag": "a",
+          "cls": "bde-f-text-link-73-106-73-1",
+          "text": "(586) 731-5006",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "16px",
+          "fontWeight": "600",
+          "ownText": true,
+          "leading": "22.4px",
+          "fontFamily": "Poppins",
+          "textTransform": "none"
+        },
+        {
+          "tag": "h3",
+          "cls": "bde-f-text-73-108-73-1",
+          "text": "Email",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "20px",
+          "fontWeight": "600",
+          "ownText": true,
+          "leading": "24px",
+          "fontFamily": "Poppins",
+          "textTransform": "none"
+        },
+        {
+          "tag": "a",
+          "cls": "bde-f-text-link-73-109-73-1",
+          "text": "cwhitmer@thenewrink.com",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "16px",
+          "fontWeight": "600",
+          "ownText": true,
+          "leading": "22.4px",
+          "fontFamily": "Poppins",
+          "textTransform": "none"
+        },
+        {
+          "tag": "h3",
+          "cls": "bde-f-text-73-111-73-1",
+          "text": "Address",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "20px",
+          "fontWeight": "600",
+          "ownText": true,
+          "leading": "24px",
+          "fontFamily": "Poppins",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-73-112-73-1",
+          "text": "50625 Van Dyke Ave., Shelby Township MI 48317",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "22.4px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "div",
+          "cls": "bde-f-container-73-115-73-1",
+          "text": "Contact Us We value your input! If you have any questions, feedback, or just wan",
+          "color": "rgb(64, 64, 64)",
+          "backgroundColor": "rgb(70, 1, 93)",
+          "borderRadius": "12px",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "22.4px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "h2",
+          "cls": "bde-f-text-73-116-73-1",
+          "text": "Contact Us",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "43px",
+          "ownText": true,
+          "leading": "51.6px",
+          "fontFamily": "ADLaM Display",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-73-117-73-1",
+          "text": "We value your input! If you have any questions, feedback, or just want to say he",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "25.6px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "span",
+          "cls": "breakdance-form-field__required",
+          "text": "*",
+          "color": "rgb(252, 196, 161)",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "ownText": true,
+          "leading": "14px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "input",
+          "cls": "breakdance-form-field__input",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "border": "1px solid rgb(209, 213, 219)",
+          "borderRadius": "6px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "textarea",
+          "cls": "breakdance-form-field__input",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "border": "1px solid rgb(209, 213, 219)",
+          "borderRadius": "6px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "button",
+          "cls": "button-atom",
+          "text": "Submit",
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(247, 107, 21)",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "borderRadius": "999px",
+          "fontSize": "15px",
+          "fontWeight": "500",
+          "ownText": false,
+          "leading": "15px",
+          "fontFamily": "Poppins",
+          "textTransform": "none"
+        },
+        {
+          "tag": "span",
+          "cls": "button-atom__text",
+          "text": "Submit",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "15px",
+          "fontWeight": "500",
+          "ownText": true,
+          "leading": "15px",
+          "fontFamily": "Poppins"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "heading": "Site footer (port into Footer.astro)",
+      "background": "rgb(39, 0, 52)",
+      "elements": [
+        {
+          "tag": "a",
+          "cls": "bde-f-container-link-75-101",
+          "color": "rgb(247, 107, 21)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "img",
+          "cls": "bde-f-image-75-100",
+          "color": "rgb(247, 107, 21)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "a",
+          "cls": "bde-f-text-link-75-102",
+          "text": "Home",
+          "color": "rgb(230, 230, 230)",
+          "fontSize": "14px",
+          "ownText": true,
+          "leading": "19.6px",
+          "fontFamily": "Poppins",
+          "textTransform": "none"
+        },
+        {
+          "tag": "a",
+          "cls": "bde-f-text-link-75-103",
+          "text": "Hours and Pricing",
+          "color": "rgb(230, 230, 230)",
+          "fontSize": "14px",
+          "ownText": true,
+          "leading": "19.6px",
+          "fontFamily": "Poppins",
+          "textTransform": "none"
+        },
+        {
+          "tag": "a",
+          "cls": "bde-f-text-link-75-104",
+          "text": "Events",
+          "color": "rgb(230, 230, 230)",
+          "fontSize": "14px",
+          "ownText": true,
+          "leading": "19.6px",
+          "fontFamily": "Poppins",
+          "textTransform": "none"
+        },
+        {
+          "tag": "a",
+          "cls": "bde-f-text-link-75-105",
+          "text": "Activities",
+          "color": "rgb(230, 230, 230)",
+          "fontSize": "14px",
+          "ownText": true,
+          "leading": "19.6px",
+          "fontFamily": "Poppins",
+          "textTransform": "none"
+        },
+        {
+          "tag": "a",
+          "cls": "bde-f-text-link-75-106",
+          "text": "Parties",
+          "color": "rgb(230, 230, 230)",
+          "fontSize": "14px",
+          "ownText": true,
+          "leading": "19.6px",
+          "fontFamily": "Poppins",
+          "textTransform": "none"
+        },
+        {
+          "tag": "a",
+          "cls": "bde-f-text-link-75-107",
+          "text": "Skate Lessons",
+          "color": "rgb(230, 230, 230)",
+          "fontSize": "14px",
+          "ownText": true,
+          "leading": "19.6px",
+          "fontFamily": "Poppins",
+          "textTransform": "none"
+        },
+        {
+          "tag": "a",
+          "cls": "bde-f-text-link-75-115",
+          "text": "Blog",
+          "color": "rgb(230, 230, 230)",
+          "fontSize": "14px",
+          "ownText": true,
+          "leading": "19.6px",
+          "fontFamily": "Poppins",
+          "textTransform": "none"
+        },
+        {
+          "tag": "a",
+          "cls": "bde-f-text-link-75-108",
+          "text": "FAQs",
+          "color": "rgb(230, 230, 230)",
+          "fontSize": "14px",
+          "ownText": true,
+          "leading": "19.6px",
+          "fontFamily": "Poppins",
+          "textTransform": "none"
+        },
+        {
+          "tag": "a",
+          "cls": "bde-f-text-link-75-109",
+          "text": "Contact",
+          "color": "rgb(230, 230, 230)",
+          "fontSize": "14px",
+          "ownText": true,
+          "leading": "19.6px",
+          "fontFamily": "Poppins",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-75-111",
+          "text": "© 2026 The New Rink",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "13px",
+          "ownText": true,
+          "leading": "18.2px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "p",
+          "cls": "bde-f-text-75-112",
+          "text": "Web Design by Lively Designs",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "13px",
+          "ownText": true,
+          "leading": "18.2px",
+          "fontFamily": "Poppins"
+        },
+        {
+          "tag": "a",
+          "cls": "site-footer__credit-link",
+          "text": "Lively Designs",
+          "color": "rgb(247, 107, 21)",
+          "fontSize": "13px",
+          "ownText": true,
+          "leading": "18.2px",
+          "fontFamily": "Poppins",
+          "textTransform": "none"
+        }
+      ]
+    }
+  ],
+  "imageTreatments": [],
+  "renderedSurfaces": [
+    {
+      "selector": "body > div:nth-of-type(2) > section:nth-of-type(1) > img:nth-of-type(1)",
+      "mediaKind": "img",
+      "image": "https://thenewrink.com/wp-content/uploads/2026/09/the-new-rink-074.webp",
+      "baseColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "backgroundSize": "auto",
+      "backgroundPosition": "0% 0%",
+      "layers": [],
+      "observation": "no-additional-layer-observed"
+    },
+    {
+      "selector": "body > div:nth-of-type(3) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > article:nth-of-type(1) > a:nth-of-type(1) > img:nth-of-type(1)",
+      "mediaKind": "img",
+      "image": "https://thenewrink.com/wp-content/uploads/2026/09/the-new-rink-001.webp",
+      "baseColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "backgroundSize": "auto",
+      "backgroundPosition": "0% 0%",
+      "layers": [],
+      "observation": "no-additional-layer-observed"
+    },
+    {
+      "selector": "body > div:nth-of-type(3) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > article:nth-of-type(2) > a:nth-of-type(1) > img:nth-of-type(1)",
+      "mediaKind": "img",
+      "image": "https://thenewrink.com/wp-content/uploads/2026/09/shutterstock_2540215587.jpg",
+      "baseColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "backgroundSize": "auto",
+      "backgroundPosition": "0% 0%",
+      "layers": [],
+      "observation": "no-additional-layer-observed"
+    },
+    {
+      "selector": "body > div:nth-of-type(3) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > article:nth-of-type(3) > a:nth-of-type(1) > img:nth-of-type(1)",
+      "mediaKind": "img",
+      "image": "https://thenewrink.com/wp-content/uploads/2026/09/the-new-rink-013.webp",
+      "baseColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "backgroundSize": "auto",
+      "backgroundPosition": "0% 0%",
+      "layers": [],
+      "observation": "no-additional-layer-observed"
+    },
+    {
+      "selector": "body > div:nth-of-type(3) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > article:nth-of-type(4) > a:nth-of-type(1) > img:nth-of-type(1)",
+      "mediaKind": "img",
+      "image": "https://thenewrink.com/wp-content/uploads/2026/09/the-new-rink-022.webp",
+      "baseColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "backgroundSize": "auto",
+      "backgroundPosition": "0% 0%",
+      "layers": [],
+      "observation": "no-additional-layer-observed"
+    },
+    {
+      "selector": "body > div:nth-of-type(3) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > article:nth-of-type(6) > a:nth-of-type(1) > img:nth-of-type(1)",
+      "mediaKind": "img",
+      "image": "https://thenewrink.com/wp-content/uploads/2026/09/the-new-rink-011.webp",
+      "baseColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "backgroundSize": "auto",
+      "backgroundPosition": "0% 0%",
+      "layers": [],
+      "observation": "no-additional-layer-observed"
+    },
+    {
+      "selector": "body > div:nth-of-type(3) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > article:nth-of-type(7) > a:nth-of-type(1) > img:nth-of-type(1)",
+      "mediaKind": "img",
+      "image": "https://thenewrink.com/wp-content/uploads/2026/09/IMG_8993-rotated-1-1.jpg",
+      "baseColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "backgroundSize": "auto",
+      "backgroundPosition": "0% 0%",
+      "layers": [],
+      "observation": "no-additional-layer-observed"
+    },
+    {
+      "selector": "body > div:nth-of-type(3) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > article:nth-of-type(8) > a:nth-of-type(1) > img:nth-of-type(1)",
+      "mediaKind": "img",
+      "image": "https://thenewrink.com/wp-content/uploads/2026/09/the-new-rink-069.webp",
+      "baseColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "backgroundSize": "auto",
+      "backgroundPosition": "0% 0%",
+      "layers": [],
+      "observation": "no-additional-layer-observed"
+    },
+    {
+      "selector": "body > div:nth-of-type(3) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > article:nth-of-type(9) > a:nth-of-type(1) > img:nth-of-type(1)",
+      "mediaKind": "img",
+      "image": "https://thenewrink.com/wp-content/uploads/2026/09/Edruskate-learn-to-roller-skate.webp",
+      "baseColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "backgroundSize": "auto",
+      "backgroundPosition": "0% 0%",
+      "layers": [],
+      "observation": "no-additional-layer-observed"
+    },
+    {
+      "selector": "body > div:nth-of-type(3) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > article:nth-of-type(10) > a:nth-of-type(1) > img:nth-of-type(1)",
+      "mediaKind": "img",
+      "image": "https://thenewrink.com/wp-content/uploads/2026/09/the-new-rink-068.webp",
+      "baseColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "backgroundSize": "auto",
+      "backgroundPosition": "0% 0%",
+      "layers": [],
+      "observation": "no-additional-layer-observed"
+    },
+    {
+      "selector": "body > div:nth-of-type(3) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > article:nth-of-type(11) > a:nth-of-type(1) > img:nth-of-type(1)",
+      "mediaKind": "img",
+      "image": "https://thenewrink.com/wp-content/uploads/2026/09/the-new-rink-047.webp",
+      "baseColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "backgroundSize": "auto",
+      "backgroundPosition": "0% 0%",
+      "layers": [],
+      "observation": "no-additional-layer-observed"
+    },
+    {
+      "selector": "body > div:nth-of-type(5) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > article:nth-of-type(1) > a:nth-of-type(1) > img:nth-of-type(1)",
+      "mediaKind": "img",
+      "image": "https://thenewrink.com/wp-content/uploads/2026/09/Friday-Family-Fun-Skate-1-scaled-1-2048x1024.webp",
+      "baseColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "backgroundSize": "auto",
+      "backgroundPosition": "0% 0%",
+      "layers": [],
+      "observation": "no-additional-layer-observed"
+    },
+    {
+      "selector": "body > div:nth-of-type(5) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > article:nth-of-type(2) > a:nth-of-type(1) > img:nth-of-type(1)",
+      "mediaKind": "img",
+      "image": "https://thenewrink.com/wp-content/uploads/2026/10/Election-Day-26-2048x1024-1.jpg",
+      "baseColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "backgroundSize": "auto",
+      "backgroundPosition": "0% 0%",
+      "layers": [],
+      "observation": "no-additional-layer-observed"
+    },
+    {
+      "selector": "body > div:nth-of-type(5) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > article:nth-of-type(3) > a:nth-of-type(1) > img:nth-of-type(1)",
+      "mediaKind": "img",
+      "image": "https://www.thenewrink.com/wp-content/uploads/Buzz-woody-scaled.jpg",
+      "baseColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "backgroundSize": "auto",
+      "backgroundPosition": "0% 0%",
+      "layers": [],
+      "observation": "no-additional-layer-observed"
+    },
+    {
+      "selector": "body > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1) > figure:nth-of-type(1) > img:nth-of-type(1)",
+      "mediaKind": "img",
+      "image": "https://thenewrink.com/wp-content/uploads/2026/09/the-new-rink-068-1.webp",
+      "baseColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "backgroundSize": "auto",
+      "backgroundPosition": "0% 0%",
+      "layers": [],
+      "observation": "no-additional-layer-observed"
+    },
+    {
+      "selector": "body > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(2) > figure:nth-of-type(1) > img:nth-of-type(1)",
+      "mediaKind": "img",
+      "image": "https://thenewrink.com/wp-content/uploads/2026/09/the-new-rink-026.webp",
+      "baseColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "backgroundSize": "auto",
+      "backgroundPosition": "0% 0%",
+      "layers": [],
+      "observation": "no-additional-layer-observed"
+    },
+    {
+      "selector": "body > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(3) > figure:nth-of-type(1) > img:nth-of-type(1)",
+      "mediaKind": "img",
+      "image": "https://thenewrink.com/wp-content/uploads/2026/09/the-new-rink-073.webp",
+      "baseColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "backgroundSize": "auto",
+      "backgroundPosition": "0% 0%",
+      "layers": [],
+      "observation": "no-additional-layer-observed"
+    },
+    {
+      "selector": "body > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(4) > figure:nth-of-type(1) > img:nth-of-type(1)",
+      "mediaKind": "img",
+      "image": "https://thenewrink.com/wp-content/uploads/2026/09/the-new-rink-069-1.webp",
+      "baseColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "backgroundSize": "auto",
+      "backgroundPosition": "0% 0%",
+      "layers": [],
+      "observation": "no-additional-layer-observed"
+    },
+    {
+      "selector": "body > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(5) > figure:nth-of-type(1) > img:nth-of-type(1)",
+      "mediaKind": "img",
+      "image": "https://thenewrink.com/wp-content/uploads/2026/09/the-new-rink-049.webp",
+      "baseColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "backgroundSize": "auto",
+      "backgroundPosition": "0% 0%",
+      "layers": [],
+      "observation": "no-additional-layer-observed"
+    },
+    {
+      "selector": "body > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(6) > figure:nth-of-type(1) > img:nth-of-type(1)",
+      "mediaKind": "img",
+      "image": "https://thenewrink.com/wp-content/uploads/2026/09/the-new-rink-041.webp",
+      "baseColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "backgroundSize": "auto",
+      "backgroundPosition": "0% 0%",
+      "layers": [],
+      "observation": "no-additional-layer-observed"
+    },
+    {
+      "selector": "body > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(7) > figure:nth-of-type(1) > img:nth-of-type(1)",
+      "mediaKind": "img",
+      "image": "https://thenewrink.com/wp-content/uploads/2026/09/the-new-rink-034.webp",
+      "baseColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "backgroundSize": "auto",
+      "backgroundPosition": "0% 0%",
+      "layers": [],
+      "observation": "no-additional-layer-observed"
+    },
+    {
+      "selector": "body > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(8) > figure:nth-of-type(1) > img:nth-of-type(1)",
+      "mediaKind": "img",
+      "image": "https://thenewrink.com/wp-content/uploads/2026/09/the-new-rink-030.webp",
+      "baseColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "backgroundSize": "auto",
+      "backgroundPosition": "0% 0%",
+      "layers": [],
+      "observation": "no-additional-layer-observed"
+    },
+    {
+      "selector": "body > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(9) > figure:nth-of-type(1) > img:nth-of-type(1)",
+      "mediaKind": "img",
+      "image": "https://thenewrink.com/wp-content/uploads/2026/09/the-new-rink-022-1.webp",
+      "baseColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "backgroundSize": "auto",
+      "backgroundPosition": "0% 0%",
+      "layers": [],
+      "observation": "no-additional-layer-observed"
+    },
+    {
+      "selector": "body > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(10) > figure:nth-of-type(1) > img:nth-of-type(1)",
+      "mediaKind": "img",
+      "image": "https://thenewrink.com/wp-content/uploads/2026/09/the-new-rink-007.webp",
+      "baseColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "backgroundSize": "auto",
+      "backgroundPosition": "0% 0%",
+      "layers": [],
+      "observation": "no-additional-layer-observed"
+    },
+    {
+      "selector": "body > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(11) > figure:nth-of-type(1) > img:nth-of-type(1)",
+      "mediaKind": "img",
+      "image": "https://thenewrink.com/wp-content/uploads/2026/09/the-new-rink-017.webp",
+      "baseColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "backgroundSize": "auto",
+      "backgroundPosition": "0% 0%",
+      "layers": [],
+      "observation": "no-additional-layer-observed"
+    },
+    {
+      "selector": "body > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(12) > figure:nth-of-type(1) > img:nth-of-type(1)",
+      "mediaKind": "img",
+      "image": "https://thenewrink.com/wp-content/uploads/2026/09/the-new-rink-019.webp",
+      "baseColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "backgroundSize": "auto",
+      "backgroundPosition": "0% 0%",
+      "layers": [],
+      "observation": "no-additional-layer-observed"
+    },
+    {
+      "selector": "body > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(13) > figure:nth-of-type(1) > img:nth-of-type(1)",
+      "mediaKind": "img",
+      "image": "https://thenewrink.com/wp-content/uploads/2026/09/the-new-rink-028.webp",
+      "baseColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "backgroundSize": "auto",
+      "backgroundPosition": "0% 0%",
+      "layers": [],
+      "observation": "no-additional-layer-observed"
+    }
+  ],
+  "floatingOverlays": [],
+  "positionedOverlays": [],
+  "captureViewport": 1920,
+  "hiddenImages": [
+    "https://thenewrink.com/wp-content/uploads/2026/09/the-new-rink-068-1.webp",
+    "https://thenewrink.com/wp-content/uploads/2026/09/the-new-rink-026.webp",
+    "https://thenewrink.com/wp-content/uploads/2026/09/the-new-rink-073.webp",
+    "https://thenewrink.com/wp-content/uploads/2026/09/the-new-rink-069-1.webp",
+    "https://thenewrink.com/wp-content/uploads/2026/09/the-new-rink-049.webp",
+    "https://thenewrink.com/wp-content/uploads/2026/09/the-new-rink-041.webp",
+    "https://thenewrink.com/wp-content/uploads/2026/09/the-new-rink-034.webp",
+    "https://thenewrink.com/wp-content/uploads/2026/09/the-new-rink-030.webp",
+    "https://thenewrink.com/wp-content/uploads/2026/09/the-new-rink-022-1.webp",
+    "https://thenewrink.com/wp-content/uploads/2026/09/the-new-rink-007.webp",
+    "https://thenewrink.com/wp-content/uploads/2026/09/the-new-rink-017.webp",
+    "https://thenewrink.com/wp-content/uploads/2026/09/the-new-rink-019.webp",
+    "https://thenewrink.com/wp-content/uploads/2026/09/the-new-rink-028.webp",
+    "https://thenewrink.com/wp-content/uploads/2026/09/the-new-rink-001.webp",
+    "https://thenewrink.com/wp-content/uploads/2026/09/the-new-rink-069.webp"
+  ],
+  "elementorStylesheets": []
+}
